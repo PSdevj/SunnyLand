@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using Assets.PixelFantasy.Common.Scripts;
 using UnityEngine;
 
@@ -113,3 +113,4 @@ namespace Assets.PixelFantasy.PixelMonsters.Common.Scripts.ExampleScripts
         }
     }
 }
+*/

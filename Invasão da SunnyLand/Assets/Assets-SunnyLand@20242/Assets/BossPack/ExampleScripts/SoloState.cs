@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using UnityEngine;
 
 namespace Assets.PixelFantasy.Common.Scripts
@@ -56,3 +56,4 @@ namespace Assets.PixelFantasy.Common.Scripts
         }
     }
 }
+*/
