@@ -8,6 +8,9 @@ public class ControllPlayer : MonoBehaviour
     public Rigidbody2D corpoPlayer;
     public float velocidadePlayer;
 
+    
+   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +21,11 @@ public class ControllPlayer : MonoBehaviour
     void Update()
     {
         Movimentação();
+        Pular();
+
+        
     }
+
 
 
     public void Movimentação()
@@ -26,5 +33,14 @@ public class ControllPlayer : MonoBehaviour
         velocidadePlayer = Input.GetAxis("Horizontal") * 3.5f;
         corpoPlayer.velocity = new Vector2(velocidadePlayer, corpoPlayer.velocity.y);
     }
+
+    public void Pular()
+    {
+        if (Input.GetButtonDown("Jump"))
+        {
+            corpoPlayer.velocity = Vector2.up * 8;
+        }
+    }
+      
     
 }

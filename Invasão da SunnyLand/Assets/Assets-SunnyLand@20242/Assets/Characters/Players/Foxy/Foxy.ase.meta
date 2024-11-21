@@ -850,7 +850,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Foxy_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -859,7 +859,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 7204fedba5fc78846ab4d6a0913ea80f
-    - name: Frame_1
+    - name: Foxy_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -868,7 +868,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: a5c917d1d4489c849b4e8da5499bb1e5
-    - name: Frame_2
+    - name: Foxy_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -877,7 +877,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: a81d4d78f8adf5945b0596ee428eb311
-    - name: Frame_3
+    - name: Foxy_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -886,7 +886,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 2d0b9518602ca774b873f14f7c9cda5d
-    - name: Frame_4
+    - name: Foxy_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -895,7 +895,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 95e1857c580da2a4799974165219e191
-    - name: Frame_5
+    - name: Foxy_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -904,7 +904,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 319dd4f5de6bc3b4cbfbb99e77a56dd3
-    - name: Frame_6
+    - name: Foxy_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -913,7 +913,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 214697a0c05cc3745afffe7a71882629
-    - name: Frame_7
+    - name: Foxy_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -922,7 +922,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 16cdec2806a6d8f48b8899048de45e57
-    - name: Frame_8
+    - name: Foxy_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -931,7 +931,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 4c2be55b020f31b4e9f5fa33237374c5
-    - name: Frame_9
+    - name: Foxy_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -940,7 +940,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: e69cabc4ac5bc6d44b98db1e29c3fe9a
-    - name: Frame_10
+    - name: Foxy_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -949,7 +949,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 82a40eb0b8fac074d9b6e79fdc162d69
-    - name: Frame_11
+    - name: Foxy_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -958,7 +958,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 1bab0d6d011af704c9f6cb736badc32e
-    - name: Frame_12
+    - name: Foxy_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -967,7 +967,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 8d4429ca7c5d79d4293e1e18c864a504
-    - name: Frame_13
+    - name: Foxy_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -976,7 +976,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 7a1ded72f52834e42866e7b9a9582863
-    - name: Frame_14
+    - name: Foxy_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -985,7 +985,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 90d03e9110888034aaa8e710543583f0
-    - name: Frame_15
+    - name: Foxy_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -994,7 +994,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 32ed7ebeb89610247823bb47d836863f
-    - name: Frame_16
+    - name: Foxy_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -1003,7 +1003,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: cca01404e13424d499d5f0d367cf5fb1
-    - name: Frame_17
+    - name: Foxy_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -1012,7 +1012,7 @@ ScriptedImporter:
         width: 23
         height: 26
       spriteId: 5fc24bbe4fb08134cb8cd129ed59819e
-    - name: Frame_18
+    - name: Foxy_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -1021,7 +1021,7 @@ ScriptedImporter:
         width: 25
         height: 25
       spriteId: 39c8093241074884fa35ab0583be5d1c
-    - name: Frame_19
+    - name: Foxy_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -1030,7 +1030,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 598ec14d7a8643840857702e6e066a43
-    - name: Frame_20
+    - name: Foxy_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -1039,7 +1039,7 @@ ScriptedImporter:
         width: 33
         height: 32
       spriteId: 47d246d63e846534ca862fdfbef4da63
-    - name: Frame_21
+    - name: Foxy_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -1048,7 +1048,7 @@ ScriptedImporter:
         width: 21
         height: 21
       spriteId: e11a374aa7482bf4fa21431ed87a3bf1
-    - name: Frame_22
+    - name: Foxy_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -1057,7 +1057,7 @@ ScriptedImporter:
         width: 23
         height: 21
       spriteId: b14454307db88e446bcb2d37864a5ceb
-    - name: Frame_23
+    - name: Foxy_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -1066,7 +1066,7 @@ ScriptedImporter:
         width: 22
         height: 19
       spriteId: 5427314996e163d40b9f148e2c0a8fc6
-    - name: Frame_24
+    - name: Foxy_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -1075,7 +1075,7 @@ ScriptedImporter:
         width: 23
         height: 28
       spriteId: 7ffe4551fa62ed54f995aec15ab0c753
-    - name: Frame_25
+    - name: Foxy_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1084,7 +1084,7 @@ ScriptedImporter:
         width: 24
         height: 25
       spriteId: 5154a547a8203f74985b82a7023eba51
-    - name: Frame_26
+    - name: Foxy_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1093,7 +1093,7 @@ ScriptedImporter:
         width: 23
         height: 23
       spriteId: dddcd5eabe2b339419161d66203bd18c
-    - name: Frame_27
+    - name: Foxy_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1102,7 +1102,7 @@ ScriptedImporter:
         width: 23
         height: 28
       spriteId: 6d0ec85828d06b64b97849df57b85ab6
-    - name: Frame_28
+    - name: Foxy_Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1111,7 +1111,7 @@ ScriptedImporter:
         width: 24
         height: 25
       spriteId: 7cd131b935df4934ca04ac2c7b47d715
-    - name: Frame_29
+    - name: Foxy_Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1120,7 +1120,7 @@ ScriptedImporter:
         width: 23
         height: 23
       spriteId: bbc921ab2da31a74fbf46a6358ac991a
-    - name: Frame_30
+    - name: Foxy_Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1129,7 +1129,7 @@ ScriptedImporter:
         width: 17
         height: 18
       spriteId: 26a15bb58bff2da4187bdaa1f6f91750
-    - name: Frame_31
+    - name: Foxy_Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1138,7 +1138,7 @@ ScriptedImporter:
         width: 18
         height: 17
       spriteId: 491c5bef64b0f8d4cb1905dd56c3065d
-    - name: Frame_32
+    - name: Foxy_Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -1147,7 +1147,7 @@ ScriptedImporter:
         width: 17
         height: 18
       spriteId: 83402235dedc21f448091989e19dbb33
-    - name: Frame_33
+    - name: Foxy_Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -1156,7 +1156,7 @@ ScriptedImporter:
         width: 18
         height: 17
       spriteId: 01561e377bd211f4c97b0bc16dcf4e39
-    - name: Frame_34
+    - name: Foxy_Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -1165,7 +1165,7 @@ ScriptedImporter:
         width: 21
         height: 22
       spriteId: 0b11905b982caa6438f60a5b656c96f8
-    - name: Frame_35
+    - name: Foxy_Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
