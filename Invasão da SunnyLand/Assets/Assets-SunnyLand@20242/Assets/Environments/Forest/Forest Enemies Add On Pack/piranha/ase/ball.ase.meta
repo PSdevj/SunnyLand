@@ -210,36 +210,32 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: ball_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 3
         width: 13
         height: 8
       spriteId: 69d0f6e69b0dcf64aaf8276aeaa84994
-    - name: Frame_1
+    - name: ball_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 3
         width: 15
         height: 8
       spriteId: 66ac175b20189ba4981e3dea3a355d9a
-    - name: Frame_2
+    - name: ball_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 3
         width: 14
         height: 8
       spriteId: 9cdf8f74508f5ed4a8674b5bab56d1f6
-    - name: Frame_3
+    - name: ball_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4

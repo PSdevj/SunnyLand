@@ -210,36 +210,32 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: pig_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 0
         width: 36
         height: 25
       spriteId: 739ea66cf4b2d7c458b30e24a15f277d
-    - name: Frame_1
+    - name: pig_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 33
         height: 23
       spriteId: 94cc2ffd1185ecb40b3621c5f1ccc238
-    - name: Frame_2
+    - name: pig_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
         width: 33
         height: 23
       spriteId: bd4263948fbda18419f1a902bdeeeb76
-    - name: Frame_3
+    - name: pig_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 2

@@ -470,153 +470,136 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: slug_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 21
       spriteId: 93512d64ad5c9bd4aae54cd4179c1387
-    - name: Frame_1
+    - name: slug_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 21
         height: 17
       spriteId: c2e4fecd72246de47a8225cec42656e6
-    - name: Frame_2
+    - name: slug_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 21
         height: 17
       spriteId: 8f6ba9b8e367fbd4aacfcce49074dff6
-    - name: Frame_3
+    - name: slug_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 22
         height: 17
       spriteId: ce34f545d4cbd3f41b7257c7c57c7c50
-    - name: Frame_4
+    - name: slug_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 25
         height: 14
       spriteId: 6ae4d485401c84b4c8746886d1aaa92e
-    - name: Frame_5
+    - name: slug_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 25
         height: 14
       spriteId: e5b12e43fb94d0b48874e59f035732b7
-    - name: Frame_6
+    - name: slug_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 21
       spriteId: 5ef764801e3b20940a3c0bdfe336efff
-    - name: Frame_7
+    - name: slug_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 19
         height: 19
       spriteId: 0270d8d130a922940af086b4b3e7b538
-    - name: Frame_8
+    - name: slug_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 25
         height: 19
       spriteId: f9fd4cbad4d4ccf4eab387e982a8bd32
-    - name: Frame_9
+    - name: slug_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 0
         width: 22
         height: 20
       spriteId: 69f2335d0e6e13c47893335b7ff1bb21
-    - name: Frame_10
+    - name: slug_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 0
         width: 22
         height: 21
       spriteId: 69e43e8a5c81207499022e93e2c9f54b
-    - name: Frame_11
+    - name: slug_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 21
         height: 19
       spriteId: 68c7f15776659434d83341f555955bbd
-    - name: Frame_12
+    - name: slug_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 19
         height: 18
       spriteId: 2f75567086c86544db545feedbbd6b36
-    - name: Frame_13
+    - name: slug_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 21
       spriteId: ffc03e81461d4854d834a0c0a7a7c061
-    - name: Frame_14
+    - name: slug_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 21
       spriteId: e21d8ac798cc7224091be04e45b95350
-    - name: Frame_15
+    - name: slug_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 21
       spriteId: 11952660899e83842b9559b6a57636dd
-    - name: Frame_16
+    - name: slug_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

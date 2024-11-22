@@ -350,99 +350,88 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: dino_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 19
         height: 22
       spriteId: e1dd6d321fbb62442ad5b50f7a4b656f
-    - name: Frame_1
+    - name: dino_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 19
         height: 22
       spriteId: a1cf9f538f3f938498673f63be5def30
-    - name: Frame_2
+    - name: dino_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 19
         height: 21
       spriteId: c39817b50e4b175439cb6abf6fd1c50d
-    - name: Frame_3
+    - name: dino_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 19
         height: 22
       spriteId: 59259c4cb72482b4b823646b8e9aa742
-    - name: Frame_4
+    - name: dino_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 19
         height: 17
       spriteId: b29a3eb38414b014785e06823946a762
-    - name: Frame_5
+    - name: dino_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 20
         height: 20
       spriteId: aa6027d607ddbc744a3b9546dd192717
-    - name: Frame_6
+    - name: dino_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 20
         height: 22
       spriteId: bf6959c44cc74554588b6984e3e35538
-    - name: Frame_7
+    - name: dino_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 1
         width: 22
         height: 22
       spriteId: 5d2c4c6669f16924fbae99285833bacf
-    - name: Frame_8
+    - name: dino_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 2
         width: 22
         height: 20
       spriteId: 336950bb36579e14e89b34808d9c995d
-    - name: Frame_9
+    - name: dino_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 19
         height: 20
       spriteId: d3c095865aaac2b45b06763d7b6f5ebe
-    - name: Frame_10
+    - name: dino_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
