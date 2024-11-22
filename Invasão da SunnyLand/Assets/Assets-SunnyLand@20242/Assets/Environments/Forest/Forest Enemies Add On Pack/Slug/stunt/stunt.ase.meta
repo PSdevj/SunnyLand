@@ -170,7 +170,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: stunt_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -179,7 +179,7 @@ ScriptedImporter:
         width: 17
         height: 14
       spriteId: c9121dc17afd34f4caca5741aee4cd84
-    - name: stunt_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
