@@ -33,28 +33,28 @@ public class ControllGame : MonoBehaviour
     }
 
 
-    public void MenuTutorial()
+    public void MenuTutorial() //Abre o painel tutorial
     {
         menuPrincipal.SetActive(false);
         menuTutorial.SetActive(true);
         Time.timeScale = 1;
     }
 
-    public void FecharMenuTutorial()
+    public void FecharMenuTutorial()//Fehca o painel tutorial
     {
         menuTutorial.SetActive(false);
         menuPrincipal.SetActive(true);
         Time.timeScale = 1;
     }
 
-    public void MenuCredito()
+    public void MenuCredito() //Abre o painel credito
     {
         menuPrincipal.SetActive(false);
         menuCredito.SetActive(true);
         Time.timeScale = 1;
     }
 
-    public void FecharMenuCredito()
+    public void FecharMenuCredito() //Fecha o painel Credito
     {
         menuCredito.SetActive(false);
         menuPrincipal.SetActive(true);
