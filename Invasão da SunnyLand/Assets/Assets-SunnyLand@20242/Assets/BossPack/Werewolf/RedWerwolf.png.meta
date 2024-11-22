@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,553 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RedWerwolf_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 506
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033f479fade838744b94d7550c799d70
+      internalID: -1707278626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 505
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7110fca6a959ecf418fd2102e5f86a26
+      internalID: 1445894162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8c7595420ac5f4fb1ec037a0097fb7
+      internalID: -2027431669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 500
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbff4fe2d157e3641a435ffa1154b2f3
+      internalID: 346403421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 375
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1bb2e230b5f9c43b8f2ed9fbc6db77
+      internalID: -215601905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 368
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d052a3a94ce5174aa00fd66a8277ebf
+      internalID: -1581283340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 370
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4479c8bbb6f37ed43a7b7fd272cade15
+      internalID: 253261015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 369
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d9e003fe4853e40a2f344a5a40e751
+      internalID: -841996163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_8
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 235
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3a03ef1f2a6764096374844082a434
+      internalID: 957696446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 237
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3834cc8cd324e7e469eb7b74aaef04cd
+      internalID: 1866605406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_10
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 237
+        width: 72
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9cfd2825aeb71489f5996663649f7e
+      internalID: -1285155450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_11
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 242
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9b39b6d04994b4b8e37a15e1cc40fb
+      internalID: 796214783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_12
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 239
+        width: 79
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3f0d3b740f57b479b5eb7bf730726b
+      internalID: 2076824230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_13
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 240
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bce2b83cf9cd9c44bc80a9f734fde14
+      internalID: -1402698261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 104
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacefc861d6cd5f4ea283cd247b1aec1
+      internalID: 166945541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 112
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b649dbfaf016a434c93a1ef1167861ee
+      internalID: -730455635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 108
+        width: 91
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e35d8c06bba5c94e8e9205bfeeb1de1
+      internalID: 333683214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 104
+        width: 96
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9540eab41d0a77747bbf716e9a014615
+      internalID: 1994650622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_18
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 111
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f3cc7c9e5660b45a8e0c589b707cd0
+      internalID: 1520059530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_19
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 108
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92730c014bab63946ae32e5708f43635
+      internalID: 1479024399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672e1f4f894e0364a9d28e6cfbb73fcc
+      internalID: 225960347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_21
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1165b804e04b65e459cf4686c3c933d3
+      internalID: -45594490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_22
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 80
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c92c28aac058447b1b072fbc0ff968
+      internalID: 1223878883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_23
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53489108b9318244aeed89cb09e05a7
+      internalID: -1680491836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_24
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa037257694163f46ba9a25674cd45e5
+      internalID: 1184449116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWerwolf_25
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f36acd6846d1cd4cb3fe66cb39c4104
+      internalID: 1517425290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +665,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RedWerwolf_0: -1707278626
+      RedWerwolf_1: 1445894162
+      RedWerwolf_10: -1285155450
+      RedWerwolf_11: 796214783
+      RedWerwolf_12: 2076824230
+      RedWerwolf_13: -1402698261
+      RedWerwolf_14: 166945541
+      RedWerwolf_15: -730455635
+      RedWerwolf_16: 333683214
+      RedWerwolf_17: 1994650622
+      RedWerwolf_18: 1520059530
+      RedWerwolf_19: 1479024399
+      RedWerwolf_2: -2027431669
+      RedWerwolf_20: 225960347
+      RedWerwolf_21: -45594490
+      RedWerwolf_22: 1223878883
+      RedWerwolf_23: -1680491836
+      RedWerwolf_24: 1184449116
+      RedWerwolf_25: 1517425290
+      RedWerwolf_3: 346403421
+      RedWerwolf_4: -215601905
+      RedWerwolf_5: -1581283340
+      RedWerwolf_6: 253261015
+      RedWerwolf_7: -841996163
+      RedWerwolf_8: 957696446
+      RedWerwolf_9: 1866605406
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

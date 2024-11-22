@@ -8,13 +8,17 @@ public class ControllPlayer : MonoBehaviour
     public Rigidbody2D corpoPlayer;
     public float velocidadePlayer;
 
-    
-   
+    private bool isGrounded = false; // Verifica se está no chão
+    private bool doubleJumpAvailable = true; // Controla se o pulo duplo pode ser usado
+
+    private PlayerAbilities playerAbilities; // Referência ao script de habilidades
+
 
     // Start is called before the first frame update
     void Start()
     {
         corpoPlayer = GetComponent<Rigidbody2D>();
+        playerAbilities = GetComponent<PlayerAbilities>(); // Certifique-se de que o script está no mesmo GameObject
     }
 
     // Update is called once per frame
@@ -23,10 +27,18 @@ public class ControllPlayer : MonoBehaviour
         Movimentação();
         Pular();
 
-        
+        // Verifica a direção do movimento e vira o player para a esquerda ou direita
+        if (velocidadePlayer > 0)
+        {
+            // Vira para a direita
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (velocidadePlayer < 0)
+        {
+            // Vira para a esquerda
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
     }
-
-
 
     public void Movimentação()
     {
@@ -34,13 +46,38 @@ public class ControllPlayer : MonoBehaviour
         corpoPlayer.velocity = new Vector2(velocidadePlayer, corpoPlayer.velocity.y);
     }
 
-    public void Pular()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (Input.GetButtonDown("Jump"))
+        if (collision.gameObject.CompareTag("Chão"))
         {
-            corpoPlayer.velocity = Vector2.up * 8;
+            isGrounded = true;
+            doubleJumpAvailable = true; // Reseta o pulo duplo ao tocar o chão
         }
     }
-      
-    
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Chão"))
+        {
+            isGrounded = false; // Jogador saiu do chão
+        }
+    }
+
+    public void Pular()
+    {
+        
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (isGrounded)
+            {
+                corpoPlayer.velocity = Vector2.up * 8; // Primeiro pulo
+            }
+            else if (playerAbilities != null && playerAbilities.CanDoubleJump() && doubleJumpAvailable)
+            {
+                corpoPlayer.velocity = Vector2.up * 8; // Pulo duplo
+                doubleJumpAvailable = false; // Marca que o pulo duplo foi usado
+                Debug.Log("Pulo duplo realizado!");
+            }
+        }
+    }
 }
