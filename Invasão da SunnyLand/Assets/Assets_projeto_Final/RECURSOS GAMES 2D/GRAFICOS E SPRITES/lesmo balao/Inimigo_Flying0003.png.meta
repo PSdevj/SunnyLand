@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Inimigo_Flying0003_0: -5873197648095742463
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

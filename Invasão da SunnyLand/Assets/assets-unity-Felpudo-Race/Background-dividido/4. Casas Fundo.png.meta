@@ -263,7 +263,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      4. Casas Fundo_0: 7685993392480705255
+      4. Casas Fundo_1: -3472488118162882252
+      4. Casas Fundo_2: -5799361458368524797
+      4. Casas Fundo_3: -2009872865845956863
+      4. Casas Fundo_4: -327083621421593928
+      4. Casas Fundo_5: 2656819898204994709
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

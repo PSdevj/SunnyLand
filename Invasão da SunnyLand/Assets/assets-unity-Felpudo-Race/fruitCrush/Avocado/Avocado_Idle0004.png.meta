@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Avocado_Idle0004_0: 4852710639400818481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      canoCima@2x_0: -3437644583841635787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

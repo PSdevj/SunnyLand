@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FelpudoCar_Crounching0006_0: 6483376063238017453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

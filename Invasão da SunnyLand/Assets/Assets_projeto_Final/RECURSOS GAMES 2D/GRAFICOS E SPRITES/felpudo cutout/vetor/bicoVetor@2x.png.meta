@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bicoVetor@2x_0: 8823774756678659679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

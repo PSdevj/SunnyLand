@@ -215,7 +215,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fofura_Idle0007_0: -5160967979078940657
+      Fofura_Idle0007_1: -6740136428425549611
+      Fofura_Idle0007_2: 5725167707358068133
+      Fofura_Idle0007_3: 3935232240770477905
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

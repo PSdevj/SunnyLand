@@ -239,7 +239,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Felpudo_Idle0002_0: -7303186164000375077
+      Felpudo_Idle0002_1: -608132258532417905
+      Felpudo_Idle0002_2: -8550579946893868732
+      Felpudo_Idle0002_3: 3591265209799460968
+      Felpudo_Idle0002_4: 6259484930380022291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

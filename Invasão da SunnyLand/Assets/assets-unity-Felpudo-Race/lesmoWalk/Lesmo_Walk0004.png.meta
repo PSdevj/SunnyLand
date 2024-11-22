@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lesmo_Walk0004_0: -5834972593163450151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

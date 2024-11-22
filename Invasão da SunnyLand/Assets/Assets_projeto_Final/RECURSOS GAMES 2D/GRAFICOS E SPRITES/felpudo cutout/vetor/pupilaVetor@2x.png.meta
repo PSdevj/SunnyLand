@@ -167,7 +167,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pupilaVetor@2x_0: 8580209740901443249
+      pupilaVetor@2x_1: -5376384907488810351
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

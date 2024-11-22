@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Feather_Idle0001_0: -314288168443288791
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

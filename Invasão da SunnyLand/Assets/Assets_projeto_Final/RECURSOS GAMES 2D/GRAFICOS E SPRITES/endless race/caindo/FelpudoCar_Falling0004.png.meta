@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FelpudoCar_Falling0004_0: 2116824826735660952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

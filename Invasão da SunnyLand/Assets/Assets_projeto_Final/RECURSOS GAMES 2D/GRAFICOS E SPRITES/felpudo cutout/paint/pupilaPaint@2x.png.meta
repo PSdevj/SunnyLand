@@ -167,7 +167,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pupilaPaint@2x_0: -4316578188378025569
+      pupilaPaint@2x_1: -4432621391377271535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

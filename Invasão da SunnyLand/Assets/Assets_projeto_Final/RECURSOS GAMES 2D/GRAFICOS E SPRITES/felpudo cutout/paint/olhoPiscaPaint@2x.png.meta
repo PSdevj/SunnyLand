@@ -167,7 +167,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      olhoPiscaPaint@2x_0: 4448188631146964021
+      olhoPiscaPaint@2x_1: -5839554026675878797
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

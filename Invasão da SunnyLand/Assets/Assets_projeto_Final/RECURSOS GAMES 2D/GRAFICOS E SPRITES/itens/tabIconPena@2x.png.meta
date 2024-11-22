@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tabIconPena@2x_0: -1576565642044056197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

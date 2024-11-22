@@ -191,7 +191,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Uruca_Idle0005_0: 1342179809894067116
+      Uruca_Idle0005_1: 5621226101884496452
+      Uruca_Idle0005_2: -585398311158557002
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

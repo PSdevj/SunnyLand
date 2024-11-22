@@ -263,7 +263,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Banana_Explode0006_0: 6620870231298881792
+      Banana_Explode0006_1: -5630605423297955721
+      Banana_Explode0006_2: 5731760068324816560
+      Banana_Explode0006_3: -3520950810888494043
+      Banana_Explode0006_4: -765575246848842947
+      Banana_Explode0006_5: 228054122089624332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

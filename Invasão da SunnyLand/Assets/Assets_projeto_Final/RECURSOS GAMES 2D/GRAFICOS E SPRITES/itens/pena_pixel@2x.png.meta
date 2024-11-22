@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pena_pixel@2x_0: -4083318451109863949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asaEsqVetor@2x_0: -4180869892178133446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Orange_Idle0005_0: 144410063451702784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

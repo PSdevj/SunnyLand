@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Coracao_Idle0001_0: 895630191041887810
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

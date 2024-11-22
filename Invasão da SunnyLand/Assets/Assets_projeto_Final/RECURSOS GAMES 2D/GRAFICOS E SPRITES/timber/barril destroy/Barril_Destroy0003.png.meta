@@ -215,7 +215,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Barril_Destroy0003_0: 3895304342492943629
+      Barril_Destroy0003_1: 446104086428122376
+      Barril_Destroy0003_2: -1367977581621828600
+      Barril_Destroy0003_3: 8781529472661345514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

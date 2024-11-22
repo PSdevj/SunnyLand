@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tileset_felpudo_0: -5810477420194829074
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

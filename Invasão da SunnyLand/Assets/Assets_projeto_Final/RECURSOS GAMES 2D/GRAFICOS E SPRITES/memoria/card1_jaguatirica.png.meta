@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      card1_jaguatirica_0: 8502041510761532542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tomato_Explode0004_0: 7376431699604095457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

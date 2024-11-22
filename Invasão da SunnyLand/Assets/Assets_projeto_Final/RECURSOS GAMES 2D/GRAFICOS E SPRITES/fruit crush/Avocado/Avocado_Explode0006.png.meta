@@ -263,7 +263,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Avocado_Explode0006_0: 1496745366879920673
+      Avocado_Explode0006_1: -4734569542873791204
+      Avocado_Explode0006_2: -876584739805868199
+      Avocado_Explode0006_3: 6507408817566818655
+      Avocado_Explode0006_4: -4265997042129498891
+      Avocado_Explode0006_5: -5514116260709864361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

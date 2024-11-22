@@ -263,7 +263,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lemon_Explode0006_0: -2617926951778376190
+      Lemon_Explode0006_1: 9094445672935095122
+      Lemon_Explode0006_2: -1974050315408508616
+      Lemon_Explode0006_3: -8959319282547753300
+      Lemon_Explode0006_4: -7202403455323246200
+      Lemon_Explode0006_5: 8734103821211741775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

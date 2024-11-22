@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      felpudoVoa6@2x_0: -8399762405283492134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

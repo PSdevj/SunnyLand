@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Watermelon_Idle0005_0: 2992681739619099140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fumacinha04_0: -2956602679307611860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

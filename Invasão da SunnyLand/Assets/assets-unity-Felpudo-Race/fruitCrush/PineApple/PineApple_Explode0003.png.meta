@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PineApple_Explode0003_0: 2204927653166593999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

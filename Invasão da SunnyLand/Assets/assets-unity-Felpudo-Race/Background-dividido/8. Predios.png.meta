@@ -215,7 +215,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      8. Predios_0: -3569238424445286172
+      8. Predios_1: 4968660223912351340
+      8. Predios_2: 3361562786207669327
+      8. Predios_3: -2246169261033731425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

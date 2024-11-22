@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Barril_Enemy_LEFT0004_0: 4610039672217448784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

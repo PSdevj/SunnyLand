@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PineApple_Idle0007_0: -8722765551514230230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

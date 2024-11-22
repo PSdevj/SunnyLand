@@ -263,7 +263,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pear_Explode0006_0: 4375042118215030030
+      Pear_Explode0006_1: -4067874978642945503
+      Pear_Explode0006_2: 6591670481450245844
+      Pear_Explode0006_3: 3777589860765314918
+      Pear_Explode0006_4: -5464564451491724579
+      Pear_Explode0006_5: -2442650587898151612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

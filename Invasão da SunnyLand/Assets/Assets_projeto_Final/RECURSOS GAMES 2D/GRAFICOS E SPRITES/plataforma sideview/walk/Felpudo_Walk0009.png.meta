@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Felpudo_Walk0009_0: -7686680836126840975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

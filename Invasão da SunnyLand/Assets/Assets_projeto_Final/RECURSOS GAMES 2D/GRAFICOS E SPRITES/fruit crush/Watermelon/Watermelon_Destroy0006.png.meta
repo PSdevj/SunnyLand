@@ -263,7 +263,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Watermelon_Destroy0006_0: -6498976002596771116
+      Watermelon_Destroy0006_1: -8880319129440789616
+      Watermelon_Destroy0006_2: -6667449599917772217
+      Watermelon_Destroy0006_3: 1826227973724373705
+      Watermelon_Destroy0006_4: 5649231993744202058
+      Watermelon_Destroy0006_5: -8348981397713793302
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

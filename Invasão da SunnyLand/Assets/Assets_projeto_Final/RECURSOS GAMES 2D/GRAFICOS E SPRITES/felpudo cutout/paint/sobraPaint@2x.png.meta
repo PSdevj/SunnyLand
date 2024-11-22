@@ -167,7 +167,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sobraPaint@2x_0: -1305420925719982059
+      sobraPaint@2x_1: -8910468137413025382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

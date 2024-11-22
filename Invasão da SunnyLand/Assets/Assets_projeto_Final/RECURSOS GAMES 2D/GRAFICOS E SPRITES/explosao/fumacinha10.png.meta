@@ -311,7 +311,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fumacinha10_0: -6797648696352426641
+      fumacinha10_1: 7166180604092846597
+      fumacinha10_2: 2877507141031004255
+      fumacinha10_3: 5200682362852069161
+      fumacinha10_4: 1770888918252829947
+      fumacinha10_5: -1527083940965839134
+      fumacinha10_6: 896067170398966568
+      fumacinha10_7: -2633814053718306798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
