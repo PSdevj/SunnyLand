@@ -1447,6 +1447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   corpoPlayer: {fileID: 445961711}
   velocidadePlayer: 0
+  animacaoPlayer: {fileID: 0}
 --- !u!212 &445961709
 SpriteRenderer:
   m_ObjectHideFlags: 0
