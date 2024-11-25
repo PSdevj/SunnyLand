@@ -352,7 +352,6 @@ ScriptedImporter:
     cells:
     - name: dino_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -361,7 +360,6 @@ ScriptedImporter:
       spriteId: e1dd6d321fbb62442ad5b50f7a4b656f
     - name: dino_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -370,7 +368,6 @@ ScriptedImporter:
       spriteId: a1cf9f538f3f938498673f63be5def30
     - name: dino_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -379,7 +376,6 @@ ScriptedImporter:
       spriteId: c39817b50e4b175439cb6abf6fd1c50d
     - name: dino_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -388,7 +384,6 @@ ScriptedImporter:
       spriteId: 59259c4cb72482b4b823646b8e9aa742
     - name: dino_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -397,7 +392,6 @@ ScriptedImporter:
       spriteId: b29a3eb38414b014785e06823946a762
     - name: dino_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -406,7 +400,6 @@ ScriptedImporter:
       spriteId: aa6027d607ddbc744a3b9546dd192717
     - name: dino_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -415,7 +408,6 @@ ScriptedImporter:
       spriteId: bf6959c44cc74554588b6984e3e35538
     - name: dino_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 1
@@ -424,7 +416,6 @@ ScriptedImporter:
       spriteId: 5d2c4c6669f16924fbae99285833bacf
     - name: dino_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 2
@@ -433,7 +424,6 @@ ScriptedImporter:
       spriteId: 336950bb36579e14e89b34808d9c995d
     - name: dino_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -442,7 +432,6 @@ ScriptedImporter:
       spriteId: d3c095865aaac2b45b06763d7b6f5ebe
     - name: dino_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0

@@ -332,7 +332,6 @@ ScriptedImporter:
     cells:
     - name: dog_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: -55
@@ -341,7 +340,6 @@ ScriptedImporter:
       spriteId: 37bf8c9ec4352a8439f7351811000415
     - name: dog_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: -55
@@ -350,7 +348,6 @@ ScriptedImporter:
       spriteId: 19f830f893078de46bf58c282dd293d0
     - name: dog_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: -55
@@ -359,7 +356,6 @@ ScriptedImporter:
       spriteId: e1b65acd9b22ef247931bb15c7267a5e
     - name: dog_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: -55
@@ -368,7 +364,6 @@ ScriptedImporter:
       spriteId: b20c60c633f8c1243ad237fb64daec5d
     - name: dog_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: -55
@@ -377,7 +372,6 @@ ScriptedImporter:
       spriteId: 229ba854dc2003a4baf1a36f711541af
     - name: dog_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: -55
@@ -386,7 +380,6 @@ ScriptedImporter:
       spriteId: 1b0154f2cad95e94ba218805ae3d9afb
     - name: dog_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: -55
@@ -395,7 +388,6 @@ ScriptedImporter:
       spriteId: ddc11ce21f067304980ceec9d76b7c44
     - name: dog_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: -54
@@ -404,7 +396,6 @@ ScriptedImporter:
       spriteId: ed7a72c04d0f0fd4abfdc464b57e246e
     - name: dog_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: -56
@@ -413,7 +404,6 @@ ScriptedImporter:
       spriteId: 7cd4bd98486fac44c8a5aa1dbf260d67
     - name: dog_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: -57

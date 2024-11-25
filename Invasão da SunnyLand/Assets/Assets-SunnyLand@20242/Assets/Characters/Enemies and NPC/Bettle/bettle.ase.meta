@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: bettle_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 2
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 070381645553b41419d8001a970f112d
     - name: bettle_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 3
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: 853dc14e611915e42b0d3afb64855642
     - name: bettle_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 4
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: b3dd6da23fe4c3344bff905614ee76bc
     - name: bettle_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 3

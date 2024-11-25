@@ -14,11 +14,15 @@ public class ControllPlayer : MonoBehaviour
     private PlayerAbilities playerAbilities; // Referência ao script de habilidades
 
 
+    public Animator animacaoPlayer; //controla a animação do player
+
+
     // Start is called before the first frame update
     void Start()
     {
         corpoPlayer = GetComponent<Rigidbody2D>();
         playerAbilities = GetComponent<PlayerAbilities>(); // Certifique-se de que o script está no mesmo GameObject
+        animacaoPlayer = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -44,6 +48,15 @@ public class ControllPlayer : MonoBehaviour
     {
         velocidadePlayer = Input.GetAxis("Horizontal") * 3.5f;
         corpoPlayer.velocity = new Vector2(velocidadePlayer, corpoPlayer.velocity.y);
+
+        if (velocidadePlayer != 0)
+        {
+            animacaoPlayer.SetBool("andando", true); //se a velocidade o player for diferente de ZERO, a anaimação de correndo vai rodar
+        }
+        else
+        {
+            animacaoPlayer.SetBool("andando", false);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -71,12 +84,17 @@ public class ControllPlayer : MonoBehaviour
             if (isGrounded)
             {
                 corpoPlayer.velocity = Vector2.up * 8; // Primeiro pulo
+                animacaoPlayer.SetBool("pulando", true);
             }
             else if (playerAbilities != null && playerAbilities.CanDoubleJump() && doubleJumpAvailable)
             {
                 corpoPlayer.velocity = Vector2.up * 8; // Pulo duplo
                 doubleJumpAvailable = false; // Marca que o pulo duplo foi usado
                 Debug.Log("Pulo duplo realizado!");
+            }
+            if (doubleJumpAvailable == false)
+            {
+                animacaoPlayer.SetBool("pulando", false);
             }
         }
     }

@@ -372,7 +372,6 @@ ScriptedImporter:
     cells:
     - name: piranha-plant-shoot_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -381,7 +380,6 @@ ScriptedImporter:
       spriteId: f8886dc07da3c194f91802182f5e3ddf
     - name: piranha-plant-shoot_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -390,7 +388,6 @@ ScriptedImporter:
       spriteId: 82c641b2bbce0d6458d3671107267372
     - name: piranha-plant-shoot_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -399,7 +396,6 @@ ScriptedImporter:
       spriteId: b84d581cdf3b6f0468de617635b5a085
     - name: piranha-plant-shoot_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 0
@@ -408,7 +404,6 @@ ScriptedImporter:
       spriteId: 915667c9ab422d24dbcf1aa67f69017b
     - name: piranha-plant-shoot_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -417,7 +412,6 @@ ScriptedImporter:
       spriteId: bc03af449aa945a4e8e9498061dcf053
     - name: piranha-plant-shoot_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -426,7 +420,6 @@ ScriptedImporter:
       spriteId: e411dbb9492b44648842b95d714b339a
     - name: piranha-plant-shoot_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -435,7 +428,6 @@ ScriptedImporter:
       spriteId: d7f8c0f61d9ab4f43b850eac477a3636
     - name: piranha-plant-shoot_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -444,7 +436,6 @@ ScriptedImporter:
       spriteId: e9fe13d62860ac94b909b20251221f56
     - name: piranha-plant-shoot_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -453,7 +444,6 @@ ScriptedImporter:
       spriteId: 44de840c60e91d742b47ab78f4977331
     - name: piranha-plant-shoot_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -462,7 +452,6 @@ ScriptedImporter:
       spriteId: 00970762dcfba084e818dc818fee180b
     - name: piranha-plant-shoot_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -471,7 +460,6 @@ ScriptedImporter:
       spriteId: 180d4ab852dd8ed47a4da5a7b8e669b4
     - name: piranha-plant-shoot_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
