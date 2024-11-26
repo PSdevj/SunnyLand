@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1512472404507098963}
   m_Layer: 0
   m_Name: InimigoAve
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

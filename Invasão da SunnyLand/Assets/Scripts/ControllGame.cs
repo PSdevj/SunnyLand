@@ -12,6 +12,8 @@ public class ControllGame : MonoBehaviour
     [SerializeField] private GameObject menuPrincipal;
     [SerializeField] private GameObject menuCredito;
     [SerializeField] private GameObject menuTutorial;
+    [SerializeField] private GameObject menuVitoria;
+    [SerializeField] private GameObject menuGameOver;
 
 
     // Start is called before the first frame update
@@ -59,6 +61,21 @@ public class ControllGame : MonoBehaviour
         menuCredito.SetActive(false);
         menuPrincipal.SetActive(true);
         Time.timeScale = 1;
+    }
+
+
+    public void AbreMenuVitória()
+    {
+        menuVitoria.SetActive(true);
+        Time.timeScale = 0;
+        gameLigado = false;
+    }
+
+    public void AbreGameOver()
+    {
+        menuGameOver.SetActive(true);
+        Time.timeScale = 0;
+        gameLigado = false;
     }
 
 

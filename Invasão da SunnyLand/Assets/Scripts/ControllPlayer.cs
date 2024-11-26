@@ -84,7 +84,7 @@ public class ControllPlayer : MonoBehaviour
             if (isGrounded)
             {
                 corpoPlayer.velocity = Vector2.up * 8; // Primeiro pulo
-                animacaoPlayer.SetBool("pulando", true);
+               
             }
             else if (playerAbilities != null && playerAbilities.CanDoubleJump() && doubleJumpAvailable)
             {
@@ -92,10 +92,18 @@ public class ControllPlayer : MonoBehaviour
                 doubleJumpAvailable = false; // Marca que o pulo duplo foi usado
                 Debug.Log("Pulo duplo realizado!");
             }
-            if (doubleJumpAvailable == false)
-            {
-                animacaoPlayer.SetBool("pulando", false);
-            }
+            
+        }
+        if(isGrounded == false) //se o player sair do chão ativa a animação de pulando
+        {
+            animacaoPlayer.SetBool("pulando", true); 
+        }
+        else
+        {
+            animacaoPlayer.SetBool("pulando", false);
+        }
+        {
+
         }
     }
 }

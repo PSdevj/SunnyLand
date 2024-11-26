@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 313775978}
   m_Layer: 0
   m_Name: ControllGame
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -677,6 +677,8 @@ MonoBehaviour:
   menuPrincipal: {fileID: 66472701}
   menuCredito: {fileID: 23357629}
   menuTutorial: {fileID: 1644652977}
+  menuVitoria: {fileID: 0}
+  menuGameOver: {fileID: 0}
 --- !u!4 &313775979
 Transform:
   m_ObjectHideFlags: 0
