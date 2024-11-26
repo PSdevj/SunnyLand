@@ -392,6 +392,7 @@ ScriptedImporter:
     cells:
     - name: piranha-plant_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -400,6 +401,7 @@ ScriptedImporter:
       spriteId: 790f0e7f267046d40ac84c68b6668ee7
     - name: piranha-plant_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 0
@@ -408,6 +410,7 @@ ScriptedImporter:
       spriteId: 92bcb8d0a9203f24b8f78af359d70af4
     - name: piranha-plant_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 0
@@ -416,6 +419,7 @@ ScriptedImporter:
       spriteId: d05df4046d213594b8d6b17775de2a16
     - name: piranha-plant_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 0
@@ -424,6 +428,7 @@ ScriptedImporter:
       spriteId: 9e48954b22db6a94abdfeccd2c02de65
     - name: piranha-plant_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 0
@@ -432,6 +437,7 @@ ScriptedImporter:
       spriteId: 7ec829db859c8344085f9f1a80a10d3e
     - name: piranha-plant_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 0
@@ -440,6 +446,7 @@ ScriptedImporter:
       spriteId: a25307d70c2a76a4e9e13173d105fea8
     - name: piranha-plant_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 0
@@ -448,6 +455,7 @@ ScriptedImporter:
       spriteId: f7cf13aaf288adc43afecf2fccac8007
     - name: piranha-plant_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 0
@@ -456,6 +464,7 @@ ScriptedImporter:
       spriteId: 975a8984f940e3340a6c0660c355c879
     - name: piranha-plant_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -464,6 +473,7 @@ ScriptedImporter:
       spriteId: fceb4e5258ef02342b0dcf129e5f8eab
     - name: piranha-plant_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -472,6 +482,7 @@ ScriptedImporter:
       spriteId: b68b5eeca3e94a84b8ac4420a87ab1e6
     - name: piranha-plant_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -480,6 +491,7 @@ ScriptedImporter:
       spriteId: ea92c9414ea51c2418fcc2f105e318fd
     - name: piranha-plant_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -488,6 +500,7 @@ ScriptedImporter:
       spriteId: 1bc5134864e94524b88b47831dffd8b7
     - name: piranha-plant_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

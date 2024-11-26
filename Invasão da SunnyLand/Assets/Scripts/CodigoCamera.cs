@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,3 +26,4 @@ public class CodigoCamera : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, destino, 0.1f);
     }
 }
+*/

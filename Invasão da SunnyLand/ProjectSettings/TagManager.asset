@@ -6,6 +6,9 @@ TagManager:
   tags:
   - "Ch\xE3o"
   - Boss
+  - Inimigo
+  - Item
+  - Gema
   layers:
   - Default
   - TransparentFX

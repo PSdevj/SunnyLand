@@ -432,6 +432,7 @@ ScriptedImporter:
     cells:
     - name: slimer_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -440,6 +441,7 @@ ScriptedImporter:
       spriteId: fe16693ccd85dcd478c10bb8cef71b51
     - name: slimer_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -448,6 +450,7 @@ ScriptedImporter:
       spriteId: 6d03f1b5dbb377841a868d8c0f8c41be
     - name: slimer_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -456,6 +459,7 @@ ScriptedImporter:
       spriteId: c3d23820253fd7c4bb1e79f11c27e047
     - name: slimer_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -464,6 +468,7 @@ ScriptedImporter:
       spriteId: b2e4be1b6bf56814cbf40182c9c2b847
     - name: slimer_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -472,6 +477,7 @@ ScriptedImporter:
       spriteId: 09b6f2a6edd2bb54db30e5dd7e23468e
     - name: slimer_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -480,6 +486,7 @@ ScriptedImporter:
       spriteId: f3b6dc243e5791f4a85fbb12914e4b81
     - name: slimer_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -488,6 +495,7 @@ ScriptedImporter:
       spriteId: 41e105bbb25270747aa24105fd4f2445
     - name: slimer_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -496,6 +504,7 @@ ScriptedImporter:
       spriteId: 5cd919517d5b38c409724f490b8b586e
     - name: slimer_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -504,6 +513,7 @@ ScriptedImporter:
       spriteId: 054962ac8ba576f429e0230a86e6531e
     - name: slimer_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -512,6 +522,7 @@ ScriptedImporter:
       spriteId: 4295192e8f0911143bfe7ca8ebd8ea89
     - name: slimer_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -520,6 +531,7 @@ ScriptedImporter:
       spriteId: 28497348c8247ff49b99c0605c590e3f
     - name: slimer_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -528,6 +540,7 @@ ScriptedImporter:
       spriteId: 5fe040e565dffae4abc24bc7ea0d3d73
     - name: slimer_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -536,6 +549,7 @@ ScriptedImporter:
       spriteId: 9669a22d260e8fe45ac1622bcb0af74b
     - name: slimer_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -544,6 +558,7 @@ ScriptedImporter:
       spriteId: 000e44f48548d144692c081a64d368c6
     - name: slimer_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
