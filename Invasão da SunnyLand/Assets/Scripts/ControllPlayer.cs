@@ -17,30 +17,19 @@ public class ControllPlayer : MonoBehaviour
 
     public ControllGame genJ; //acessar o script ContollGame
 
-
-    //respons�vel pelo tiro b�sico do player.
-    public GameObject laserPlayer;
-    public Transform localLaserPlayer;
-    public float tempoMaximoTiro;
-    public float tempoAtualTiro;
-
-
     // Start is called before the first frame update
     void Start()
     {
         corpoPlayer = GetComponent<Rigidbody2D>();
         playerAbilities = GetComponent<PlayerAbilities>();
         animacaoPlayer = GetComponent<Animator>();
-        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
-
-
-        tempoAtualTiro = tempoMaximoTiro;
+        /*genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();*/
     }
 
     // Update is called once per frame
     void Update()
     {
-        Movimenta��o();
+        Movimentacao();
         Pular();
 
         // Verifica a dire��o do movimento e vira o player para a esquerda ou direita
@@ -54,19 +43,11 @@ public class ControllPlayer : MonoBehaviour
             // Vira para a esquerda
             transform.localScale = new Vector3(-1, 1, 1);
         }
-
-        if (tempoAtualTiro <= 0)
-        {
-            Atirar();
-        }
-        tempoAtualTiro -= Time.deltaTime;
-
-
     }
 
 
 
-    public void Movimenta��o()
+    public void Movimentacao()
     {
         velocidadePlayer = Input.GetAxis("Horizontal") * 3.5f;
         corpoPlayer.velocity = new Vector2(velocidadePlayer, corpoPlayer.velocity.y);
@@ -84,7 +65,7 @@ public class ControllPlayer : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ch�o"))
+        if (collision.gameObject.CompareTag("Chão"))
         {
             isGrounded = true;
             doubleJumpAvailable = true; // Reseta o pulo duplo ao tocar o ch�o
@@ -93,7 +74,7 @@ public class ControllPlayer : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ch�o"))
+        if (collision.gameObject.CompareTag("Chão"))
         {
             isGrounded = false; // Jogador saiu do ch�o
         }
@@ -134,22 +115,8 @@ public class ControllPlayer : MonoBehaviour
     {
         if(collision.gameObject.tag ==  "win")
         {
-            genJ.AbreMenuVit�ria();
+            /*genJ.AbreMenuVitoria();*/
             
         }
-    }
-
-
-    public void Atirar()
-    {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Instantiate(laserPlayer, localLaserPlayer.position, localLaserPlayer.rotation);
-            tempoAtualTiro = tempoMaximoTiro;
-        
-        }
-  
-    }
-
-    
+    }    
 }

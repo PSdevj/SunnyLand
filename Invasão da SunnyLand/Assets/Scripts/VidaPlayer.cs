@@ -28,13 +28,7 @@ public class VidaPlayer : MonoBehaviour
         barraDeVidaPlayer.maxValue = vidaDoPlayer;
         barraDeVidaPlayer.value = vidaDoPlayer;
 
-        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        /*genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();*/
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
@@ -48,6 +42,12 @@ public class VidaPlayer : MonoBehaviour
         if(vidaDoPlayer <= 0)
         {
             genJ.AbreGameOver();
+        }
+
+        if (collision.gameObject.tag == "Boss")
+        {
+            vidaDoPlayer--;
+            barraDeVidaPlayer.value = vidaDoPlayer;
         }
     }
 

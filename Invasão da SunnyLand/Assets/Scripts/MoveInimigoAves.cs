@@ -20,10 +20,6 @@ public class MoveInimigoAves : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        
-
-
         if (this.transform.position.y > pontoA.position.y)
         {
             transform.Translate(Vector3.up * velocidadeInimigo * Time.deltaTime);
@@ -34,14 +30,11 @@ public class MoveInimigoAves : MonoBehaviour
             transform.Translate(Vector3.down * velocidadeInimigo * Time.deltaTime);
 
         }
-
-
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Fire")
+        if(collision.gameObject.tag == "Projétil")
         {
             Destroy(gameObject);
         }

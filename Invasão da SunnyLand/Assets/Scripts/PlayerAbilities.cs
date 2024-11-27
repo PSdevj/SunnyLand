@@ -93,6 +93,10 @@ public class PlayerAbilities : MonoBehaviour
                 projectile.transform.localScale.z
             );
         }
+        else
+        {
+            Debug.Log("Esperando cooldown para atirar novamente!");
+        }
     }
 
     public bool CanDoubleJump()

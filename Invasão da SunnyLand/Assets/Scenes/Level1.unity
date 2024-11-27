@@ -1371,9 +1371,11 @@ GameObject:
   - component: {fileID: 480141608}
   - component: {fileID: 480141607}
   - component: {fileID: 480141613}
+  - component: {fileID: 480141614}
+  - component: {fileID: 480141615}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1394,10 +1396,6 @@ MonoBehaviour:
   velocidadePlayer: 0
   animacaoPlayer: {fileID: 0}
   genJ: {fileID: 0}
-  laserPlayer: {fileID: 0}
-  localLaserPlayer: {fileID: 0}
-  tempoMaximoTiro: 0
-  tempoAtualTiro: 0
 --- !u!95 &480141608
 Animator:
   serializedVersion: 5
@@ -1555,7 +1553,8 @@ Transform:
   m_LocalPosition: {x: -5.35, y: -0.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1171935120}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &480141613
@@ -1571,7 +1570,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gema: 0
-  gemaText: {fileID: 0}
+  gemaText: {fileID: 1273376549}
+--- !u!114 &480141614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480141606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228dada00b062b44dae3d5e6fdbf1db1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
+  shootPoint: {fileID: 1171935120}
+  projectileSpeed: 0
+  fireRate: 0.5
+--- !u!114 &480141615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480141606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71326da2b84d0c489afaa931b7626ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaDoPlayer: 0
+  vidaMaximaPlayer: 10
+  barraDeVidaPlayer: {fileID: 1685959740}
+  genJ: {fileID: 1583268992}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4579,6 +4610,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149067313}
   m_CullTransparentMesh: 1
+--- !u!1 &1171935119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171935120}
+  m_Layer: 0
+  m_Name: projetil
+  m_TagString: "Proj\xE9til"
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1171935120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171935119}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: -2.35, z: -0.041504864}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 480141612}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1273376547
 GameObject:
   m_ObjectHideFlags: 0
