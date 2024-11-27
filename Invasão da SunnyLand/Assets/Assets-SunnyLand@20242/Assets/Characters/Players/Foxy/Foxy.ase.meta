@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Foxy_Frame_0
+  - name: Frame_0
     originalName: 
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 183
       width: 18
       height: 22
-    spriteID: 37228b26c3679194eba5c8785bf9d039
+    spriteID: ff68b0b8ac11ea54185c1ebc5cd0e5e3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 62, y: 183}
-  - name: Foxy_Frame_1
+  - name: Frame_1
     originalName: 
     pivot: {x: 0.6052632, y: 0}
     alignment: 9
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 125
       width: 19
       height: 21
-    spriteID: 1cbc8382087057e44a6d74edb44f4984
+    spriteID: d62475926491907439cd7f3573109da8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 63, y: 125}
-  - name: Foxy_Frame_2
+  - name: Frame_2
     originalName: 
     pivot: {x: 0.64285713, y: 0}
     alignment: 9
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 232
       width: 21
       height: 20
-    spriteID: ee732b9c1c423284abe2456f0702b0fd
+    spriteID: 6c6309d131238d9499f4a3ec389196d3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 1, y: 232}
-  - name: Foxy_Frame_3
+  - name: Frame_3
     originalName: 
     pivot: {x: 0.6052632, y: 0}
     alignment: 9
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 154
       width: 19
       height: 21
-    spriteID: edce2791d2960594693010cffc9bc71e
+    spriteID: 8552bcb4d2b342c4ebae7c5ce5c75897
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 63, y: 154}
-  - name: Foxy_Frame_4
+  - name: Frame_4
     originalName: 
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 213
       width: 18
       height: 22
-    spriteID: f7d470155f3ace44aa26213fc8d65ae4
+    spriteID: 1158bbb5285c57945b6ab106ad9987ce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 62, y: 213}
-  - name: Foxy_Frame_5
+  - name: Frame_5
     originalName: 
     pivot: {x: 0.575, y: -0.045454547}
     alignment: 9
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 33
       width: 20
       height: 22
-    spriteID: 1d7c03242dfe8c24dbec63c67390ea00
+    spriteID: 1cde53680dbb97047bed24ca424f5d02
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -241,7 +241,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 63, y: 32}
-  - name: Foxy_Frame_6
+  - name: Frame_6
     originalName: 
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
@@ -252,7 +252,7 @@ ScriptedImporter:
       y: 31
       width: 18
       height: 22
-    spriteID: d4933b2f6da63dc4fb3eea2c492c8f63
+    spriteID: 9484ffdcc424671418de87169f95e1a8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -261,7 +261,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 91, y: 31}
-  - name: Foxy_Frame_7
+  - name: Frame_7
     originalName: 
     pivot: {x: 0.5277778, y: 0}
     alignment: 9
@@ -272,7 +272,7 @@ ScriptedImporter:
       y: 61
       width: 18
       height: 22
-    spriteID: 900df112be8450f479d1bb64ad481628
+    spriteID: b45435aa304ab3047be54be1917e4489
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -281,7 +281,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 90, y: 61}
-  - name: Foxy_Frame_8
+  - name: Frame_8
     originalName: 
     pivot: {x: 0.49999997, y: -0.045454547}
     alignment: 9
@@ -292,7 +292,7 @@ ScriptedImporter:
       y: 205
       width: 17
       height: 22
-    spriteID: 015f750f5c53cbb41a07328d0f5e3324
+    spriteID: f7bd32433a3f72c4da6925ee1feea3d4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -301,7 +301,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 89, y: 204}
-  - name: Foxy_Frame_9
+  - name: Frame_9
     originalName: 
     pivot: {x: 0.5277778, y: 0}
     alignment: 9
@@ -312,7 +312,7 @@ ScriptedImporter:
       y: 91
       width: 18
       height: 22
-    spriteID: 589ef1e4fd07433489c226d40999c0d0
+    spriteID: e03bf9525994446468760ce12f9176eb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -321,7 +321,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 90, y: 91}
-  - name: Foxy_Frame_10
+  - name: Frame_10
     originalName: 
     pivot: {x: 0.5, y: -0.08695652}
     alignment: 9
@@ -332,7 +332,7 @@ ScriptedImporter:
       y: 63
       width: 19
       height: 23
-    spriteID: a0058c77c484b914cbdafe9095587aef
+    spriteID: 2b5bc340d6a97b348a491a397e441603
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -341,7 +341,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 61, y: 61}
-  - name: Foxy_Frame_11
+  - name: Frame_11
     originalName: 
     pivot: {x: 0.5, y: -0.041666668}
     alignment: 9
@@ -352,7 +352,7 @@ ScriptedImporter:
       y: 136
       width: 19
       height: 24
-    spriteID: 56c92de2b0bfaa34d9bb028f6e94293c
+    spriteID: cd21fd9a2b259ea4ab98502ef0f56741
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -361,7 +361,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: -3, y: 135}
-  - name: Foxy_Frame_12
+  - name: Frame_12
     originalName: 
     pivot: {x: 0.5, y: -0.08695652}
     alignment: 9
@@ -372,7 +372,7 @@ ScriptedImporter:
       y: 94
       width: 19
       height: 23
-    spriteID: a34b70f689c02bf438393f14c125497e
+    spriteID: d12e160aecf44154cad11fdbcfba1bd8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -381,7 +381,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 61, y: 92}
-  - name: Foxy_Frame_13
+  - name: Frame_13
     originalName: 
     pivot: {x: 0.5, y: -0.041666668}
     alignment: 9
@@ -392,7 +392,7 @@ ScriptedImporter:
       y: 168
       width: 19
       height: 24
-    spriteID: 4de571334bb26bc4c93fa1fc631d77b6
+    spriteID: 11b769cf221655f4db4286251bed2933
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -401,7 +401,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: -3, y: 167}
-  - name: Foxy_Frame_14
+  - name: Frame_14
     originalName: 
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
@@ -412,7 +412,7 @@ ScriptedImporter:
       y: 121
       width: 18
       height: 22
-    spriteID: 7fea7302a3aa8f241b8d059d856fd51b
+    spriteID: dfae29ce3dcce31468e783ed106fb1a9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -421,7 +421,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 91, y: 121}
-  - name: Foxy_Frame_15
+  - name: Frame_15
     originalName: 
     pivot: {x: 0.42499998, y: 0}
     alignment: 9
@@ -432,7 +432,7 @@ ScriptedImporter:
       y: 151
       width: 20
       height: 19
-    spriteID: 1fe42291006cab348a3e149d0b3665c1
+    spriteID: 2a3547e588dfb4a47bbd5a614fc5f697
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -441,7 +441,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 89, y: 151}
-  - name: Foxy_Frame_16
+  - name: Frame_16
     originalName: 
     pivot: {x: 0.42499998, y: 0}
     alignment: 9
@@ -452,7 +452,7 @@ ScriptedImporter:
       y: 178
       width: 20
       height: 19
-    spriteID: 0f79a36f9d65c7d459f611d5c8d6b68e
+    spriteID: 74e69d7f1721e8a4e93000224ad6d5c2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -461,7 +461,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 89, y: 178}
-  - name: Foxy_Frame_17
+  - name: Frame_17
     originalName: 
     pivot: {x: 0.5, y: -0.03846154}
     alignment: 9
@@ -472,7 +472,7 @@ ScriptedImporter:
       y: 103
       width: 23
       height: 26
-    spriteID: 0673148aedb5d6a4983c2275b61f0d21
+    spriteID: 8c1ca133d29d0bc418d2044da02325d9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -481,7 +481,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 35, y: 103}
-  - name: Foxy_Frame_18
+  - name: Frame_18
     originalName: 
     pivot: {x: 0.5, y: -0.04}
     alignment: 9
@@ -492,7 +492,7 @@ ScriptedImporter:
       y: 4
       width: 25
       height: 25
-    spriteID: dbeedd9e4aad3d84b801c961f2bde97e
+    spriteID: 2eb26d2eb67f9de46936d7f20336570f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -501,7 +501,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 35, y: 4}
-  - name: Foxy_Frame_19
+  - name: Frame_19
     originalName: 
     pivot: {x: 0.54347825, y: -0.0952381}
     alignment: 9
@@ -512,7 +512,7 @@ ScriptedImporter:
       y: 199
       width: 23
       height: 21
-    spriteID: 2328edde24f82234e91e08ed733c5038
+    spriteID: f726a2c0d812d2742bfa4c16bd3269a0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -521,7 +521,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 31, y: 197}
-  - name: Foxy_Frame_20
+  - name: Frame_20
     originalName: 
     pivot: {x: 0.54761904, y: -0.13636364}
     alignment: 9
@@ -532,7 +532,7 @@ ScriptedImporter:
       y: 76
       width: 21
       height: 22
-    spriteID: aa910b9edff7cf8499c55bfb4de0066f
+    spriteID: be4fc62c92045ca479f318c71f05335e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -541,7 +541,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: -1, y: 73}
-  - name: Foxy_Frame_21
+  - name: Frame_21
     originalName: 
     pivot: {x: 0.5952381, y: -0.0952381}
     alignment: 9
@@ -552,7 +552,7 @@ ScriptedImporter:
       y: 4
       width: 21
       height: 21
-    spriteID: 2b4c24fd6fce27547b59ef9acd94c0c2
+    spriteID: 5011e916f4e6e10458fef81ebfe746fb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -561,7 +561,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 68, y: 4}
-  - name: Foxy_Frame_22
+  - name: Frame_22
     originalName: 
     pivot: {x: 0.6304348, y: -0.0952381}
     alignment: 9
@@ -572,7 +572,7 @@ ScriptedImporter:
       y: 228
       width: 23
       height: 21
-    spriteID: 39508e342bde4b7428bd3358da5f2b3f
+    spriteID: ef470f0c57f691745b95af2e533351a2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -581,7 +581,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 35, y: 228}
-  - name: Foxy_Frame_23
+  - name: Frame_23
     originalName: 
     pivot: {x: 0.6590909, y: -0.05263158}
     alignment: 9
@@ -592,7 +592,7 @@ ScriptedImporter:
       y: 4
       width: 22
       height: 19
-    spriteID: dec443fdd2ae93e458685b73959ee209
+    spriteID: 8fcc8795154592140a5b4f583c89dd1a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -601,7 +601,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 97, y: 4}
-  - name: Foxy_Frame_24
+  - name: Frame_24
     originalName: 
     pivot: {x: 0.6304348, y: 0}
     alignment: 9
@@ -612,7 +612,7 @@ ScriptedImporter:
       y: 4
       width: 23
       height: 28
-    spriteID: 18c64560453358f41b5fc768303eeb01
+    spriteID: fc632580f9a579140bcd88fd527b06c8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -621,7 +621,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Foxy_Frame_25
+  - name: Frame_25
     originalName: 
     pivot: {x: 0.5625, y: 0}
     alignment: 9
@@ -632,7 +632,7 @@ ScriptedImporter:
       y: 37
       width: 24
       height: 25
-    spriteID: 5f3591e9fbd2a7c4082cc0dacf129872
+    spriteID: 9b68dffdc4deb5141b3b7785b082984a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -641,7 +641,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 35, y: 37}
-  - name: Foxy_Frame_26
+  - name: Frame_26
     originalName: 
     pivot: {x: 0.54347825, y: 0}
     alignment: 9
@@ -652,7 +652,7 @@ ScriptedImporter:
       y: 137
       width: 23
       height: 23
-    spriteID: 60f1eaacb60e2904b8f206a4017db16c
+    spriteID: 8a9f3706680956f4dae1bc329d692610
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -661,7 +661,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 35, y: 137}
-  - name: Foxy_Frame_27
+  - name: Frame_27
     originalName: 
     pivot: {x: 0.36956522, y: 0}
     alignment: 9
@@ -672,7 +672,7 @@ ScriptedImporter:
       y: 40
       width: 23
       height: 28
-    spriteID: 9362209631e1a1e42bccac97105c0613
+    spriteID: 0fe02f9e8dfabb94dad4dce5bbd3021a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -681,7 +681,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 40}
-  - name: Foxy_Frame_28
+  - name: Frame_28
     originalName: 
     pivot: {x: 0.47916666, y: 0}
     alignment: 9
@@ -692,7 +692,7 @@ ScriptedImporter:
       y: 70
       width: 24
       height: 25
-    spriteID: 9e0befe3ec8389f428cacc971f261cff
+    spriteID: f453d1186897c1940a5d9fa1bf1c0d2c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -701,7 +701,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 35, y: 70}
-  - name: Foxy_Frame_29
+  - name: Frame_29
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -712,7 +712,7 @@ ScriptedImporter:
       y: 168
       width: 23
       height: 23
-    spriteID: 3513d5112ac9e2641bfd901db9d4009e
+    spriteID: 02ea8f3d01ea3d5458eadf71b1d920b6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -721,7 +721,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 35, y: 168}
-  - name: Foxy_Frame_30
+  - name: Frame_30
     originalName: 
     pivot: {x: 0.49999997, y: 0}
     alignment: 9
@@ -732,7 +732,7 @@ ScriptedImporter:
       y: 4
       width: 17
       height: 18
-    spriteID: dbd51d0dcb3c96946816b4afb25c0a6c
+    spriteID: 2b1c1d79cf649b54aaa4fa97f1d74787
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -741,7 +741,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 127, y: 4}
-  - name: Foxy_Frame_31
+  - name: Frame_31
     originalName: 
     pivot: {x: 0.5277778, y: -0.05882353}
     alignment: 9
@@ -752,7 +752,7 @@ ScriptedImporter:
       y: 235
       width: 18
       height: 17
-    spriteID: 9329c1fdb4f82ba44876d89c048c9c8a
+    spriteID: 74c0fc2a378fbf648829e22ccfb16103
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -761,7 +761,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 97, y: 235}
-  - name: Foxy_Frame_32
+  - name: Frame_32
     originalName: 
     pivot: {x: 0.49999997, y: 0}
     alignment: 9
@@ -772,7 +772,7 @@ ScriptedImporter:
       y: 30
       width: 17
       height: 18
-    spriteID: f7d1b3f18fdf0ab46990027bc9d9851c
+    spriteID: 060397cb72e8b7f45a75e290d97ca528
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -781,7 +781,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 127, y: 30}
-  - name: Foxy_Frame_33
+  - name: Frame_33
     originalName: 
     pivot: {x: 0.5277778, y: -0.05882353}
     alignment: 9
@@ -792,7 +792,7 @@ ScriptedImporter:
       y: 4
       width: 18
       height: 17
-    spriteID: 21a9f9e70a8a19948835768c7de5c852
+    spriteID: 0bed82f48ce32a64abecee5cb0cbbf14
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -801,7 +801,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 152, y: 4}
-  - name: Foxy_Frame_34
+  - name: Frame_34
     originalName: 
     pivot: {x: 0.64285713, y: 0}
     alignment: 9
@@ -812,7 +812,7 @@ ScriptedImporter:
       y: 106
       width: 21
       height: 22
-    spriteID: 6bd3961276025f343a8289ce53e45d00
+    spriteID: 910689f6b67b6b74aa02dffc9d99e463
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -821,7 +821,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 106}
-  - name: Foxy_Frame_35
+  - name: Frame_35
     originalName: 
     pivot: {x: 0.6052632, y: 0}
     alignment: 9
@@ -832,7 +832,7 @@ ScriptedImporter:
       y: 200
       width: 19
       height: 24
-    spriteID: fc603eaba4ea27a4b98707358dc2e6ed
+    spriteID: cb3cc7dd0720a654c8ba3a9ea99acd6b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -858,7 +858,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 37228b26c3679194eba5c8785bf9d039
+      spriteId: ff68b0b8ac11ea54185c1ebc5cd0e5e3
     - name: Foxy_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -867,7 +867,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 1cbc8382087057e44a6d74edb44f4984
+      spriteId: d62475926491907439cd7f3573109da8
     - name: Foxy_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -876,7 +876,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: ee732b9c1c423284abe2456f0702b0fd
+      spriteId: 6c6309d131238d9499f4a3ec389196d3
     - name: Foxy_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -885,7 +885,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: edce2791d2960594693010cffc9bc71e
+      spriteId: 8552bcb4d2b342c4ebae7c5ce5c75897
     - name: Foxy_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
@@ -894,7 +894,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: f7d470155f3ace44aa26213fc8d65ae4
+      spriteId: 1158bbb5285c57945b6ab106ad9987ce
     - name: Foxy_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
@@ -903,7 +903,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 1d7c03242dfe8c24dbec63c67390ea00
+      spriteId: 1cde53680dbb97047bed24ca424f5d02
     - name: Foxy_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
@@ -912,7 +912,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: d4933b2f6da63dc4fb3eea2c492c8f63
+      spriteId: 9484ffdcc424671418de87169f95e1a8
     - name: Foxy_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
@@ -921,7 +921,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 900df112be8450f479d1bb64ad481628
+      spriteId: b45435aa304ab3047be54be1917e4489
     - name: Foxy_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
@@ -930,7 +930,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 015f750f5c53cbb41a07328d0f5e3324
+      spriteId: f7bd32433a3f72c4da6925ee1feea3d4
     - name: Foxy_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
@@ -939,7 +939,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 589ef1e4fd07433489c226d40999c0d0
+      spriteId: e03bf9525994446468760ce12f9176eb
     - name: Foxy_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
@@ -948,7 +948,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: a0058c77c484b914cbdafe9095587aef
+      spriteId: 2b5bc340d6a97b348a491a397e441603
     - name: Foxy_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
@@ -957,7 +957,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 56c92de2b0bfaa34d9bb028f6e94293c
+      spriteId: cd21fd9a2b259ea4ab98502ef0f56741
     - name: Foxy_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
@@ -966,7 +966,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: a34b70f689c02bf438393f14c125497e
+      spriteId: d12e160aecf44154cad11fdbcfba1bd8
     - name: Foxy_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
@@ -975,7 +975,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 4de571334bb26bc4c93fa1fc631d77b6
+      spriteId: 11b769cf221655f4db4286251bed2933
     - name: Foxy_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
@@ -984,7 +984,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 7fea7302a3aa8f241b8d059d856fd51b
+      spriteId: dfae29ce3dcce31468e783ed106fb1a9
     - name: Foxy_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
@@ -993,7 +993,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 1fe42291006cab348a3e149d0b3665c1
+      spriteId: 2a3547e588dfb4a47bbd5a614fc5f697
     - name: Foxy_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
@@ -1002,7 +1002,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 0f79a36f9d65c7d459f611d5c8d6b68e
+      spriteId: 74e69d7f1721e8a4e93000224ad6d5c2
     - name: Foxy_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
@@ -1011,7 +1011,7 @@ ScriptedImporter:
         y: 1
         width: 23
         height: 26
-      spriteId: 0673148aedb5d6a4983c2275b61f0d21
+      spriteId: 8c1ca133d29d0bc418d2044da02325d9
     - name: Foxy_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
@@ -1020,7 +1020,7 @@ ScriptedImporter:
         y: 1
         width: 25
         height: 25
-      spriteId: dbeedd9e4aad3d84b801c961f2bde97e
+      spriteId: 2eb26d2eb67f9de46936d7f20336570f
     - name: Foxy_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
@@ -1029,7 +1029,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: 2328edde24f82234e91e08ed733c5038
+      spriteId: f726a2c0d812d2742bfa4c16bd3269a0
     - name: Foxy_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
@@ -1038,7 +1038,7 @@ ScriptedImporter:
         y: 0
         width: 33
         height: 32
-      spriteId: aa910b9edff7cf8499c55bfb4de0066f
+      spriteId: be4fc62c92045ca479f318c71f05335e
     - name: Foxy_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
@@ -1047,7 +1047,7 @@ ScriptedImporter:
         y: 2
         width: 21
         height: 21
-      spriteId: 2b4c24fd6fce27547b59ef9acd94c0c2
+      spriteId: 5011e916f4e6e10458fef81ebfe746fb
     - name: Foxy_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
@@ -1056,7 +1056,7 @@ ScriptedImporter:
         y: 2
         width: 23
         height: 21
-      spriteId: 39508e342bde4b7428bd3358da5f2b3f
+      spriteId: ef470f0c57f691745b95af2e533351a2
     - name: Foxy_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
@@ -1065,7 +1065,7 @@ ScriptedImporter:
         y: 1
         width: 22
         height: 19
-      spriteId: dec443fdd2ae93e458685b73959ee209
+      spriteId: 8fcc8795154592140a5b4f583c89dd1a
     - name: Foxy_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
@@ -1074,7 +1074,7 @@ ScriptedImporter:
         y: 0
         width: 23
         height: 28
-      spriteId: 18c64560453358f41b5fc768303eeb01
+      spriteId: fc632580f9a579140bcd88fd527b06c8
     - name: Foxy_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
@@ -1083,7 +1083,7 @@ ScriptedImporter:
         y: 0
         width: 24
         height: 25
-      spriteId: 5f3591e9fbd2a7c4082cc0dacf129872
+      spriteId: 9b68dffdc4deb5141b3b7785b082984a
     - name: Foxy_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
@@ -1092,7 +1092,7 @@ ScriptedImporter:
         y: 0
         width: 23
         height: 23
-      spriteId: 60f1eaacb60e2904b8f206a4017db16c
+      spriteId: 8a9f3706680956f4dae1bc329d692610
     - name: Foxy_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
@@ -1101,7 +1101,7 @@ ScriptedImporter:
         y: 0
         width: 23
         height: 28
-      spriteId: 9362209631e1a1e42bccac97105c0613
+      spriteId: 0fe02f9e8dfabb94dad4dce5bbd3021a
     - name: Foxy_Frame_28
       frameIndex: 28
       additiveSortOrder: 0
@@ -1110,7 +1110,7 @@ ScriptedImporter:
         y: 0
         width: 24
         height: 25
-      spriteId: 9e0befe3ec8389f428cacc971f261cff
+      spriteId: f453d1186897c1940a5d9fa1bf1c0d2c
     - name: Foxy_Frame_29
       frameIndex: 29
       additiveSortOrder: 0
@@ -1119,7 +1119,7 @@ ScriptedImporter:
         y: 0
         width: 23
         height: 23
-      spriteId: 3513d5112ac9e2641bfd901db9d4009e
+      spriteId: 02ea8f3d01ea3d5458eadf71b1d920b6
     - name: Foxy_Frame_30
       frameIndex: 30
       additiveSortOrder: 0
@@ -1128,7 +1128,7 @@ ScriptedImporter:
         y: 0
         width: 17
         height: 18
-      spriteId: dbd51d0dcb3c96946816b4afb25c0a6c
+      spriteId: 2b1c1d79cf649b54aaa4fa97f1d74787
     - name: Foxy_Frame_31
       frameIndex: 31
       additiveSortOrder: 0
@@ -1137,7 +1137,7 @@ ScriptedImporter:
         y: 1
         width: 18
         height: 17
-      spriteId: 9329c1fdb4f82ba44876d89c048c9c8a
+      spriteId: 74c0fc2a378fbf648829e22ccfb16103
     - name: Foxy_Frame_32
       frameIndex: 32
       additiveSortOrder: 0
@@ -1146,7 +1146,7 @@ ScriptedImporter:
         y: 0
         width: 17
         height: 18
-      spriteId: f7d1b3f18fdf0ab46990027bc9d9851c
+      spriteId: 060397cb72e8b7f45a75e290d97ca528
     - name: Foxy_Frame_33
       frameIndex: 33
       additiveSortOrder: 0
@@ -1155,7 +1155,7 @@ ScriptedImporter:
         y: 1
         width: 18
         height: 17
-      spriteId: 21a9f9e70a8a19948835768c7de5c852
+      spriteId: 0bed82f48ce32a64abecee5cb0cbbf14
     - name: Foxy_Frame_34
       frameIndex: 34
       additiveSortOrder: 0
@@ -1164,7 +1164,7 @@ ScriptedImporter:
         y: 0
         width: 21
         height: 22
-      spriteId: 6bd3961276025f343a8289ce53e45d00
+      spriteId: 910689f6b67b6b74aa02dffc9d99e463
     - name: Foxy_Frame_35
       frameIndex: 35
       additiveSortOrder: 0
@@ -1173,7 +1173,7 @@ ScriptedImporter:
         y: 0
         width: 19
         height: 24
-      spriteId: fc603eaba4ea27a4b98707358dc2e6ed
+      spriteId: cb3cc7dd0720a654c8ba3a9ea99acd6b
     linkedCells: []
     parentIndex: -1
   platformSettings:

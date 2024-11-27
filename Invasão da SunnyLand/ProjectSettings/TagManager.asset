@@ -10,6 +10,8 @@ TagManager:
   - Item
   - Gema
   - "Proj\xE9til"
+  - win
+  - Fire
   layers:
   - Default
   - TransparentFX

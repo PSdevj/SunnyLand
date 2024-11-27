@@ -7,13 +7,22 @@ public class ControllPlayer : MonoBehaviour
     public Rigidbody2D corpoPlayer;
     public float velocidadePlayer;
 
-    private bool isGrounded = false; // Verifica se está no chão
+    private bool isGrounded = false; // Verifica se estï¿½ no chï¿½o
     private bool doubleJumpAvailable = true; // Controla se o pulo duplo pode ser usado
 
-    private PlayerAbilities playerAbilities; // Referência ao script de habilidades
+    private PlayerAbilities playerAbilities; // Referï¿½ncia ao script de habilidades
 
 
-    public Animator animacaoPlayer; //controla a animação do player
+    public Animator animacaoPlayer; //controla a animaï¿½ï¿½o do player
+
+    public ControllGame genJ; //acessar o script ContollGame
+
+
+    //responsï¿½vel pelo tiro bï¿½sico do player.
+    public GameObject laserPlayer;
+    public Transform localLaserPlayer;
+    public float tempoMaximoTiro;
+    public float tempoAtualTiro;
 
 
     // Start is called before the first frame update
@@ -22,15 +31,19 @@ public class ControllPlayer : MonoBehaviour
         corpoPlayer = GetComponent<Rigidbody2D>();
         playerAbilities = GetComponent<PlayerAbilities>();
         animacaoPlayer = GetComponent<Animator>();
+        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
+
+
+        tempoAtualTiro = tempoMaximoTiro;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Movimentação();
+        Movimentaï¿½ï¿½o();
         Pular();
 
-        // Verifica a direção do movimento e vira o player para a esquerda ou direita
+        // Verifica a direï¿½ï¿½o do movimento e vira o player para a esquerda ou direita
         if (velocidadePlayer > 0)
         {
             // Vira para a direita
@@ -41,37 +54,48 @@ public class ControllPlayer : MonoBehaviour
             // Vira para a esquerda
             transform.localScale = new Vector3(-1, 1, 1);
         }
+
+        if (tempoAtualTiro <= 0)
+        {
+            Atirar();
+        }
+        tempoAtualTiro -= Time.deltaTime;
+
+
     }
 
-    public void Movimentação()
+
+
+    public void Movimentaï¿½ï¿½o()
     {
         velocidadePlayer = Input.GetAxis("Horizontal") * 3.5f;
         corpoPlayer.velocity = new Vector2(velocidadePlayer, corpoPlayer.velocity.y);
 
         if (velocidadePlayer != 0)
         {
-            animacaoPlayer.SetBool("andando", true); //se a velocidade o player for diferente de ZERO, a animação de correndo vai rodar
+            animacaoPlayer.SetBool("Andando", true); //se a velocidade o player for diferente de ZERO, a anaimaï¿½ï¿½o de correndo vai rodar
         }
         else
         {
-            animacaoPlayer.SetBool("andando", false);
+            animacaoPlayer.SetBool("Andando", false);
         }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Chão"))
+        if (collision.gameObject.CompareTag("Chï¿½o"))
         {
             isGrounded = true;
-            doubleJumpAvailable = true; // Reseta o pulo duplo ao tocar o chão
+            doubleJumpAvailable = true; // Reseta o pulo duplo ao tocar o chï¿½o
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Chão"))
+        if (collision.gameObject.CompareTag("Chï¿½o"))
         {
-            isGrounded = false; // Jogador saiu do chão
+            isGrounded = false; // Jogador saiu do chï¿½o
         }
     }
 
@@ -83,7 +107,7 @@ public class ControllPlayer : MonoBehaviour
             if (isGrounded)
             {
                 corpoPlayer.velocity = Vector2.up * 8; // Primeiro pulo
-                animacaoPlayer.SetBool("pulando", true);
+               
             }
             else if (playerAbilities != null && playerAbilities.CanDoubleJump() && doubleJumpAvailable)
             {
@@ -91,10 +115,41 @@ public class ControllPlayer : MonoBehaviour
                 doubleJumpAvailable = false; // Marca que o pulo duplo foi usado
                 Debug.Log("Pulo duplo realizado!");
             }
-            if (doubleJumpAvailable == false)
-            {
-                animacaoPlayer.SetBool("pulando", false);
-            }
+            
+        }
+        if(isGrounded == false) //se o player sair do chï¿½o ativa a animaï¿½ï¿½o de pulando
+        {
+            animacaoPlayer.SetBool("pulando", true); 
+        }
+        else
+        {
+            animacaoPlayer.SetBool("pulando", false);
+        }
+        {
+
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag ==  "win")
+        {
+            genJ.AbreMenuVitï¿½ria();
+            
+        }
+    }
+
+
+    public void Atirar()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(laserPlayer, localLaserPlayer.position, localLaserPlayer.rotation);
+            tempoAtualTiro = tempoMaximoTiro;
+        
+        }
+  
+    }
+
+    
 }

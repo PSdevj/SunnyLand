@@ -6,6 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/CenaMenu.unity
+    guid: 7ed1505391e2f5745a441857262f5a22
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level1Boss.unity
+    guid: 2bde2efc47fe7f34d9327e3c4f72de90
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 290d621ba4a2b8d42adfb3cebe166afb
+  - enabled: 1
+    path: Assets/Scenes/Level2Boss2.unity
+    guid: 8bf3e034bf32e164a889da3a1e193957
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: fc2ad0918840037488f62558ac1438d4
+  - enabled: 1
+    path: Assets/Scenes/Level3Boss3.unity
+    guid: 9a0c723055d66ac488202ad97ee50407
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 9b54ef68100e4894eb8b8d14fa5a7ab9
+  - enabled: 1
+    path: Assets/Scenes/Level4Boss4.unity
+    guid: 6007a7adc27263349895c66c03e6daf4
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 6ccdee4abecc11f4cbce40efc8dc2434
+  - enabled: 1
+    path: Assets/Scenes/Level5Boss5.unity
+    guid: 9bf267692c2f5fa4289a6bf149af1c76
   m_configObjects: {}

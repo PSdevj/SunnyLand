@@ -10,7 +10,9 @@ public class VidaPlayer : MonoBehaviour
     public int vidaDoPlayer;
     public int vidaMaximaPlayer = 10;
 
-    public Slider barraDeVidaPlayer; 
+    public Slider barraDeVidaPlayer;
+
+    public ControllGame genJ; //acessar o script ContollGame
 
     // Start is called before the first frame update
     void Start()
@@ -18,13 +20,15 @@ public class VidaPlayer : MonoBehaviour
         if (barraDeVidaPlayer == null)
         {
             barraDeVidaPlayer = FindObjectOfType<Slider>();
-            Debug.LogError("Barra de Vida do Player não foi atribuída no Inspector!");
+            Debug.LogError("Barra de Vida do Player nï¿½o foi atribuï¿½da no Inspector!");
             return;
         }
 
         vidaDoPlayer = vidaMaximaPlayer;
         barraDeVidaPlayer.maxValue = vidaDoPlayer;
         barraDeVidaPlayer.value = vidaDoPlayer;
+
+        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
     }
 
     // Update is called once per frame
@@ -43,8 +47,7 @@ public class VidaPlayer : MonoBehaviour
 
         if(vidaDoPlayer <= 0)
         {
-            Debug.Log("Morreu");
-            gameObject.SetActive(false); // Desativa o jogador
+            genJ.AbreGameOver();
         }
     }
 
