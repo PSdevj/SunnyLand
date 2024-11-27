@@ -9,6 +9,8 @@ TagManager:
   - Inimigo
   - Item
   - Gema
+  - win
+  - Fire
   layers:
   - Default
   - TransparentFX

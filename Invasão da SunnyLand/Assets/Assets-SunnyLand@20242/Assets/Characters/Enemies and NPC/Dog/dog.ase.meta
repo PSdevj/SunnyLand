@@ -330,7 +330,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: dog_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -339,7 +339,7 @@ ScriptedImporter:
         width: 289
         height: 74
       spriteId: 37bf8c9ec4352a8439f7351811000415
-    - name: Frame_1
+    - name: dog_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -348,7 +348,7 @@ ScriptedImporter:
         width: 289
         height: 74
       spriteId: 19f830f893078de46bf58c282dd293d0
-    - name: Frame_2
+    - name: dog_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -357,7 +357,7 @@ ScriptedImporter:
         width: 287
         height: 74
       spriteId: e1b65acd9b22ef247931bb15c7267a5e
-    - name: Frame_3
+    - name: dog_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -366,7 +366,7 @@ ScriptedImporter:
         width: 288
         height: 73
       spriteId: b20c60c633f8c1243ad237fb64daec5d
-    - name: Frame_4
+    - name: dog_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -375,7 +375,7 @@ ScriptedImporter:
         width: 287
         height: 72
       spriteId: 229ba854dc2003a4baf1a36f711541af
-    - name: Frame_5
+    - name: dog_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -384,7 +384,7 @@ ScriptedImporter:
         width: 291
         height: 73
       spriteId: 1b0154f2cad95e94ba218805ae3d9afb
-    - name: Frame_6
+    - name: dog_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -393,7 +393,7 @@ ScriptedImporter:
         width: 288
         height: 75
       spriteId: ddc11ce21f067304980ceec9d76b7c44
-    - name: Frame_7
+    - name: dog_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -402,7 +402,7 @@ ScriptedImporter:
         width: 288
         height: 75
       spriteId: ed7a72c04d0f0fd4abfdc464b57e246e
-    - name: Frame_8
+    - name: dog_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -411,7 +411,7 @@ ScriptedImporter:
         width: 289
         height: 73
       spriteId: 7cd4bd98486fac44c8a5aa1dbf260d67
-    - name: Frame_9
+    - name: dog_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:

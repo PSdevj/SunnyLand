@@ -16,6 +16,15 @@ public class ControllPlayer : MonoBehaviour
 
     public Animator animacaoPlayer; //controla a animação do player
 
+    public ControllGame genJ; //acessar o script ContollGame
+
+
+    //responsável pelo tiro básico do player.
+    public GameObject laserPlayer;
+    public Transform localLaserPlayer;
+    public float tempoMaximoTiro;
+    public float tempoAtualTiro;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +32,10 @@ public class ControllPlayer : MonoBehaviour
         corpoPlayer = GetComponent<Rigidbody2D>();
         playerAbilities = GetComponent<PlayerAbilities>(); // Certifique-se de que o script está no mesmo GameObject
         animacaoPlayer = GetComponent<Animator>();
+        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
+
+
+        tempoAtualTiro = tempoMaximoTiro;
     }
 
     // Update is called once per frame
@@ -42,7 +55,17 @@ public class ControllPlayer : MonoBehaviour
             // Vira para a esquerda
             transform.localScale = new Vector3(-1, 1, 1);
         }
+
+        if (tempoAtualTiro <= 0)
+        {
+            Atirar();
+        }
+        tempoAtualTiro -= Time.deltaTime;
+
+
     }
+
+
 
     public void Movimentação()
     {
@@ -51,12 +74,13 @@ public class ControllPlayer : MonoBehaviour
 
         if (velocidadePlayer != 0)
         {
-            animacaoPlayer.SetBool("andando", true); //se a velocidade o player for diferente de ZERO, a anaimação de correndo vai rodar
+            animacaoPlayer.SetBool("Andando", true); //se a velocidade o player for diferente de ZERO, a anaimação de correndo vai rodar
         }
         else
         {
-            animacaoPlayer.SetBool("andando", false);
+            animacaoPlayer.SetBool("Andando", false);
         }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -106,4 +130,27 @@ public class ControllPlayer : MonoBehaviour
 
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag ==  "win")
+        {
+            genJ.AbreMenuVitória();
+            
+        }
+    }
+
+
+    public void Atirar()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(laserPlayer, localLaserPlayer.position, localLaserPlayer.rotation);
+            tempoAtualTiro = tempoMaximoTiro;
+        
+        }
+  
+    }
+
+    
 }

@@ -14,6 +14,7 @@ public class ControllGame : MonoBehaviour
     [SerializeField] private GameObject menuTutorial;
     [SerializeField] private GameObject menuVitoria;
     [SerializeField] private GameObject menuGameOver;
+    [SerializeField] private GameObject menuPlayer;
 
 
     // Start is called before the first frame update
@@ -67,6 +68,7 @@ public class ControllGame : MonoBehaviour
     public void AbreMenuVitória()
     {
         menuVitoria.SetActive(true);
+        menuPlayer.SetActive(false);
         Time.timeScale = 0;
         gameLigado = false;
     }
@@ -74,6 +76,7 @@ public class ControllGame : MonoBehaviour
     public void AbreGameOver()
     {
         menuGameOver.SetActive(true);
+        menuPlayer.SetActive(false);
         Time.timeScale = 0;
         gameLigado = false;
     }
@@ -94,7 +97,7 @@ public class ControllGame : MonoBehaviour
 
     public void NextLevel() //Avançar para a próxima fase
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex * 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }

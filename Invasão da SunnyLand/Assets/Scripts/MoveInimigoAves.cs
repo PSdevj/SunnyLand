@@ -20,28 +20,31 @@ public class MoveInimigoAves : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
+
+
         if (this.transform.position.y > pontoA.position.y)
         {
-            moveInimigo = true;
-            
+            transform.Translate(Vector3.up * velocidadeInimigo * Time.deltaTime);
 
         }
         else if (this.transform.position.y < pontoB.position.y)
         {
-            moveInimigo = false;
+            transform.Translate(Vector3.down * velocidadeInimigo * Time.deltaTime);
 
         }
 
-        if (moveInimigo)
+
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Fire")
         {
-            transform.position = new Vector2(transform.position.x, transform.position.y - velocidadeInimigo * Time.deltaTime);
+            Destroy(gameObject);
         }
-        else if (!moveInimigo)
-        {
-            transform.position = new Vector2(transform.position.x, transform.position.y + velocidadeInimigo * Time.deltaTime);
-        }
-
-
     }
 }
 
