@@ -6,6 +6,7 @@ public class PlayerAbilities : MonoBehaviour
 {
     private bool canDoubleJump = false;
     private bool canShoot = false;
+    private string currentProjectile = "Default";
 
     public GameObject projectilePrefab;
 
@@ -37,12 +38,12 @@ public class PlayerAbilities : MonoBehaviour
                 Debug.Log("Habilidade de pulo duplo desbloqueada!");
                 break;
 
-                /*case "":
-                     = true;
-                    Debug.Log("Habilidade de  desbloqueada!");
-                    break;
+            case "Projétil Rastreador":
+                currentProjectile = "Homing";
+                Debug.Log("Projétil rastreador desbloqueado!");
+                break;
 
-                case "":
+                /*case "":
                      = true;
                     Debug.Log("Habilidade de  desbloqueada!");
                     break;
@@ -59,40 +60,41 @@ public class PlayerAbilities : MonoBehaviour
     }
     private void Atirar()
     {
-        //Verifica se o player está virado para a direita
-        if(transform.localScale.x > 0)
+        // Verifica se já passou o tempo necessário para o próximo tiro
+        if (Time.time >= nextFireTime)
         {
-            // Verifica se já passou o tempo necessário para o próximo tiro
-            if (Time.time >= nextFireTime)
-            {
-                // Atualiza o tempo do próximo tiro permitido
-                nextFireTime = Time.time + fireRate;
+            // Atualiza o tempo do próximo tiro permitido
+            nextFireTime = Time.time + fireRate;
 
-                // Instanciar o projétil
-                GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
+            // Determina a direção do disparo com base na orientação do jogador
+            float shootDirection = transform.localScale.x > 0 ? 1f : -1f;
 
-                // Adicionar movimento ao projétil
-                Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-                if (rb != null)
-                {
-                    Vector2 shootDirection = shootPoint.right; // Direção do disparo
-                    rb.velocity = shootDirection * projectileSpeed;
-                }
-                else
-                {
-                    Debug.LogWarning("O projétil não possui um Rigidbody2D!");
-                }
-            }
-            else
+            // Instancia o projétil na posição correta
+            GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+
+            switch (currentProjectile)
             {
-                Debug.Log("Esperando cooldown para atirar novamente!");
+                case "Homing":
+                    projectile = Instantiate(Resources.Load<GameObject>("HomingProjectile"), shootPoint.position, shootPoint.rotation);
+                    break;
             }
-        }
-        else
-        {
-            Debug.Log("Não pode atirar porque o jogador está virado para a esquerda");
+
+            // Configura a velocidade do projétil
+            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.velocity = new Vector2(shootDirection * projectileSpeed, 0); // Movimento horizontal
+            }
+
+            // Ajusta a escala do projétil para a direção correta
+            projectile.transform.localScale = new Vector3(
+                Mathf.Abs(projectile.transform.localScale.x) * shootDirection,
+                projectile.transform.localScale.y,
+                projectile.transform.localScale.z
+            );
         }
     }
+
     public bool CanDoubleJump()
     {
         return canDoubleJump; // Retorna se o pulo duplo está desbloqueado

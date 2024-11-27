@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GemPickUp : MonoBehaviour
+public class PickUp : MonoBehaviour
 {
-    public string abilityName; // Nome da habilidade que a gema desbloqueia
+    public string abilityName; // Nome da habilidade que o item desbloqueia
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,7 +16,7 @@ public class GemPickUp : MonoBehaviour
                 playerAbilities.UnlockAbility(abilityName); // Desbloqueia a habilidade no player
             }
 
-            Destroy(gameObject); // Destroi a gema após a coleta
+            Destroy(gameObject); // Destroi o item após a coleta
         }
     }
 }

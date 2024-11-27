@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ControllPlayer : MonoBehaviour
 {
-
     public Rigidbody2D corpoPlayer;
     public float velocidadePlayer;
 
@@ -21,7 +20,7 @@ public class ControllPlayer : MonoBehaviour
     void Start()
     {
         corpoPlayer = GetComponent<Rigidbody2D>();
-        playerAbilities = GetComponent<PlayerAbilities>(); // Certifique-se de que o script está no mesmo GameObject
+        playerAbilities = GetComponent<PlayerAbilities>();
         animacaoPlayer = GetComponent<Animator>();
     }
 
@@ -51,7 +50,7 @@ public class ControllPlayer : MonoBehaviour
 
         if (velocidadePlayer != 0)
         {
-            animacaoPlayer.SetBool("andando", true); //se a velocidade o player for diferente de ZERO, a anaimação de correndo vai rodar
+            animacaoPlayer.SetBool("andando", true); //se a velocidade o player for diferente de ZERO, a animação de correndo vai rodar
         }
         else
         {

@@ -113,12 +113,12 @@ TextureImporter:
       name: RedWerwolf_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 506
-        width: 53
-        height: 50
+        x: 0
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: RedWerwolf_1
       rect:
         serializedVersion: 2
-        x: 164
-        y: 505
-        width: 61
-        height: 58
+        x: 128
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: RedWerwolf_2
       rect:
         serializedVersion: 2
-        x: 300
-        y: 500
-        width: 59
-        height: 60
+        x: 256
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: RedWerwolf_3
       rect:
         serializedVersion: 2
-        x: 422
-        y: 500
-        width: 54
-        height: 61
+        x: 384
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: RedWerwolf_4
       rect:
         serializedVersion: 2
-        x: 27
-        y: 375
-        width: 70
-        height: 56
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: RedWerwolf_5
       rect:
         serializedVersion: 2
-        x: 165
-        y: 368
-        width: 58
-        height: 64
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: RedWerwolf_6
       rect:
         serializedVersion: 2
-        x: 283
-        y: 370
-        width: 71
-        height: 70
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: RedWerwolf_7
       rect:
         serializedVersion: 2
-        x: 416
-        y: 369
-        width: 70
-        height: 67
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: RedWerwolf_8
       rect:
         serializedVersion: 2
-        x: 29
-        y: 235
-        width: 72
-        height: 70
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: RedWerwolf_9
       rect:
         serializedVersion: 2
-        x: 161
-        y: 237
-        width: 72
-        height: 70
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -323,12 +323,12 @@ TextureImporter:
       name: RedWerwolf_10
       rect:
         serializedVersion: 2
-        x: 285
-        y: 237
-        width: 72
-        height: 82
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: RedWerwolf_11
       rect:
         serializedVersion: 2
-        x: 412
-        y: 242
-        width: 67
-        height: 67
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: RedWerwolf_12
       rect:
         serializedVersion: 2
-        x: 541
-        y: 239
-        width: 79
-        height: 65
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,12 +386,12 @@ TextureImporter:
       name: RedWerwolf_13
       rect:
         serializedVersion: 2
-        x: 665
-        y: 240
-        width: 80
-        height: 65
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: RedWerwolf_14
       rect:
         serializedVersion: 2
-        x: 25
-        y: 104
-        width: 76
-        height: 79
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -428,12 +428,12 @@ TextureImporter:
       name: RedWerwolf_15
       rect:
         serializedVersion: 2
-        x: 150
-        y: 112
-        width: 72
-        height: 72
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: RedWerwolf_16
       rect:
         serializedVersion: 2
-        x: 289
-        y: 108
-        width: 91
-        height: 77
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,12 +470,12 @@ TextureImporter:
       name: RedWerwolf_17
       rect:
         serializedVersion: 2
-        x: 416
-        y: 104
-        width: 96
-        height: 87
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -491,12 +491,12 @@ TextureImporter:
       name: RedWerwolf_18
       rect:
         serializedVersion: 2
-        x: 553
-        y: 111
-        width: 73
-        height: 66
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: RedWerwolf_19
       rect:
         serializedVersion: 2
-        x: 684
-        y: 108
-        width: 55
-        height: 78
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -533,19 +533,19 @@ TextureImporter:
       name: RedWerwolf_20
       rect:
         serializedVersion: 2
-        x: 31
+        x: 0
         y: 0
-        width: 68
-        height: 45
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 672e1f4f894e0364a9d28e6cfbb73fcc
-      internalID: 225960347
+      spriteID: 9214f9a9e4ccbe94ca42d062aef2c5e7
+      internalID: 1189393917
       vertices: []
       indices: 
       edges: []
@@ -554,19 +554,19 @@ TextureImporter:
       name: RedWerwolf_21
       rect:
         serializedVersion: 2
-        x: 157
+        x: 128
         y: 0
-        width: 66
-        height: 48
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1165b804e04b65e459cf4686c3c933d3
-      internalID: -45594490
+      spriteID: b1d7090f7575877489d576e5e707e2aa
+      internalID: 1287250894
       vertices: []
       indices: 
       edges: []
@@ -575,19 +575,19 @@ TextureImporter:
       name: RedWerwolf_22
       rect:
         serializedVersion: 2
-        x: 269
+        x: 256
         y: 0
-        width: 80
-        height: 45
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51c92c28aac058447b1b072fbc0ff968
-      internalID: 1223878883
+      spriteID: c44098ece47a15f4cb7ccfb40c447b37
+      internalID: 373283358
       vertices: []
       indices: 
       edges: []
@@ -596,19 +596,19 @@ TextureImporter:
       name: RedWerwolf_23
       rect:
         serializedVersion: 2
-        x: 417
+        x: 384
         y: 0
-        width: 72
-        height: 46
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f53489108b9318244aeed89cb09e05a7
-      internalID: -1680491836
+      spriteID: 4cde57f125be73043992c1620777a2bf
+      internalID: 1491276329
       vertices: []
       indices: 
       edges: []
@@ -617,19 +617,19 @@ TextureImporter:
       name: RedWerwolf_24
       rect:
         serializedVersion: 2
-        x: 563
+        x: 512
         y: 0
-        width: 50
-        height: 30
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa037257694163f46ba9a25674cd45e5
-      internalID: 1184449116
+      spriteID: 95f7c55817d0fa8429c5ae37fea4e4ed
+      internalID: 1806050065
       vertices: []
       indices: 
       edges: []
@@ -638,19 +638,19 @@ TextureImporter:
       name: RedWerwolf_25
       rect:
         serializedVersion: 2
-        x: 680
+        x: 640
         y: 0
-        width: 65
-        height: 28
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f36acd6846d1cd4cb3fe66cb39c4104
-      internalID: 1517425290
+      spriteID: 93917edf811f0cd49941386cd927d646
+      internalID: -1479013667
       vertices: []
       indices: 
       edges: []
@@ -679,12 +679,12 @@ TextureImporter:
       RedWerwolf_18: 1520059530
       RedWerwolf_19: 1479024399
       RedWerwolf_2: -2027431669
-      RedWerwolf_20: 225960347
-      RedWerwolf_21: -45594490
-      RedWerwolf_22: 1223878883
-      RedWerwolf_23: -1680491836
-      RedWerwolf_24: 1184449116
-      RedWerwolf_25: 1517425290
+      RedWerwolf_20: 1189393917
+      RedWerwolf_21: 1287250894
+      RedWerwolf_22: 373283358
+      RedWerwolf_23: 1491276329
+      RedWerwolf_24: 1806050065
+      RedWerwolf_25: -1479013667
       RedWerwolf_3: 346403421
       RedWerwolf_4: -215601905
       RedWerwolf_5: -1581283340

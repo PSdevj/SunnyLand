@@ -9,6 +9,7 @@ TagManager:
   - Inimigo
   - Item
   - Gema
+  - "Proj\xE9til"
   layers:
   - Default
   - TransparentFX
