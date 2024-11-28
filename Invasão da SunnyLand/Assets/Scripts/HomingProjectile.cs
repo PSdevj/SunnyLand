@@ -80,8 +80,11 @@ public class HomingProjectile : MonoBehaviour
         {
             // Aqui você pode adicionar lógica para aplicar dano ao inimigo
             Debug.Log("Inimigo atingido! Dano causado: " + damage);
+        }
 
-            // Destroi o projétil ao colidir
+        // Destroi o projétil ao colidir com qualquer coisa que não seja o jogador
+        if (!collision.gameObject.CompareTag("Player"))
+        {
             Destroy(gameObject);
         }
     }

@@ -2167,7 +2167,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6202343916021454289, guid: 7162f770710b6444ca01b924dfeea175, type: 3}
       propertyPath: abilityName
-      value: Agachar
+      value: "Proj\xE9til Poderoso"
       objectReference: {fileID: 0}
     - target: {fileID: 511985502665636443, guid: 7162f770710b6444ca01b924dfeea175, type: 3}
       propertyPath: m_Name
@@ -3374,8 +3374,7 @@ MonoBehaviour:
   dashDuration: 0.2
   dashCooldown: 1
   isDashing: 0
-  isCrouching: 0
-  projectilePrefab: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
+  projectilePowerfull: {fileID: 6462359050756171763, guid: 956a1da044395dd428bbe3d17780b2fc, type: 3}
   projectile: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
   homingprojectile: {fileID: 8318158797148765289, guid: edb2b7056801e6b489d3a2626eb3ea7d, type: 3}
   controllPlayer: {fileID: 1388486734}
@@ -4673,7 +4672,7 @@ Transform:
   m_GameObject: {fileID: 1945072647}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.72, y: -0.24000001, z: -0.041504864}
+  m_LocalPosition: {x: 1.37, y: -0.26, z: -0.041504864}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

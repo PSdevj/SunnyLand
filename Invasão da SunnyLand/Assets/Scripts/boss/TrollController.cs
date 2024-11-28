@@ -120,7 +120,7 @@ public class TrollController : MonoBehaviour
             // Aplica o impulso ao Rigidbody2D
             rb.velocity = jumpVelocity;
 
-            // Reduz a vida do jogador (chama o script do jogador diretamente)
+            //Reduz a vida do jogador(chama o script do jogador diretamente)
             //if (player != null) // Confirma se o jogador existe
             //{
             //    //Forma de dano na animação
@@ -179,7 +179,14 @@ public class TrollController : MonoBehaviour
             isGrounded = false; // Não está mais no chão
         }
     }
-
+    public void DamagePlayer()
+    {
+        VidaPlayer vidaPlayer = player.GetComponent<VidaPlayer>();
+        if (vidaPlayer != null)
+        {
+            vidaPlayer.TomarDano(1);
+        }
+    }
 
     public void ExecuteJump()
     {

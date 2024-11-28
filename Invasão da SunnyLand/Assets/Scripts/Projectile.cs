@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjetilPlayer : MonoBehaviour
+public class Projectile : MonoBehaviour
 {
     public float speed;
     public float lifetime = 5f; // Tempo antes do projétil desaparecer
@@ -22,8 +22,11 @@ public class ProjetilPlayer : MonoBehaviour
             {
                 bossHealth.TakeDamage(damage);
             }
+        }
 
-            // Destroi o projétil após o impacto
+        // Destroi o projétil ao colidir com qualquer coisa que não seja o jogador
+        if (!collision.gameObject.CompareTag("Player"))
+        {
             Destroy(gameObject);
         }
     }

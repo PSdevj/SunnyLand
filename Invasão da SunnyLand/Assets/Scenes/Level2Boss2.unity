@@ -1854,7 +1854,7 @@ Transform:
   m_GameObject: {fileID: 248888070}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.55, y: 0.99, z: 0}
+  m_LocalPosition: {x: 3.38, y: 0.92, z: 0}
   m_LocalScale: {x: 9.2201, y: 9.2201, z: 9.2201}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1877,8 +1877,8 @@ MonoBehaviour:
   detectionRange: 10
   attackCooldown: 7
   player: {fileID: 674487535}
-  jumpForce: 5
-  jumpHorizontalForce: 3
+  jumpForce: 6
+  jumpHorizontalForce: 5
   isGrounded: 0
 --- !u!114 &248888075
 MonoBehaviour:
@@ -2617,6 +2617,7 @@ GameObject:
   - component: {fileID: 674487530}
   - component: {fileID: 674487529}
   - component: {fileID: 674487536}
+  - component: {fileID: 674487537}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2841,6 +2842,22 @@ MonoBehaviour:
   shootPoint: {fileID: 768168454}
   projectileSpeed: 5
   fireRate: 2
+--- !u!114 &674487537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674487528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71326da2b84d0c489afaa931b7626ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaDoPlayer: 0
+  vidaMaximaPlayer: 10
+  barraDeVidaPlayer: {fileID: 254789625}
+  genJ: {fileID: 1199954869}
 --- !u!1 &680179651
 GameObject:
   m_ObjectHideFlags: 0

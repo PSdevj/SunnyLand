@@ -10,14 +10,13 @@ public class PlayerAbilities : MonoBehaviour
 
     private bool canDash = false;
     public bool isDashing = false; // Indica se está no meio de um dash
-    public bool isCrouching = false; // Indica se o jogador está agachado
 
     private bool canDoubleJump = false;
     private bool canShoot = false;
     private string currentProjectile = "Default";
     private float nextDashTime = 0f; // Tempo para permitir o próximo dash
 
-    public GameObject projectilePrefab;
+    public GameObject projectilePowerfull;
     public GameObject projectile;
 
     public GameObject homingprojectile;
@@ -45,15 +44,6 @@ public class PlayerAbilities : MonoBehaviour
         {
             Dash();
         }
-        // Verifica se o botão de agachar foi pressionado
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            StartCrouch();
-        }
-        else if (Input.GetKeyUp(KeyCode.C))
-        {
-            StopCrouch();
-        }
     }
     public void UnlockAbility(string abilityName)
     {
@@ -72,7 +62,7 @@ public class PlayerAbilities : MonoBehaviour
             case "Projétil Rastreador":
                 currentProjectile = "Homing";
                 canShoot = true;
-                Debug.Log("Projétil rastreador desbloqueado!");
+                Debug.Log("Projétil rastreador desbloqueado! Agora você não precisa se preocupar em mirar nos seus inimigos!!");
                 break;
 
             case "Dash":
@@ -80,14 +70,15 @@ public class PlayerAbilities : MonoBehaviour
                 Debug.Log("Habilidade de Dash desbloqueada!");
                 break;
 
-                //case "":
-                //     = true;
-                //    Debug.Log("Habilidade de  desbloqueada!");
-                //    break;
+            case "Projétil Poderoso":
+                currentProjectile = "Powerfull";  
+                canShoot = true;
+                Debug.Log("Projétil poderoso desbloqueado! Agora você da 5 de dano a mais!!");
+                break;
 
-                //default:
-                //    Debug.LogWarning("Habilidade desconhecida: " + abilityName);
-                //    break;
+            default:
+                Debug.LogWarning("Habilidade desconhecida: " + abilityName);
+                break;
         }
     }
     private void Atirar()
@@ -115,9 +106,14 @@ public class PlayerAbilities : MonoBehaviour
                     //    projectile.GetComponent<SpriteRenderer>().flipX = false;
                     //}
                     break;
+
+                case "Powerfull":
+                    projectile = Instantiate(projectilePowerfull, shootPoint.position, shootPoint.rotation);
+                    break;
+
                 default:
                     // Instancia o projétil na posição correta
-                    projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+                    projectile = Instantiate(projectile, shootPoint.position, Quaternion.identity);
                     break;
             }
 
@@ -186,27 +182,5 @@ public class PlayerAbilities : MonoBehaviour
         isDashing = false; // Reseta o estado de Dash
         controllPlayer.corpoPlayer.gravityScale = originalGravity; // Restaura gravidade
         controllPlayer.animacaoPlayer.SetBool("Andando", Mathf.Abs(controllPlayer.velocidadePlayer) > 0);
-    }
-    private void StartCrouch()
-    {
-        if (isCrouching) return; // Evita que o método seja chamado repetidamente
-
-        isCrouching = true;
-        controllPlayer.animacaoPlayer.SetBool("Crouching", true); // Ativa a animação de agachamento
-
-        // Corrigir a escala do personagem
-        transform.localScale = new Vector3(1, 1, 1); 
-        Debug.Log("Jogador agachou!");
-    }
-
-    private void StopCrouch()
-    {
-        if (!isCrouching) return; // Evita que o método seja chamado repetidamente
-
-        isCrouching = false;
-        controllPlayer.animacaoPlayer.SetBool("Crouching", false); // Desativa a animação de agachamento
-                                                                 
-        transform.localScale = new Vector3(1, 1, 1); 
-        Debug.Log("Jogador parou de agachar!");
     }
 }
