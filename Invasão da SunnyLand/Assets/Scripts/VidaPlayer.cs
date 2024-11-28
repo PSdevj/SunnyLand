@@ -35,7 +35,7 @@ public class VidaPlayer : MonoBehaviour
     {
         if(collision.gameObject.tag == "Inimigo")
         {
-            vidaDoPlayer --;
+            //vidaDoPlayer --;
             barraDeVidaPlayer.value = vidaDoPlayer;
         }
 

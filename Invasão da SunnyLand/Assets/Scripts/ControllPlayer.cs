@@ -49,8 +49,8 @@ public class ControllPlayer : MonoBehaviour
     }
     public void Movimentacao()
     {
-        // Se o Dash estiver ativo, ignore o controle normal
-        if (isDashing) return;
+        // Se o Dash ou agachamento estiverem ativos, ignore o controle normal
+        if (isDashing || playerAbilities.isCrouching) return;
 
         velocidadePlayer = Input.GetAxis("Horizontal") * 3.5f;
         corpoPlayer.velocity = new Vector2(velocidadePlayer, corpoPlayer.velocity.y);

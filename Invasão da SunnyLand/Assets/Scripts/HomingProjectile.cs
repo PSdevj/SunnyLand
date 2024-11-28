@@ -43,7 +43,7 @@ public class HomingProjectile : MonoBehaviour
 
         rb.angularVelocity = -rotateAmount * rotationSpeed;
 
-        rb.velocity = transform.right * rotationSpeed * Time.deltaTime;
+        rb.velocity = transform.right * speed * Time.deltaTime;
 
     }
 

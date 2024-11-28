@@ -9,12 +9,13 @@ public class PlayerAbilities : MonoBehaviour
     [SerializeField] private float dashCooldown = 1f; // Tempo de espera entre dashes
 
     private bool canDash = false;
-    private bool isDashing = false; // Indica se está no meio de um dash
-    private float nextDashTime = 0f; // Tempo para permitir o próximo dash
+    public bool isDashing = false; // Indica se está no meio de um dash
+    public bool isCrouching = false; // Indica se o jogador está agachado
 
     private bool canDoubleJump = false;
     private bool canShoot = false;
     private string currentProjectile = "Default";
+    private float nextDashTime = 0f; // Tempo para permitir o próximo dash
 
     public GameObject projectilePrefab;
     public GameObject projectile;
@@ -27,7 +28,6 @@ public class PlayerAbilities : MonoBehaviour
 
     public float fireRate = 0.5f; // Tempo entre os tiros (em segundos)
     private float nextFireTime = 0f; // Controle de quando o próximo tiro pode acontecer
-
     private void Awake()
     {
         controllPlayer = GetComponent<ControllPlayer>();
@@ -44,6 +44,15 @@ public class PlayerAbilities : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             Dash();
+        }
+        // Verifica se o botão de agachar foi pressionado
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            StartCrouch();
+        }
+        else if (Input.GetKeyUp(KeyCode.C))
+        {
+            StopCrouch();
         }
     }
     public void UnlockAbility(string abilityName)
@@ -62,6 +71,7 @@ public class PlayerAbilities : MonoBehaviour
 
             case "Projétil Rastreador":
                 currentProjectile = "Homing";
+                canShoot = true;
                 Debug.Log("Projétil rastreador desbloqueado!");
                 break;
 
@@ -139,11 +149,7 @@ public class PlayerAbilities : MonoBehaviour
 
     private void Dash()
     {
-        if (!canDash || Time.time < nextDashTime)
-        {
-            Debug.Log("Dash não permitido ou em cooldown");
-            return;
-        }
+        if (!canDash || Time.time < nextDashTime) return;
 
         // Marca que o Dash está em execução
         isDashing = true;
@@ -180,6 +186,27 @@ public class PlayerAbilities : MonoBehaviour
         isDashing = false; // Reseta o estado de Dash
         controllPlayer.corpoPlayer.gravityScale = originalGravity; // Restaura gravidade
         controllPlayer.animacaoPlayer.SetBool("Andando", Mathf.Abs(controllPlayer.velocidadePlayer) > 0);
-        Debug.Log("Dash concluído");
+    }
+    private void StartCrouch()
+    {
+        if (isCrouching) return; // Evita que o método seja chamado repetidamente
+
+        isCrouching = true;
+        controllPlayer.animacaoPlayer.SetBool("Crouching", true); // Ativa a animação de agachamento
+
+        // Corrigir a escala do personagem
+        transform.localScale = new Vector3(1, 1, 1); 
+        Debug.Log("Jogador agachou!");
+    }
+
+    private void StopCrouch()
+    {
+        if (!isCrouching) return; // Evita que o método seja chamado repetidamente
+
+        isCrouching = false;
+        controllPlayer.animacaoPlayer.SetBool("Crouching", false); // Desativa a animação de agachamento
+                                                                 
+        transform.localScale = new Vector3(1, 1, 1); 
+        Debug.Log("Jogador parou de agachar!");
     }
 }

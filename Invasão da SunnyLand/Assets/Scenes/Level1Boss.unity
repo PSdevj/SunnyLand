@@ -3755,6 +3755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   corpoPlayer: {fileID: 1771048362}
   velocidadePlayer: 2
+  isDashing: 0
   esquerda: 0
   animacaoPlayer: {fileID: 0}
   genJ: {fileID: 1031650554}
@@ -3931,10 +3932,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 228dada00b062b44dae3d5e6fdbf1db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dashSpeed: 15
+  dashDuration: 0.2
+  dashCooldown: 1
+  isDashing: 0
+  isCrouching: 0
   projectilePrefab: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
   projectile: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
   homingprojectile: {fileID: 8318158797148765289, guid: edb2b7056801e6b489d3a2626eb3ea7d, type: 3}
-  controllPlayer: {fileID: 0}
+  controllPlayer: {fileID: 1771048360}
   shootPoint: {fileID: 1477132760}
   projectileSpeed: 10
   fireRate: 5

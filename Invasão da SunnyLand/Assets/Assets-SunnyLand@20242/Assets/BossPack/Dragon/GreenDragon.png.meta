@@ -3,7 +3,7 @@ guid: 1e8befff9bca477294a1fe952411acfb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +142,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -147,847 +155,890 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 768
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68913a6e4cf988841b392f9687dfd6b2
-      internalID: 4723107735738678597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 768
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40ccaf9485aaeb9488cc5f493d21b35a
-      internalID: -7385789195546760866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 768
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39946b4d4d1455042bc3ad1531b9988c
-      internalID: 3234629978573100161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 768
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cf76760e77940948b875ef59276c335
-      internalID: 6373048116405451881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Projectile_0
+      name: GreenDragon_0
       rect:
         serializedVersion: 2
         x: 512
-        y: 768
+        y: 832
         width: 128
-        height: 128
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3c6b03cfd14a894d86c6686799272e5
-      internalID: -341134305
+      spriteID: ede3b24166a6605408bc6a18f8bdf4a7
+      internalID: 1889979439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Projectile_1
+      name: GreenDragon_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74addc546b1c8574b823823aa3fa4f44
+      internalID: -661310240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenDragon_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817a6577ee5350844a57ddae3322f082
+      internalID: 46264321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenDragon_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ebf7399fda1f04393323fdd329319b
+      internalID: 1585084791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenDragon_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff6fff30aa78a8439d876e58325e5cd
+      internalID: 535533573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenDragon_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d6c5bff19475348995e9787adc88b6
+      internalID: -1854023203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenDragon_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ace74ad4877b0c4d88423e62dc439b3
+      internalID: 617756910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenDragon_7
       rect:
         serializedVersion: 2
         x: 640
         y: 768
         width: 128
-        height: 128
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be3256213f43b8d43a87450e2ecfbf22
-      internalID: 1710350945
+      spriteID: bfeb23e7314175649ae7ff8f4ee6c2ca
+      internalID: 1065497333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ready_0
+      name: GreenDragon_8
       rect:
         serializedVersion: 2
         x: 0
         y: 640
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8c19c9b93150de489edd9ac518d95cc
-      internalID: -2978808618200810919
+      spriteID: 166fa94d20dca5244bdd12cc06c2d726
+      internalID: -1329214901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ready_1
+      name: GreenDragon_9
       rect:
         serializedVersion: 2
         x: 128
         y: 640
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e599309046bd46941aeb58c942c48796
-      internalID: 7683567802946276634
+      spriteID: d8b0e5945cab8a24ab4a239162fa705f
+      internalID: -1156232664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ready_2
+      name: GreenDragon_10
       rect:
         serializedVersion: 2
         x: 256
         y: 640
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 892d5e0085ab96d42af4131ab5ed9097
-      internalID: 4149154237482698375
+      spriteID: 10dba4ab3f468b742ba91a174edb3200
+      internalID: 1316446752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ready_3
+      name: GreenDragon_11
       rect:
         serializedVersion: 2
         x: 384
         y: 640
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e606ad083d110c4294252884e118bbb
-      internalID: -7736129105856362428
+      spriteID: 8bd78b67cc07774478ab9e2d303140ae
+      internalID: -881202524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_0
+      name: GreenDragon_12
       rect:
         serializedVersion: 2
         x: 0
         y: 512
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fff75b2eca7f644bc1c3d07e25022c
-      internalID: 4944230376442633554
+      spriteID: c0862ff21ede13041b3e5ce659dd9d63
+      internalID: 180492765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_1
+      name: GreenDragon_13
       rect:
         serializedVersion: 2
         x: 128
         y: 512
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ee33f4c61de70499310fae0cd188f7
-      internalID: -2274363484027164459
+      spriteID: 46732a802ab4e174988f369b36866f22
+      internalID: 1401950888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_2
+      name: GreenDragon_14
       rect:
         serializedVersion: 2
         x: 256
         y: 512
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a922013c0bdc0a14d90d043f9340e7d8
-      internalID: 8284087734974297348
+      spriteID: ac65b76fa152cf643a2c344c1c760be4
+      internalID: 1012859998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_3
+      name: GreenDragon_15
       rect:
         serializedVersion: 2
         x: 384
         y: 512
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05b60ea7b249ea44da77331c8c9f8e2d
-      internalID: 5304202850863732263
+      spriteID: bba14a493cc7cef448f59964d13b4800
+      internalID: 1829893877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_4
+      name: GreenDragon_16
       rect:
         serializedVersion: 2
         x: 512
         y: 512
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c53ada4df064bd844b6d474d5fc191a2
-      internalID: 2833043080597125133
+      spriteID: bb5dccb1be336f34989eaffec56c9d48
+      internalID: 798907893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_5
+      name: GreenDragon_17
       rect:
         serializedVersion: 2
         x: 640
         y: 512
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c83b5326327c09d4a87e6c2fbe584a23
-      internalID: -2217414122262695004
+      spriteID: fc825074fc6b0634ca29185b7a30c923
+      internalID: -462090601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_0
+      name: GreenDragon_18
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8645a3a077737ab45a462bb3eff0b46d
-      internalID: -7008412969330441016
+      spriteID: 7fda43d85102a7845b65d6b62e3bdd22
+      internalID: 1976229109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_1
+      name: GreenDragon_19
       rect:
         serializedVersion: 2
         x: 128
         y: 384
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32befc1fbc976904891e34eae4d61ad5
-      internalID: -7763475090823894447
+      spriteID: 6cede03a1b52b284ab8d6171987f7720
+      internalID: 15960060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_2
+      name: GreenDragon_20
       rect:
         serializedVersion: 2
         x: 256
         y: 384
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6d67d3cea548e34aa7b9060cb071e92
-      internalID: 302641331129538988
+      spriteID: d783e0c47234fa041afe4ce1f5bcba27
+      internalID: -616392380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_3
+      name: GreenDragon_21
       rect:
         serializedVersion: 2
         x: 384
         y: 384
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9574d3638c0c39a40bf2baa32b793556
-      internalID: -6329420634031446844
+      spriteID: d7c51017218b98340af768df55e54445
+      internalID: 1556696694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4
+      name: GreenDragon_22
       rect:
         serializedVersion: 2
         x: 512
         y: 384
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2424e852bd600784191a2215ea980cb0
-      internalID: -910092549403018386
+      spriteID: cd007f2dcdeb4634183ab007ebd37593
+      internalID: 844984259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_5
+      name: GreenDragon_23
       rect:
         serializedVersion: 2
         x: 640
         y: 384
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caeea423d2e1e384ea5e2878d0e0e1e7
-      internalID: 221524225039350300
+      spriteID: c24b9eceb6e026641ba745cf49979caa
+      internalID: 1770616838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_0
+      name: GreenDragon_24
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 256
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab1dfc23f4159ef41b1c10edd2ffbabb
-      internalID: 6991849013916550155
+      spriteID: 875e55ca6f389de43ad01832a8251892
+      internalID: 483982907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_1
+      name: GreenDragon_25
       rect:
         serializedVersion: 2
         x: 128
         y: 256
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6679465bde6ea564d8ab8c5f4ccf0984
-      internalID: -276728812324164698
+      spriteID: ec085af5d4a14984890ce370a6dabb28
+      internalID: -1012293807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_2
+      name: GreenDragon_26
       rect:
         serializedVersion: 2
         x: 256
         y: 256
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16e8ad4ad82ab6245b03389eb183dc2b
-      internalID: 3156895337291164288
+      spriteID: f2672d8a0f823ab4484699fe85ae6f55
+      internalID: 1857096079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_3
+      name: GreenDragon_27
       rect:
         serializedVersion: 2
         x: 384
         y: 256
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ebb0bf439eeb348aa28e3409fe5f81
-      internalID: 1400002288684528572
+      spriteID: 0d3b14a8d025c884c8b08afd8b319486
+      internalID: -104471735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_4
+      name: GreenDragon_28
       rect:
         serializedVersion: 2
         x: 512
         y: 256
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b4fff590ccad5542929a61d515ac14d
-      internalID: -1891625820773287384
+      spriteID: bb44a22bacceeba43ba50d6a4dfb389f
+      internalID: 949857614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_5
+      name: GreenDragon_29
       rect:
         serializedVersion: 2
         x: 640
         y: 256
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc60be5361355741aecda8d25cbf6f4
-      internalID: -5789737788129074030
+      spriteID: f004edd33570aef42854e051027258be
+      internalID: 1664593674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_0
+      name: GreenDragon_30
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c403098674be68e41ad6bf273197905b
-      internalID: 870851061
+      spriteID: ff57766fc0ba5604894237280cf8f5d8
+      internalID: -1322271953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_1
+      name: GreenDragon_31
       rect:
         serializedVersion: 2
         x: 128
         y: 128
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c9d348e8ab3d5a49a609397ee31761b
-      internalID: 2041340130
+      spriteID: b101fab50c5e75740aa8d839e15c9f1c
+      internalID: -1392707959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_2
+      name: GreenDragon_32
       rect:
         serializedVersion: 2
         x: 256
         y: 128
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b232de139e363504c8470eb163b14ae8
-      internalID: 1326509612
+      spriteID: cf0503978f9bfc244b6b579cf07724f4
+      internalID: -846319905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_3
+      name: GreenDragon_33
       rect:
         serializedVersion: 2
         x: 384
         y: 128
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b3830ca22eb28a4aaad1cd432109724
-      internalID: 1798496547
+      spriteID: 66bef5f05e7a1084399c84f5ed8dd5af
+      internalID: 2001192818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_4
+      name: GreenDragon_34
       rect:
         serializedVersion: 2
         x: 512
         y: 128
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07bc108f5f7e37e43a30488126ea4ee6
-      internalID: -473751976
+      spriteID: 5a47f0d017be93a499bb99924a1f2bf1
+      internalID: -295112175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_5
+      name: GreenDragon_35
       rect:
         serializedVersion: 2
         x: 640
-        y: 127
+        y: 128
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff8ffa802274fa24d83a0db41b208b5d
-      internalID: -447831967
+      spriteID: c9119fe9cca794c4daa0f119a0bd6f56
+      internalID: -434291677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_0
+      name: GreenDragon_36
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0a107ffc2482464a8a66c744c2a5e17
-      internalID: -17514963
+      spriteID: 9cbbcade4f89f0f449faf33cc9278c7a
+      internalID: -2141394535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_1
+      name: GreenDragon_37
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a45d6c060d7c72f4db1277fcb4e40da5
-      internalID: 1110528672
+      spriteID: 3931867acdfc03e4f99168ee5201ef70
+      internalID: 1931746389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_2
+      name: GreenDragon_38
       rect:
         serializedVersion: 2
         x: 256
         y: 0
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74ae2d6d66c1e3644bddaa8dce31f083
-      internalID: -265684251
+      spriteID: 8d2431208ea1cf94d94fffbe3e7fea0d
+      internalID: 770155146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_3
+      name: GreenDragon_39
       rect:
         serializedVersion: 2
         x: 384
         y: 0
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5d98955fdcfdbc47aeaa1ddfd3aa178
-      internalID: -1041255580
+      spriteID: 0a34c6df5a7cbbc429f7e7a7ac098758
+      internalID: 435125501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_4
+      name: GreenDragon_40
       rect:
         serializedVersion: 2
         x: 512
         y: 0
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a50b91c9400c9564b9844e0f401c8431
-      internalID: 1188342725
+      spriteID: 7f503e5740e27af4ebcbd2d335987794
+      internalID: -756782070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_5
+      name: GreenDragon_41
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c32b157dc92544f8f62cc4f0c87e16
-      internalID: 2085800660
+      spriteID: 89276cfec65fa4242bc0e1167fcf012f
+      internalID: 269260297
       vertices: []
       indices: 
       edges: []
@@ -1003,35 +1054,50 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Attack_0: -7008412969330441016
-      Attack_1: -7763475090823894447
-      Attack_2: 302641331129538988
-      Attack_3: -6329420634031446844
-      Attack_4: -910092549403018386
-      Attack_5: 221524225039350300
-      Death_0: 6991849013916550155
-      Death_1: -276728812324164698
-      Death_2: 3156895337291164288
-      Death_3: 1400002288684528572
-      Death_4: -1891625820773287384
-      Death_5: -5789737788129074030
-      Idle_0: 4723107735738678597
-      Idle_1: -7385789195546760866
-      Idle_2: 3234629978573100161
-      Idle_3: 6373048116405451881
-      Ready_0: -2978808618200810919
-      Ready_1: 7683567802946276634
-      Ready_2: 4149154237482698375
-      Ready_3: -7736129105856362428
-      Run_0: 4944230376442633554
-      Run_1: -2274363484027164459
-      Run_2: 8284087734974297348
-      Run_3: 5304202850863732263
-      Run_4: 2833043080597125133
-      Run_5: -2217414122262695004
-  spritePackingTag: 
+      GreenDragon_0: 1889979439
+      GreenDragon_1: -661310240
+      GreenDragon_10: 1316446752
+      GreenDragon_11: -881202524
+      GreenDragon_12: 180492765
+      GreenDragon_13: 1401950888
+      GreenDragon_14: 1012859998
+      GreenDragon_15: 1829893877
+      GreenDragon_16: 798907893
+      GreenDragon_17: -462090601
+      GreenDragon_18: 1976229109
+      GreenDragon_19: 15960060
+      GreenDragon_2: 46264321
+      GreenDragon_20: -616392380
+      GreenDragon_21: 1556696694
+      GreenDragon_22: 844984259
+      GreenDragon_23: 1770616838
+      GreenDragon_24: 483982907
+      GreenDragon_25: -1012293807
+      GreenDragon_26: 1857096079
+      GreenDragon_27: -104471735
+      GreenDragon_28: 949857614
+      GreenDragon_29: 1664593674
+      GreenDragon_3: 1585084791
+      GreenDragon_30: -1322271953
+      GreenDragon_31: -1392707959
+      GreenDragon_32: -846319905
+      GreenDragon_33: 2001192818
+      GreenDragon_34: -295112175
+      GreenDragon_35: -434291677
+      GreenDragon_36: -2141394535
+      GreenDragon_37: 1931746389
+      GreenDragon_38: 770155146
+      GreenDragon_39: 435125501
+      GreenDragon_4: 535533573
+      GreenDragon_40: -756782070
+      GreenDragon_41: 269260297
+      GreenDragon_5: -1854023203
+      GreenDragon_6: 617756910
+      GreenDragon_7: 1065497333
+      GreenDragon_8: -1329214901
+      GreenDragon_9: -1156232664
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

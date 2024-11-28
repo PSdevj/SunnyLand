@@ -21,7 +21,6 @@ public class ProjetilPlayer : MonoBehaviour
             if (bossHealth != null)
             {
                 bossHealth.TakeDamage(damage);
-                Debug.Log("dano");
             }
 
             // Destroi o projétil após o impacto
