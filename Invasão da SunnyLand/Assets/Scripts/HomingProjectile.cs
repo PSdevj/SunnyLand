@@ -7,7 +7,7 @@ public class HomingProjectile : MonoBehaviour
     public float speed = 5f; // Velocidade do projétil
     public float rotationSpeed = 200f; // Velocidade de rotação ao seguir o alvo
     public float lifeTime = 5f; // Tempo de vida do projétil
-    public float damage = 25f; // Dano causado ao atingir o alvo
+    public int damage = 1; // Dano causado ao atingir o alvo
     private Rigidbody2D rb;
 
     GameObject nearestEnemy = null;
@@ -43,7 +43,7 @@ public class HomingProjectile : MonoBehaviour
 
         rb.angularVelocity = -rotateAmount * rotationSpeed;
 
-        rb.velocity = transform.right * speed * Time.deltaTime;
+        rb.velocity = transform.right * speed;
 
     }
 
@@ -78,8 +78,11 @@ public class HomingProjectile : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Inimigo"))
         {
-            // Aqui você pode adicionar lógica para aplicar dano ao inimigo
-            Debug.Log("Inimigo atingido! Dano causado: " + damage);
+            BossHealth bossHealth = collision.gameObject.GetComponent<BossHealth>();
+            if (bossHealth != null)
+            {
+                bossHealth.TakeDamage(damage);
+            }
         }
 
         // Destroi o projétil ao colidir com qualquer coisa que não seja o jogador

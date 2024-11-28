@@ -31,6 +31,16 @@ public class LoboController : MonoBehaviour
         {
             player = GameObject.FindGameObjectWithTag("Player").transform; // Procura o player automaticamente
         }
+
+        // Ajusta a direção inicial do boss para olhar na direção do player
+        if (player.position.x > transform.position.x && transform.localScale.x < 0)
+        {
+            Flip();
+        }
+        else if (player.position.x < transform.position.x && transform.localScale.x > 0)
+        {
+            Flip();
+        }
     }
 
     private void Update()
@@ -93,12 +103,24 @@ public class LoboController : MonoBehaviour
             transform.localScale = new Vector3(-10.62414f, 10.62414f, 10.62414f);
         }
 
+        // Verifica se a direção precisa de ajuste no flip
+        if ((direction.x > 0 && transform.localScale.x < 0) || (direction.x < 0 && transform.localScale.x > 0))
+        {
+            Flip();
+        }
+
         // Verifica se está na distância de ataque
         if (distanceToPlayer <= attackRange)
         {
             rb.velocity = Vector2.zero; // Para de se mover ao alcançar o player
             currentState = State.Attack;
         }
+    }
+    private void Flip()
+    {
+        Vector3 scale = transform.localScale;
+        scale.x *= -1; // Inverte apenas o eixo X
+        transform.localScale = scale;
     }
 
     private void AttackState(float distanceToPlayer)

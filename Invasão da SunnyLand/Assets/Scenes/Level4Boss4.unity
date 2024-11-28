@@ -2031,9 +2031,8 @@ MonoBehaviour:
   dashSpeed: 15
   dashDuration: 0.2
   dashCooldown: 1
-  crouchSpeed: 1.5
-  isCrouching: 0
-  projectilePrefab: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
+  isDashing: 0
+  projectilePowerfull: {fileID: 0}
   projectile: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
   homingprojectile: {fileID: 8318158797148765289, guid: edb2b7056801e6b489d3a2626eb3ea7d, type: 3}
   controllPlayer: {fileID: 299736047}
@@ -3709,7 +3708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efbdd21a5851e3e489584c5270616d0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 2
   attackRange: 5
   detectionRange: 20
   attackCooldown: 2
@@ -3760,7 +3759,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.024579525, y: -0.094221264}
+  m_Offset: {x: 0.024579525, y: -0.096935794}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3771,7 +3770,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.55490565, y: 0.45155746}
+  m_Size: {x: 0.55490565, y: 0.45698652}
   m_EdgeRadius: 0
 --- !u!50 &1195047173
 Rigidbody2D:

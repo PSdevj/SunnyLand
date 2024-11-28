@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 362392314985243048}
   - component: {fileID: 7331998801027036434}
   - component: {fileID: 6076542338793590365}
-  - component: {fileID: -6784323949316112234}
+  - component: {fileID: -1031601060096805583}
   m_Layer: 0
-  m_Name: projetilRastreavel
+  m_Name: BoladeFogoDragao
   m_TagString: "Proj\xE9til"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,8 +31,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.06, y: -3.29, z: 0}
-  m_LocalScale: {x: 3.7842, y: 3.7842, z: 3.7842}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 212b4c5bda8ae6448b9f3c245ac588bc, type: 3}
-  m_Color: {r: 0.764151, g: 0.09011213, b: 0.09011213, a: 1}
+  m_Color: {r: 0.9528302, g: 0.5137137, b: 0.26517445, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -151,7 +151,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -165,7 +165,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -181,7 +181,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.29, y: 0.27}
   m_EdgeRadius: 0
---- !u!114 &-6784323949316112234
+--- !u!114 &-1031601060096805583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,10 +190,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8318158797148765289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b5593c71c077a04b84f1b2a4f94929e, type: 3}
+  m_Script: {fileID: 11500000, guid: d493fb0fbd66a8c4db62bee5940a77e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
-  rotationSpeed: 300
-  lifeTime: 5
-  damage: 1

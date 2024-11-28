@@ -32,6 +32,16 @@ public class RexController : MonoBehaviour
         {
             player = GameObject.FindGameObjectWithTag("Player").transform; // Procura o player automaticamente
         }
+
+        // Ajusta a direção inicial do boss para olhar na direção do player
+        if (player.position.x > transform.position.x && transform.localScale.x < 0)
+        {
+            Flip();
+        }
+        else if (player.position.x < transform.position.x && transform.localScale.x > 0)
+        {
+            Flip();
+        }
     }
 
     private void Update()
@@ -84,14 +94,10 @@ public class RexController : MonoBehaviour
         Vector2 direction = (player.position - transform.position).normalized;
         rb.velocity = new Vector2(direction.x * moveSpeed, rb.velocity.y);
 
-        // Flipar a sprite para olhar na direção do player
-        if (direction.x > 0)
+        // Verifica se a direção precisa de ajuste no flip
+        if ((direction.x > 0 && transform.localScale.x < 0) || (direction.x < 0 && transform.localScale.x > 0))
         {
-            transform.localScale = new Vector3(10.62414f, 10.62414f, 10.62414f);
-        }
-        else
-        {
-            transform.localScale = new Vector3(-10.62414f, 10.62414f, 10.62414f);
+            Flip();
         }
 
         // Verifica se está na distância de ataque
@@ -100,6 +106,12 @@ public class RexController : MonoBehaviour
             rb.velocity = Vector2.zero; // Para de se mover ao alcançar o player
             currentState = State.Attack;
         }
+    }
+    private void Flip()
+    {
+        Vector3 scale = transform.localScale;
+        scale.x *= -1; // Inverte apenas o eixo X
+        transform.localScale = scale;
     }
 
     private void AttackState(float distanceToPlayer)

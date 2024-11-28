@@ -362,7 +362,7 @@ Transform:
   m_GameObject: {fileID: 143189634}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.22, y: 2.21, z: 0.018371785}
+  m_LocalPosition: {x: -9.03, y: 2.21, z: 0.018371785}
   m_LocalScale: {x: 0.6, y: 13.6655, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1353,8 +1353,7 @@ MonoBehaviour:
   dashDuration: 0.2
   dashCooldown: 1
   isDashing: 0
-  isCrouching: 0
-  projectilePrefab: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
+  projectilePowerfull: {fileID: 0}
   projectile: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
   homingprojectile: {fileID: 8318158797148765289, guid: edb2b7056801e6b489d3a2626eb3ea7d, type: 3}
   controllPlayer: {fileID: 627895349}
@@ -1420,10 +1419,9 @@ GameObject:
   - component: {fileID: 703619087}
   - component: {fileID: 703619091}
   - component: {fileID: 703619090}
-  - component: {fileID: 703619092}
   - component: {fileID: 703619093}
   m_Layer: 0
-  m_Name: GreenDragon_2
+  m_Name: dragao
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1510,13 +1508,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703619086}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.47, y: 2.83, z: 0}
+  m_LocalRotation: {x: -0, y: 0.9999998, z: -0, w: 0.000673102}
+  m_LocalPosition: {x: 11.02, y: 2.83, z: 0}
   m_LocalScale: {x: 2.4, y: 2.4, z: 2.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 179.923, z: 0}
 --- !u!114 &703619090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1529,11 +1527,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba783bc1bdcd0b43b5e8813abfbfaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
-  attackRange: 8
-  detectionRange: 20
-  attackCooldown: 2
-  player: {fileID: 627895354}
+  attackCooldown: 5
+  fireballPrefab: {fileID: 8318158797148765289, guid: 48ada3a065a858747a3ae11da78f4ebf, type: 3}
+  fireballSpawnPoints:
+  - {fileID: 1877692367}
+  - {fileID: 1338915871}
+  - {fileID: 1845033696}
+  fireballFallSpeed: 5
+  fireballDamage: 1
+  attackDuration: 2
 --- !u!114 &703619091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1546,34 +1548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54b1867fc05594141b0e76a77bc45cce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
---- !u!50 &703619092
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703619086}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  maxHealth: 1
 --- !u!61 &703619093
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2946,6 +2921,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286089115}
   m_CullTransparentMesh: 1
+--- !u!1 &1338915870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1338915871}
+  m_Layer: 0
+  m_Name: B
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1338915871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338915870}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.09, y: 6.26, z: 0.043367196}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2139407377}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1375588913
 GameObject:
   m_ObjectHideFlags: 0
@@ -3200,7 +3206,7 @@ Transform:
   m_GameObject: {fileID: 1605518068}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.09, y: 2.14, z: 0.018371785}
+  m_LocalPosition: {x: 16.74, y: 2.14, z: 0.018371785}
   m_LocalScale: {x: 0.6, y: 13.6655, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3696,6 +3702,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832509373}
   m_CullTransparentMesh: 1
+--- !u!1 &1845033695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1845033696}
+  m_Layer: 0
+  m_Name: C
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1845033696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845033695}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.34, y: 6.14, z: 0.043367196}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2139407377}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1877692366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1877692367}
+  m_Layer: 0
+  m_Name: A
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1877692367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877692366}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.58, y: 6.24, z: 0.043367196}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2139407377}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1970735203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5087,6 +5155,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131373185}
   m_CullTransparentMesh: 1
+--- !u!1 &2139407376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2139407377}
+  m_Layer: 0
+  m_Name: bolas de fogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2139407377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139407376}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.8757315, y: 1.0437572, z: -0.08487206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1877692367}
+  - {fileID: 1338915871}
+  - {fileID: 1845033696}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -5100,3 +5202,4 @@ SceneRoots:
   - {fileID: 1605518070}
   - {fileID: 143189636}
   - {fileID: 848856449}
+  - {fileID: 2139407377}
