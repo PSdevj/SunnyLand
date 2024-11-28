@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 124304043642314100}
   - component: {fileID: 362392314985243048}
   - component: {fileID: 7331998801027036434}
-  - component: {fileID: 1756639956301290480}
   - component: {fileID: 6076542338793590365}
+  - component: {fileID: -6784323949316112234}
   m_Layer: 0
-  m_Name: fireball-1
+  m_Name: projetilRastreavel
   m_TagString: "Proj\xE9til"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,21 +136,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1756639956301290480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8318158797148765289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b273b62b0aa0f244b78ad0e25143870, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  lifetime: 5
-  damage: 1
 --- !u!61 &6076542338793590365
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -166,7 +151,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -196,3 +181,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.29, y: 0.27}
   m_EdgeRadius: 0
+--- !u!114 &-6784323949316112234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8318158797148765289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5593c71c077a04b84f1b2a4f94929e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  rotationSpeed: 300
+  lifeTime: 5
+  damage: 1

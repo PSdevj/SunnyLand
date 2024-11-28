@@ -76,7 +76,7 @@ public class HomingProjectile : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Inimigo"))
         {
             // Aqui você pode adicionar lógica para aplicar dano ao inimigo
             Debug.Log("Inimigo atingido! Dano causado: " + damage);

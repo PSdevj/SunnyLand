@@ -10,8 +10,9 @@ public class ControllPlayer : MonoBehaviour
     private bool isGrounded = false; // Verifica se est� no ch�o
     private bool doubleJumpAvailable = true; // Controla se o pulo duplo pode ser usado
 
+    public bool isDashing = false;
     private PlayerAbilities playerAbilities; // Refer�ncia ao script de habilidades
-
+    public bool esquerda;
 
     public Animator animacaoPlayer; //controla a anima��o do player
 
@@ -37,18 +38,20 @@ public class ControllPlayer : MonoBehaviour
         {
             // Vira para a direita
             transform.localScale = new Vector3(1, 1, 1);
+            esquerda = false;
         }
         else if (velocidadePlayer < 0)
         {
             // Vira para a esquerda
             transform.localScale = new Vector3(-1, 1, 1);
+            esquerda = true;
         }
     }
-
-
-
     public void Movimentacao()
     {
+        // Se o Dash estiver ativo, ignore o controle normal
+        if (isDashing) return;
+
         velocidadePlayer = Input.GetAxis("Horizontal") * 3.5f;
         corpoPlayer.velocity = new Vector2(velocidadePlayer, corpoPlayer.velocity.y);
 
@@ -105,9 +108,6 @@ public class ControllPlayer : MonoBehaviour
         else
         {
             animacaoPlayer.SetBool("pulando", false);
-        }
-        {
-
         }
     }
 

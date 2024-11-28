@@ -44,11 +44,11 @@ public class VidaPlayer : MonoBehaviour
             genJ.AbreGameOver();
         }
 
-        if (collision.gameObject.tag == "Boss")
-        {
-            vidaDoPlayer--;
-            barraDeVidaPlayer.value = vidaDoPlayer;
-        }
+        //if (collision.gameObject.tag == "Boss")
+        //{
+        //    vidaDoPlayer--;
+        //    barraDeVidaPlayer.value = vidaDoPlayer;
+        //}
     }
 
     public void TomarDano(int dano)

@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveInimigoAves : MonoBehaviour
 {
 
-    private bool moveInimigo = false;
+    //private bool moveInimigo = false;
 
     public float velocidadeInimigo = 3f;
     public Transform pontoA;

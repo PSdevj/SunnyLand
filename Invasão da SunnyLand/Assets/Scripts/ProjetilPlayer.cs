@@ -12,15 +12,16 @@ public class ProjetilPlayer : MonoBehaviour
         Destroy(gameObject, lifetime); // Destroi o projétil após o tempo definido
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         // Verifica se atingiu o boss
-        if (collision.CompareTag("Boss"))
+        if (collision.gameObject.CompareTag("Inimigo"))
         {
-            BossHealth bossHealth = collision.GetComponent<BossHealth>();
+            BossHealth bossHealth = collision.gameObject.GetComponent<BossHealth>();
             if (bossHealth != null)
             {
                 bossHealth.TakeDamage(damage);
+                Debug.Log("dano");
             }
 
             // Destroi o projétil após o impacto

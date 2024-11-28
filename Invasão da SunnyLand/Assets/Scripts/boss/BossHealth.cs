@@ -34,8 +34,8 @@ public class BossHealth : MonoBehaviour
         if (isDead) return; // Evita múltiplas chamadas para morrer
 
         isDead = true;
-        animator.Play("death_Wolf"); // Toca a animação de morte
-        Debug.Log("Boss derrotado!");
+        animator.SetTrigger("Die"); // Garante a transição
+        Debug.Log("Boss entrou no estado de morte");
 
         // Destruir o boss após a animação
         StartCoroutine(DestroyAfterDeath());
