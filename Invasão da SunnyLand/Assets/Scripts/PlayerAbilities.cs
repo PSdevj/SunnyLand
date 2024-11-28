@@ -91,15 +91,16 @@ public class PlayerAbilities : MonoBehaviour
 
             // Determina a direção do disparo com base na orientação do jogador
             float shootDirection = transform.localScale.x > 0 ? 1f : -1f;
+            GameObject currentProjectileInstance;
 
             switch (currentProjectile)
             {
                 case "Homing":
-                    projectile = Instantiate(homingprojectile, shootPoint.position, shootPoint.rotation);
+                    currentProjectileInstance = Instantiate(homingprojectile, shootPoint.position, shootPoint.rotation);
 
                     if (controllPlayer.esquerda)
                     {
-                        projectile.GetComponent<SpriteRenderer>().flipX = true;
+                        currentProjectileInstance.GetComponent<SpriteRenderer>().flipX = true;
                     }
                     //else
                     //{
@@ -108,28 +109,27 @@ public class PlayerAbilities : MonoBehaviour
                     break;
 
                 case "Powerfull":
-                    projectile = Instantiate(projectilePowerfull, shootPoint.position, shootPoint.rotation);
+                    currentProjectileInstance = Instantiate(projectilePowerfull, shootPoint.position, shootPoint.rotation);
                     break;
 
                 default:
                     // Instancia o projétil na posição correta
-                    projectile = Instantiate(projectile, shootPoint.position, Quaternion.identity);
+                    currentProjectileInstance = Instantiate(projectile, shootPoint.position, Quaternion.identity);
                     break;
             }
 
             // Configura a velocidade do projétil
-            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+            Rigidbody2D rb = currentProjectileInstance.GetComponent<Rigidbody2D>();
             if (rb != null && currentProjectile != "Homing")
             {
                 rb.velocity = new Vector2(shootDirection * projectileSpeed, 0); // Movimento horizontal
-                Debug.Log(projectileSpeed);
             }
 
             // Ajusta a escala do projétil para a direção correta
-            projectile.transform.localScale = new Vector3(
-                Mathf.Abs(projectile.transform.localScale.x) * shootDirection,
-                projectile.transform.localScale.y,
-                projectile.transform.localScale.z
+            currentProjectileInstance.transform.localScale = new Vector3(
+                Mathf.Abs(currentProjectileInstance.transform.localScale.x) * shootDirection,
+                currentProjectileInstance.transform.localScale.y,
+                currentProjectileInstance.transform.localScale.z
             );
         }
         else

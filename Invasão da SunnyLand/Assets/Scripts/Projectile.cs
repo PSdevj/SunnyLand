@@ -14,7 +14,6 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Verifica se atingiu o boss
         if (collision.gameObject.CompareTag("Inimigo"))
         {
             BossHealth bossHealth = collision.gameObject.GetComponent<BossHealth>();

@@ -45,11 +45,11 @@ public class MoveInimigo : MonoBehaviour
 
        
         }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Fire")
+        if (collision.gameObject.CompareTag("Projétil"))
         {
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }
