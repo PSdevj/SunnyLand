@@ -15,6 +15,8 @@ public class ControllGame : MonoBehaviour
     [SerializeField] private GameObject menuVitoria;
     [SerializeField] private GameObject menuGameOver;
     [SerializeField] private GameObject menuPlayer;
+    [SerializeField] private GameObject menuPause;
+
 
 
     // Start is called before the first frame update
@@ -27,7 +29,13 @@ public class ControllGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
+       
+            if (Input.GetKey(KeyCode.Escape))
+            {
+                AbrePause();
+            }
+       
     }
 
     public bool EstadoDoJogo()
@@ -81,6 +89,19 @@ public class ControllGame : MonoBehaviour
         gameLigado = false;
     }
 
+    public void AbrePause()
+    {
+        menuPause.SetActive(true);
+        Time.timeScale = 0;
+        gameLigado = false;
+    }
+
+    public void IniciarJogo()
+    {
+        menuPause.SetActive(false);
+        Time.timeScale = 1;
+        gameLigado = false;
+    }
 
 
 
