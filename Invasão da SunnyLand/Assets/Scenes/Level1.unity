@@ -1717,6 +1717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14094fd98c0a914591f796687859727, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 480141606}
 --- !u!1 &542532944
 GameObject:
   m_ObjectHideFlags: 0
@@ -12158,7 +12159,7 @@ CompositeCollider2D:
   m_GameObject: {fileID: 1842069454}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ed74e7642f3c3664d894f12e0da44fd7, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

@@ -28,14 +28,14 @@ public class VidaPlayer : MonoBehaviour
         barraDeVidaPlayer.maxValue = vidaDoPlayer;
         barraDeVidaPlayer.value = vidaDoPlayer;
 
-        /*genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();*/
+        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Inimigo")
         {
-            //vidaDoPlayer --;
+            vidaDoPlayer --;
             barraDeVidaPlayer.value = vidaDoPlayer;
         }
 
@@ -44,11 +44,11 @@ public class VidaPlayer : MonoBehaviour
             genJ.AbreGameOver();
         }
 
-        //if (collision.gameObject.tag == "Boss")
-        //{
-        //    vidaDoPlayer--;
-        //    barraDeVidaPlayer.value = vidaDoPlayer;
-        //}
+        if (collision.gameObject.tag == "Boss")
+        {
+            vidaDoPlayer--;
+            barraDeVidaPlayer.value = vidaDoPlayer;
+        }
     }
 
     public void TomarDano(int dano)

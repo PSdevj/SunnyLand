@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveInimigoAves : MonoBehaviour
 {
 
-    //private bool moveInimigo = false;
+    private bool moveInimigo = false;
 
     public float velocidadeInimigo = 3f;
     public Transform pontoA;
@@ -22,13 +22,21 @@ public class MoveInimigoAves : MonoBehaviour
     {
         if (this.transform.position.y > pontoA.position.y)
         {
-            transform.Translate(Vector3.up * velocidadeInimigo * Time.deltaTime);
+            moveInimigo = true;
 
         }
         else if (this.transform.position.y < pontoB.position.y)
         {
-            transform.Translate(Vector3.down * velocidadeInimigo * Time.deltaTime);
+            moveInimigo = false;
 
+        }
+        if (moveInimigo)
+        {
+            transform.position = new Vector2(transform.position.x, transform.position.y - velocidadeInimigo * Time.deltaTime);
+        }
+        else if (!moveInimigo)
+        {
+            transform.position = new Vector2(transform.position.x, transform.position.y + velocidadeInimigo * Time.deltaTime);
         }
     }
 

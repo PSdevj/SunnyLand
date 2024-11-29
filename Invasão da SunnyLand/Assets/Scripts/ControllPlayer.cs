@@ -24,7 +24,7 @@ public class ControllPlayer : MonoBehaviour
         corpoPlayer = GetComponent<Rigidbody2D>();
         playerAbilities = GetComponent<PlayerAbilities>();
         animacaoPlayer = GetComponent<Animator>();
-        /*genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();*/
+        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
     }
 
     // Update is called once per frame
@@ -115,7 +115,7 @@ public class ControllPlayer : MonoBehaviour
     {
         if(collision.gameObject.tag ==  "win")
         {
-            /*genJ.AbreMenuVitoria();*/
+            genJ.AbreMenuVitória();
             
         }
     }    
