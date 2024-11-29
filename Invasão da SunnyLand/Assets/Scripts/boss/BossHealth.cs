@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class BossHealth : MonoBehaviour
 {
@@ -10,10 +12,17 @@ public class BossHealth : MonoBehaviour
     private Animator animator;
     public bool isDead { get; private set; } = false; // Propriedade somente leitura
 
+    public Slider barraDeVidaBoss;
     private void Awake()
     {
         currentHealth = maxHealth; // Define a vida inicial
+        barraDeVidaBoss.maxValue = currentHealth;
+        barraDeVidaBoss.value = currentHealth;
+
         animator = GetComponent<Animator>(); // Referência ao Animator
+        barraDeVidaBoss = FindObjectOfType<Slider>();
+
+        
     }
 
     public void TakeDamage(int damage)
@@ -21,6 +30,7 @@ public class BossHealth : MonoBehaviour
         if (isDead) return; // Evita tomar dano após a morte
 
         currentHealth -= damage;
+        barraDeVidaBoss.value = currentHealth;
         Debug.Log($"Boss tomou {damage} de dano. Vida restante: {currentHealth}");
 
         if (currentHealth <= 0)
