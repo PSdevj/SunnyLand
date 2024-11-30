@@ -5,4 +5,5 @@ SunnyLand é um projeto desenvolvido para a disciplina de Programação à Jogos
 # SunnyLand - Erendo 
 
 A ilha de SunnyLand é um paraíso de tranquilidade, cercada por mares cristalinos e habitada por criaturas pacíficas. No centro da ilha, Fox, uma raposa ágil e astuta, é a protetora autoproclamada. Ela vive uma vida simples, explorando florestas densas, colhendo frutas, e ajudando os moradores locais. Entretanto, a paz é ameaçada quando um estranho eclipse surge no céu, trazendo um portal sombrio. Dele, emergem os Cinco Cavaleiros do Apocalipse, cada um representando uma calamidade: Guerra, Fome, Pestilência, Morte e Caos. Eles declaram que SunnyLand será o primeiro passo para a destruição do mundo. A seguir alguns atos da primeira fase: Os cavaleiros espalham-se pela ilha, corrompendo o ambiente e seus habitantes. Fox percebe que suas habilidades e inteligência são a única esperança para salvar SunnyLand. Cada cavaleiro domina uma região da ilha, transformando-a em seu domínio caótico, e Fox precisa derrotá-los para restaurar a paz.
- [Uploading Sunny.webp…]()
+
+![Uploading Sunny.png…]()
