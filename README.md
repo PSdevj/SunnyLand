@@ -67,6 +67,16 @@ Os desenvolvedores do projeto, até então, são alunos do curso de Jogos Digita
 # Crédito
 
 Além do pacote de assets disponibilizados pelo professor Murilo Borato, foi necessário baixar outro pacote de assets GUI para a criação da interface do game. 
+<h2Puzzle stage & settings GUI Pack</h2><br>
+<p>Trata-se de um pacote GUI gratuito na loja de assets da unity.</p><br>
+
+![CreditoII](https://github.com/user-attachments/assets/edbfd8d0-e001-4cc1-b8a3-5f408dc5592f)
+
+<h2>Buttons Set</h2>
+<p>Pacote de assets GUI gratuito da loja de assets da Unity.</p><br>
+
+![Credito](https://github.com/user-attachments/assets/656e6623-5e9c-4687-8b1c-96c8444881dd)
+
 
 
 
