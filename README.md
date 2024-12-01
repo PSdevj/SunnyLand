@@ -23,7 +23,7 @@ Progressão: Fox ganha novas habilidades ao derrotar cada cavaleiro, como ataque
 
 Final: Após derrotar os cinco Cavaleiros, Fox consegue estabelecer paz na ilha SunnyLand <br>
 
-Divisão:<br>
+<h2>Divisão:</h2><br>
 
 As fases foram divididas em 10 (dez) cenas. Cada Boss tem uma fase básica mais a fase o mesmo. <br>
 
@@ -67,7 +67,7 @@ Os desenvolvedores do projeto, até então, são alunos do curso de Jogos Digita
 # Crédito
 
 Além do pacote de assets disponibilizados pelo professor Murilo Borato, foi necessário baixar outro pacote de assets GUI para a criação da interface do game. 
-<h2Puzzle stage & settings GUI Pack</h2><br>
+<h2>Puzzle stage & settings GUI Pack</h2><br>
 <p>Trata-se de um pacote GUI gratuito na loja de assets da unity.</p><br>
 
 ![CreditoII](https://github.com/user-attachments/assets/edbfd8d0-e001-4cc1-b8a3-5f408dc5592f)
