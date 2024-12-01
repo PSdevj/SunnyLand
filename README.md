@@ -40,7 +40,7 @@ Fase 5 -> Boss 5 <br>
 # SunnyLand - Jogabilidade 
 
 Fox precisa passar por 5 fases, enfrentando os subordinados de cada Boss, e ao final de cada fase enfrentar os Boss's 
-Consideram-se os seguintes pontos:
+
 
 # SunnyLand - Mecânicas 
 
@@ -48,6 +48,13 @@ A movimentação do player é baseada em esquerda e direita, pressionando as tec
 Pressionando o botão <b>esquerdo do mouse</b>, o player atirar projéteis para destruir seus inimigos. <br>
 Pressionando a tecla <b>espaço</b> do teclado, o player realiza um pulo. Ao pressionar duas vezes a mesma tecla, o player realiza dois pulos. 
 Pressionando a tecla <b>Shift</b>, o player realiza dash.
+
+# SunnyLand - Boss's
+
+São cinco Boss's no total: Lobo, Troll, Ogro, Dinossouro e Dragão <br>
+
+![Boss](https://github.com/user-attachments/assets/48ea2245-ad31-46b3-a973-7265cc7edabb)
+
 
   
 
