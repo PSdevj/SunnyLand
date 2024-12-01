@@ -35,6 +35,8 @@ Fase 4 -> Boss 4 <br>
 
 Fase 5 -> Boss 5 <br>
 
+![SunnyDesign](https://github.com/user-attachments/assets/fc4923e3-20ba-45cb-afb3-4bf14d103c58)
+
 
 
 # SunnyLand - Jogabilidade 
