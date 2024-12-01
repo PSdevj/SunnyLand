@@ -33,31 +33,12 @@ Fase 4 -> Boss 4 <br>
 
 Fase 5 -> Boss 5 <br>
 
+![Sunny](https://github.com/user-attachments/assets/4b765910-7541-4fa7-9919-635406e49884)
+
 # Jogabilidade 
 
-Fox precisa enfrentar os subordinados de cada Boss em diferentes ambientes, até chegar ao Boss de cada ambiente.  
-E a fim de concretizar o objetivo chave do jogo, que é: Passar por 5 fases da esquerda para a direita
-da tela, enfrentando os inimigos, e ao final de cada fase enfrentar os bosses (Para cada fase
-escolha 1 boss dos 5 elegíveis). Consideram-se os seguintes pontos:
- A transposição do Player ao ponto mais longínquo da etapa, sempre ocorrerá da esquerda para direita.
-Sendo assim, basta o Player não tocar nos elemento sensíveis da fase (p.ex: insetos, plantas carnívoras...),
-e derrotar o último inimigo que será denotado a condição de vitória, e por conseguinte o final do jogo.
- A ideia é criar alguns inimigos, além da obrigatoriedade do último chefão. E o programador deverá
-impor condições de danos aos inimigos criados.
- Tanto a pontuação do jogo como as condições de derrota do Player serão escolhidas pelo programador,
-mas como condição suficiente e necessária de existência.
- O movimento e a opção de ataque podem ser controlados via teclado e/ou mouse e/ou joystick.
- O jogo deverá conter um temporizador decrescente para o seu final. Quando o mesmo terminar, deverá
-surgir um final com uma tela indicando a pontuação e se houve ou não a condição de vitória pelo Player.
- O jogo deverá conter uma tela inicial para seleção do Player e também informações de objetivos do
-jogo e de movimentação e ataques do Player.
+Fox precisa passar por 5 fases, enfrentando os subordinados de cada Boss, e ao final de cada fase enfrentar os Boss's 
+Consideram-se os seguintes pontos:
 
- O Player começa com uma habilidade simples (a escolha do programador), e durante a fase ele in-
-crementa tal poder através do encontro de um cristal, dotando-o de uma emissão de um poder super
-
-forte.
-Sugere-se:
-
-3
   
-![Sunny](https://github.com/user-attachments/assets/4b765910-7541-4fa7-9919-635406e49884)
+
