@@ -37,6 +37,12 @@ Fase 5 -> Boss 5 <br>
 
 ![LevelBoss](https://github.com/user-attachments/assets/66a02779-a172-4684-9c8e-296970c0404f)
 
+# SunnyLand - Boss's
+
+São cinco Boss's no total: Lobo, Troll, Ogro, Dinossouro e Dragão <br>
+
+![Boss](https://github.com/user-attachments/assets/48ea2245-ad31-46b3-a973-7265cc7edabb)
+
 
 # SunnyLand - Jogabilidade 
 
@@ -52,11 +58,15 @@ Pressionando a tecla <b>Shift</b>, o player realiza dash.<br>
 
 ![SunnyTutorial](https://github.com/user-attachments/assets/720a8a32-beb6-43a1-b3d0-43c67bc4173e)
 
-# SunnyLand - Boss's
+# SunnyLand - Desenvolvedores
 
-São cinco Boss's no total: Lobo, Troll, Ogro, Dinossouro e Dragão <br>
+Os desenvolvedores do projeto, até então, são alunos do curso de Jogos Digitais da Universidade do Estado da Bahia - Uneb, Fernanda Testai e Pablo da Silva. Ambos, com o conhecimento absorvido em sala de aula, se dediracam para desenvolver o projeto.
 
-![Boss](https://github.com/user-attachments/assets/48ea2245-ad31-46b3-a973-7265cc7edabb)
+# Crédito
+
+Além do pacote de assets disponibilizados pelo professor Murilo Borato, foi necessário baixar outro pacote de assets GUI para a criação da interface do game. 
+
+
 
 
   
