@@ -1,3 +1,86 @@
+# SunnyLand - Introduction
+
+SunnyLand is a 2D action-adventure game developed as part of an academic course in Digital Games at Uneb. Focused on applying C# programming skills and Unity development, the game explores basic mechanics and narrative elements to deliver an immersive experience.<br>
+
+<img src="https://cdn.discordapp.com/attachments/1304031046139904020/1312467511119450173/Captura_de_tela_2024-11-30_141156.png?ex=674deb9f&is=674c9a1f&hm=747f62287d5cb73fe6ea6a7b6a2a101623411ba149609f6c167e78a3a680697e&" heigth:2px>
+
+# SunnyLand - Story
+
+SunnyLand Island is a peaceful paradise, surrounded by crystal-clear seas and inhabited by gentle creatures. At the heart of the island resides Fox, a swift and cunning protector who has self-appointed the role of guardian. She leads a simple life, exploring dense forests, gathering fruit, and assisting the locals. However, peace is shattered when a mysterious eclipse appears in the sky, bringing forth a dark portal.<br>
+
+From this portal emerge the Five Horsemen of the Apocalypse, each representing a calamity: War, Famine, Pestilence, Death, and Chaos. They declare that SunnyLand will be the first step in the world's destruction. During the first level, the Horsemen spread across the island, corrupting its environment and inhabitants. Fox realizes her skills and intelligence are the island’s only hope. Each Horseman dominates a region of SunnyLand, transforming it into their chaotic domain, and Fox must defeat them to restore peace. <br>
+
+# SunnyLand - Game Design
+
+The story unfolds on SunnyLand Island, a tranquil place threatened by the Horsemen of the Apocalypse. Players control Fox, a swift and resourceful fox, as she faces challenges to defeat the five Horsemen and bring peace back to the island. This classic hero’s journey narrative motivates players to progress and save SunnyLand.<br>
+
+<h3>Protagonist</h3>
+
+Fox, the island's guardian, has abilities like speed, double jump, dash, and projectile attacks (both basic and enhanced).
+Character progression is achieved by acquiring new abilities after defeating bosses.<br>
+
+<h3>Level Structure</h3>
+
+The game consists of 10 scenes, alternating between standard levels and boss battles.
+Each boss controls a unique region of the island, making every stage distinctive and challenging.<br>
+
+![LevelBoss](https://github.com/user-attachments/assets/66a02779-a172-4684-9c8e-296970c0404f)
+
+<h3>Game Bosses</h3>
+
+The five bosses are Wolf, Troll, Ogre, Dinosaur, and Dragon.
+Each boss represents a specific theme or style, adding diversity to the gameplay.<br>
+
+
+
+# SunnyLand - Bosses
+The game features five bosses: Wolf, Troll, Ogre, Dinosaur, and Dragon.<br>
+
+![Boss](https://github.com/user-attachments/assets/48ea2245-ad31-46b3-a973-7265cc7edabb)
+
+
+# Gameplay and Mechanics
+
+Movement: Use the A and D keys (or arrow keys) for lateral movement.<br>
+Attacks: Fire projectiles with the left mouse button.<br>
+Special Abilities:<br>
+  -  Double Jump: Press the spacebar twice.
+  -  Dash: Activated with the Shift key.<br>
+These mechanics create dynamic gameplay, particularly during combat and exploration.
+
+![SunnyTutorial](https://github.com/user-attachments/assets/720a8a32-beb6-43a1-b3d0-43c67bc4173e)
+
+# Art Style and Resources
+
+The game uses free asset packages from Unity, such as Puzzle Stage & Settings GUI Pack and Buttons Set, to achieve a cohesive and functional visual style.
+The design is simple yet visually appealing, emphasizing functionality and charm. <br>
+
+# SunnyLand - Developers
+
+The project was developed by students Fernanda Testai and Pablo da Silva, under the guidance of Professor Murilo Boratto, applying classroom concepts to create a playable experience.<br>
+
+# Credits
+In addition to the asset package provided by Professor Murilo Boratto, additional GUI assets were downloaded to create the game interface. <br>
+
+<h3>Puzzle Stage & Settings GUI Pack</h3>
+
+A free GUI pack available on the Unity Asset Store.<br>
+
+![CreditoII](https://github.com/user-attachments/assets/edbfd8d0-e001-4cc1-b8a3-5f408dc5592f)
+
+<h3>Buttons Set</h3>
+
+Another free GUI asset pack from the Unity Asset Store.<br>
+
+![Credito](https://github.com/user-attachments/assets/656e6623-5e9c-4687-8b1c-96c8444881dd)
+
+
+
+
+
+
+
+
 # SunnyLand - Introdução
 
 SunnyLand é um jogo de ação e aventura 2D desenvolvido como parte de uma disciplina acadêmica no curso de Jogos Digitais da Uneb. Com foco em aplicar conhecimentos de programação em C# e uso da Unity, o jogo explora mecânicas básicas e elementos narrativos para proporcionar uma experiência imersiva.<br>
