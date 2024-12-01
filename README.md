@@ -9,7 +9,7 @@
 
 # Game Design
 SunnyLand é uma jornada épica de ação e aventura em um mundo repleto de mistérios e perigos. Com sua narrativa envolvente e habilidades evolutivas, os jogadores explorarão esta ilha desconhecida, desvendando segredos que o ajudará ao personagem expulsar os invasores. O jogo 2D compreende em um estilo de jogo que mistura elementos clássicos de aventura com uma história rica e envolvente, tornando-o
-uma experiência emocionante para os fãs do gênero. O pacote de assets utilizado no projeto foi disponibilizado pelo professor do curso de Jogos Digitais da Uneb, Murilo Boratto.\  
+uma experiência emocionante para os fãs do gênero. O pacote de assets utilizado no projeto foi disponibilizado pelo professor do curso de Jogos Digitais da Uneb, Murilo Boratto.  
  Habilidades de Fox: Velocidade: Corridas rápidas para escapar ou atravessar áreas perigosas. Lança
 Mana: Lança magia de forma unidirecional. Combate Ágil: Ataques rápidos e precisos com saltos e
 movimentos acrobáticos.
