@@ -1,7 +1,7 @@
 # SunnyLand - Introdução
 
   SunnyLand é um projeto desenvolvido para a disciplina de Programação à Jogos do curso de Jogos Digitais, da Universidade do Estado da Bahia - Uneb. O projeto tem como finalidade aplicar o conhecimento em sala de aula, criando assim um simples jogo 2D utilizando recursos da Unity. O nome do projeto original se chamava "A invasão de SunnyLand pelas 5 bestas do Apocalipse", entretanto, os desenvolvedores optaram em deixar só "SunnyLand. O Objetivo principal desse projeto é aplicar o conhecimento da linguagem de programação C# voltado para games. <br>
-  <img src:"https://github.com/user-attachments/assets/4b765910-7541-4fa7-9919-635406e49884">
+  <img:"[https://github.com/user-attachments/assets/4b765910-7541-4fa7-9919-635406e49884](https://cdn.discordapp.com/attachments/1304031046139904020/1312467511547138168/Captura_de_tela_2024-11-30_141231.png?ex=674c9a1f&is=674b489f&hm=d9ab7d174bf8d7cbad67a2ad932a861ae6c9d15e04d3ff58712339683f41797b&)">
   ![Sunny](https://github.com/user-attachments/assets/4b765910-7541-4fa7-9919-635406e49884) 
 
 # SunnyLand - Erendo 
