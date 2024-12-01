@@ -4763,7 +4763,7 @@ MonoBehaviour:
   controllPlayer: {fileID: 1367225225}
   shootPoint: {fileID: 1677584426}
   projectileSpeed: 5
-  fireRate: 0.5
+  fireRate: 1
 --- !u!114 &1367225232
 MonoBehaviour:
   m_ObjectHideFlags: 0

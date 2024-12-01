@@ -1902,7 +1902,7 @@ MonoBehaviour:
   controllPlayer: {fileID: 627895349}
   shootPoint: {fileID: 957229274}
   projectileSpeed: 5
-  fireRate: 0.5
+  fireRate: 1
 --- !u!1 &648026141
 GameObject:
   m_ObjectHideFlags: 0
@@ -2173,6 +2173,7 @@ MonoBehaviour:
   maxHealth: 105
   currentHealth: 0
   barraDeVidaBoss: {fileID: 1743538171}
+  spriteRenderer: {fileID: 0}
 --- !u!61 &703619093
 BoxCollider2D:
   m_ObjectHideFlags: 0

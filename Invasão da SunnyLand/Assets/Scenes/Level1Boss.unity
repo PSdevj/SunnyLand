@@ -3929,7 +3929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  attackRange: 5
+  attackRange: 4
   detectionRange: 20
   attackCooldown: 5
   player: {fileID: 1771048365}
@@ -3948,6 +3948,7 @@ MonoBehaviour:
   maxHealth: 20
   currentHealth: 0
   barraDeVidaBoss: {fileID: 257522704}
+  spriteRenderer: {fileID: 0}
 --- !u!114 &1028086501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5893,13 +5894,13 @@ MonoBehaviour:
   dashDuration: 0.2
   dashCooldown: 1
   isDashing: 0
-  projectilePowerfull: {fileID: 0}
+  projectilePowerfull: {fileID: 6462359050756171763, guid: 956a1da044395dd428bbe3d17780b2fc, type: 3}
   projectile: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
   homingprojectile: {fileID: 8318158797148765289, guid: edb2b7056801e6b489d3a2626eb3ea7d, type: 3}
   controllPlayer: {fileID: 1771048360}
   shootPoint: {fileID: 1477132760}
   projectileSpeed: 10
-  fireRate: 5
+  fireRate: 1
 --- !u!114 &1771048367
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12946,7 +12946,7 @@ MonoBehaviour:
   controllPlayer: {fileID: 2124199199}
   shootPoint: {fileID: 1571918887}
   projectileSpeed: 5
-  fireRate: 2
+  fireRate: 1
 --- !u!1001 &2128207146
 PrefabInstance:
   m_ObjectHideFlags: 0

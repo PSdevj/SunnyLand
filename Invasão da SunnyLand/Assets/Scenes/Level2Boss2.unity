@@ -2443,6 +2443,7 @@ MonoBehaviour:
   maxHealth: 20
   currentHealth: 0
   barraDeVidaBoss: {fileID: 1294572926}
+  spriteRenderer: {fileID: 0}
 --- !u!61 &248888076
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3478,13 +3479,13 @@ MonoBehaviour:
   dashDuration: 0.3
   dashCooldown: 1
   isDashing: 0
-  projectilePowerfull: {fileID: 0}
+  projectilePowerfull: {fileID: 6462359050756171763, guid: 956a1da044395dd428bbe3d17780b2fc, type: 3}
   projectile: {fileID: 8318158797148765289, guid: 52b9e4f2c763f8b438db5bb0da539b44, type: 3}
   homingprojectile: {fileID: 8318158797148765289, guid: edb2b7056801e6b489d3a2626eb3ea7d, type: 3}
   controllPlayer: {fileID: 674487530}
   shootPoint: {fileID: 768168454}
   projectileSpeed: 5
-  fireRate: 2
+  fireRate: 1
 --- !u!114 &674487537
 MonoBehaviour:
   m_ObjectHideFlags: 0

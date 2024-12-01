@@ -2122,8 +2122,8 @@ MonoBehaviour:
   homingprojectile: {fileID: 8318158797148765289, guid: edb2b7056801e6b489d3a2626eb3ea7d, type: 3}
   controllPlayer: {fileID: 299736047}
   shootPoint: {fileID: 1194736016}
-  projectileSpeed: 0
-  fireRate: 0.5
+  projectileSpeed: 5
+  fireRate: 1
 --- !u!1 &370714850
 GameObject:
   m_ObjectHideFlags: 0
@@ -4221,6 +4221,7 @@ MonoBehaviour:
   maxHealth: 75
   currentHealth: 0
   barraDeVidaBoss: {fileID: 1981669303}
+  spriteRenderer: {fileID: 0}
 --- !u!61 &1195047172
 BoxCollider2D:
   m_ObjectHideFlags: 0
