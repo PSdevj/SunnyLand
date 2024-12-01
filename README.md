@@ -5,19 +5,37 @@
 # SunnyLand - Erendo 
 
 A ilha de SunnyLand é um paraíso de tranquilidade, cercada por mares cristalinos e habitada por criaturas pacíficas. No centro da ilha, Fox, uma raposa ágil e astuta, é a protetora autoproclamada. Ela vive uma vida simples, explorando florestas densas, colhendo frutas, e ajudando os moradores locais. Entretanto, a paz é ameaçada quando um estranho eclipse surge no céu, trazendo um portal sombrio. <br> 
+
 Dele, emergem os Cinco Cavaleiros do Apocalipse, cada um representando uma calamidade: Guerra, Fome, Pestilência, Morte e Caos. Eles declaram que SunnyLand será o primeiro passo para a destruição do mundo. A seguir alguns atos da primeira fase: Os cavaleiros espalham-se pela ilha, corrompendo o ambiente e seus habitantes. Fox percebe que suas habilidades e inteligência são a única esperança para salvar SunnyLand. Cada cavaleiro domina uma região da ilha, transformando-a em seu domínio caótico, e Fox precisa derrotá-los para restaurar a paz.
 
 # Game Design
+
 SunnyLand é uma jornada épica de ação e aventura em um mundo repleto de mistérios e perigos. Com sua narrativa envolvente e habilidades evolutivas, os jogadores explorarão esta ilha desconhecida, desvendando segredos que o ajudará ao personagem expulsar os invasores. O jogo 2D compreende em um estilo de jogo que mistura elementos clássicos de aventura com uma história rica e envolvente, tornando-o
-uma experiência emocionante para os fãs do gênero. O pacote de assets utilizado no projeto foi disponibilizado pelo professor do curso de Jogos Digitais da Uneb, Murilo Boratto.  
- Habilidades de Fox: Velocidade: Corridas rápidas para escapar ou atravessar áreas perigosas. Lança
-Mana: Lança magia de forma unidirecional. Combate Ágil: Ataques rápidos e precisos com saltos e
-movimentos acrobáticos.
- Progressão: Fox ganha novas habilidades ao derrotar cada cavaleiro, como diferentes manas e ataques
-aprimorados.
- Clímax e Final: Após derrotar os cinco Cavaleiros, Fox descobre que o portal sombrio permanece aberto,
-ameaçando trazer mais destruição. Usando sua inteligência e as habilidades adquiridas, ela fecha o portal
-em um último desafio épico.
+uma experiência emocionante para os fãs do gênero. O pacote de assets utilizado no projeto foi disponibilizado pelo professor do curso de Jogos Digitais da Uneb, Murilo Boratto. <br> 
+
+Habilidades de Fox: Velocidade: Atira projétil básico, dash, pulo duplo, atira projétil buffs e projétil rastreador. <br> 
+
+Progressão: Fox ganha novas habilidades ao derrotar cada cavaleiro, como ataques aprimorados. <br>
+
+Final: Após derrotar os cinco Cavaleiros, Fox consegue estabelecer paz na ilha SunnyLand <br>
+
+Divisão:<br>
+
+As fases foram divididas em 10 (dez) cenas. Cada Boss tem uma fase básica mais a fase o mesmo. <br>
+
+Fase 1 -> Boss 1 <br>
+
+Fase 2 -> Boss 2 <br>
+
+Fase 3 -> Boss 3 <br>
+
+Fase 4 -> Boss 4 <br>
+
+Fase 5 -> Boss 5 <br>
+
+# Jogabilidade 
+
+Fox precisa enfrentar os subordinados de cada Boss em diferentes ambientes, até chegar ao Boss de cada ambiente.  
 E a fim de concretizar o objetivo chave do jogo, que é: Passar por 5 fases da esquerda para a direita
 da tela, enfrentando os inimigos, e ao final de cada fase enfrentar os bosses (Para cada fase
 escolha 1 boss dos 5 elegíveis). Consideram-se os seguintes pontos:
