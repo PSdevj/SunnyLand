@@ -45,9 +45,9 @@ Fox precisa passar por 5 fases, enfrentando os subordinados de cada Boss, e ao f
 
 # SunnyLand - Mecânicas 
 
-A movimentação do player é baseada em esquerda e direita, pressionando as teclas <b>"A" e "D"<b/> ou as teclas de setas<br>
+A movimentação do player é baseada em esquerda e direita, pressionando as teclas <b>"A" e "D"<b/> ou as teclas de setas. <br>
 Pressionando o botão <b>esquerdo do mouse</b>, o player atirar projéteis para destruir seus inimigos. <br>
-Pressionando a tecla <b>espaço</b> do teclado, o player realiza um pulo. Ao pressionar duas vezes a mesma tecla, o player realiza dois pulos. 
+Pressionando a tecla <b>espaço</b> do teclado, o player realiza um pulo. Ao pressionar duas vezes a mesma tecla, o player realiza dois pulos.<br> 
 Pressionando a tecla <b>Shift</b>, o player realiza dash.
 
 # SunnyLand - Boss's
