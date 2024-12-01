@@ -44,7 +44,7 @@ Consideram-se os seguintes pontos:
 
 # SunnyLand - Mecânicas 
 
-A movimentação do player é baseada em esquerda e direita, pressionando as teclas <b>"A" e "D"<b> ou <b>"<-" e "->"<b>
+A movimentação do player é baseada em esquerda e direita, pressionando as teclas <b>"A" e "D"<b/> ou <b>"<-" e "->"</b>
 
   
 
