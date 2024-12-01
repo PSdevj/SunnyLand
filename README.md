@@ -1,6 +1,6 @@
 # SunnyLand - Introdução
 
-  SunnyLand é um projeto desenvolvido para a disciplina de Programação à Jogos do curso de Jogos Digitais, da Universidade do Estado da Bahia - Uneb. O projeto tem como finalidade aplicar o conhecimento em sala de aula, criando assim um simples jogo 2D utilizando recursos da Unity. O nome do projeto original se chamava "A invasão de SunnyLand pelas 5 bestas do Apocalipse", entretanto, os desenvolvedores optaram em deixar só "SunnyLand. O Objetivo principal desse projeto é aplicar o conhecimento da linguagem de programação C# voltado para games. O pacote de assets utilizado no projeto foi disponibilizado pelo professor do curso de Jogos Digitais da Uneb, Murilo Boratto. <br>
+SunnyLand é um jogo de ação e aventura 2D desenvolvido como parte de uma disciplina acadêmica no curso de Jogos Digitais da Uneb. Com foco em aplicar conhecimentos de programação em C# e uso da Unity, o jogo explora mecânicas básicas e elementos narrativos para proporcionar uma experiência imersiva.
   
   
   <img src="https://cdn.discordapp.com/attachments/1304031046139904020/1312467511119450173/Captura_de_tela_2024-11-30_141156.png?ex=674deb9f&is=674c9a1f&hm=747f62287d5cb73fe6ea6a7b6a2a101623411ba149609f6c167e78a3a680697e&" heigth:2px>
@@ -14,28 +14,19 @@ Dele, emergem os Cinco Cavaleiros do Apocalipse, cada um representando uma calam
 
 # SunnyLand - Game Design
 
-SunnyLand é uma jornada épica de ação e aventura em um mundo repleto de mistérios e perigos. Com sua narrativa envolvente e habilidades evolutivas, os jogadores explorarão esta ilha desconhecida, desvendando segredos que o ajudará ao personagem expulsar os invasores. O jogo 2D compreende em um estilo de jogo que mistura elementos clássicos de aventura com uma história rica e envolvente, tornando-o
-uma experiência emocionante para os fãs do gênero. <br> 
+A narrativa se passa na ilha de SunnyLand, um local pacífico ameaçado pelos Cavaleiros do Apocalipse. O jogador controla Fox, uma raposa ágil que deve enfrentar desafios para derrotar os cinco cavaleiros e restaurar a tranquilidade da ilha. Essa abordagem cria uma narrativa de herói clássico, motivando o jogador a avançar para salvar SunnyLand.
 
-Habilidades de Fox: Velocidade: Atira projétil básico, dash, pulo duplo, atira projétil buffs e projétil rastreador. <br> 
+<h3>Protagonista:</h3>
+Fox, a raposa protetora, possui habilidades como velocidade, pulo duplo, dash, e projéteis (básicos e aprimorados).
+A progressão do personagem ocorre com a aquisição de novas habilidades ao derrotar os chefes.
 
-Progressão: Fox ganha novas habilidades ao derrotar cada cavaleiro, como ataques aprimorados. <br>
+<h3>Estrutura de Fases:</h3>
+Dividido em 10 cenas, alternando entre fases básicas e batalhas com os chefes.
+Cada chefe domina uma região específica da ilha, tornando cada etapa do jogo única e desafiadora.
 
-Final: Após derrotar os cinco Cavaleiros, Fox consegue estabelecer paz na ilha SunnyLand <br>
-
-<h2>Divisão:</h2><br>
-
-As fases foram divididas em 10 (dez) cenas. Cada Boss tem uma fase básica mais a fase o mesmo. <br>
-
-Fase 1 -> Boss 1 <br>
-
-Fase 2 -> Boss 2 <br>
-
-Fase 3 -> Boss 3 <br>
-
-Fase 4 -> Boss 4 <br>
-
-Fase 5 -> Boss 5 <br>
+<h3>Chefes do Jogo:</h3>
+Lobo, Troll, Ogro, Dinossauro e Dragão.
+Cada chefe representa um tema ou estilo, adicionando diversidade ao gameplay.
 
 ![LevelBoss](https://github.com/user-attachments/assets/66a02779-a172-4684-9c8e-296970c0404f)
 
@@ -45,24 +36,24 @@ São cinco Boss's no total: Lobo, Troll, Ogro, Dinossouro e Dragão <br>
 
 ![Boss](https://github.com/user-attachments/assets/48ea2245-ad31-46b3-a973-7265cc7edabb)
 
+# Jogabilidade e Mecânicas
 
-# SunnyLand - Jogabilidade 
-
-Fox precisa passar por 5 fases, enfrentando os subordinados de cada Boss, e ao final de cada fase enfrentar os Boss's 
-
-
-# SunnyLand - Mecânicas 
-
-A movimentação do player é baseada em esquerda e direita, pressionando as teclas <b>"A" e "D"</b> ou as teclas de setas. <br>
-Pressionando o botão <b>esquerdo do mouse</b>, o player atirar projéteis para destruir seus inimigos. <br>
-Pressionando a tecla <b>espaço</b> do teclado, o player realiza um pulo. Ao pressionar duas vezes a mesma tecla, o player realiza dois pulos.<br> 
-Pressionando a tecla <b>Shift</b>, o player realiza dash.<br>
+Movimentação: Utiliza teclas A e D (ou setas) para movimentação lateral.
+Ataques: Projéteis disparados com o botão esquerdo do mouse.
+Habilidades Especiais:
+Pulo Duplo: Pressionando o espaço duas vezes.
+Dash: Acionado com a tecla Shift.
+Essas mecânicas proporcionam uma experiência de jogo dinâmica, especialmente em combates e momentos de exploração.
 
 ![SunnyTutorial](https://github.com/user-attachments/assets/720a8a32-beb6-43a1-b3d0-43c67bc4173e)
 
+# Estilo Artístico e Recursos
+O uso de pacotes de assets gratuitos da Unity, como o Puzzle Stage & Settings GUI Pack e Buttons Set, demonstra uma integração eficiente de recursos externos para criar um visual coeso e funcional.
+O design é simples, porém atraente, enfatizando a funcionalidade e o apelo visual.
+
 # SunnyLand - Desenvolvedores
 
-Os desenvolvedores do projeto, até então, são alunos do curso de Jogos Digitais da Universidade do Estado da Bahia - Uneb, Fernanda Testai e Pablo da Silva. Ambos, com o conhecimento absorvido em sala de aula, se dediracam para desenvolver o projeto.
+O projeto é conduzido pelos alunos Fernanda Testai e Pablo da Silva, que, com suporte do professor Murilo Boratto, aplicam conceitos aprendidos em sala de aula para criar uma experiência jogável.
 
 # Crédito
 
