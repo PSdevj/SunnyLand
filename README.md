@@ -1,6 +1,6 @@
 # SunnyLand - Introdução
 
-  SunnyLand é um projeto desenvolvido para a disciplina de Programação à Jogos do curso de Jogos Digitais, da Universidade do Estado da Bahia - Uneb. O projeto tem como finalidade aplicar o conhecimento em sala de aula, criando assim um simples jogo 2D utilizando recursos da Unity. O nome do projeto original se chamava "A invasão de SunnyLand pelas 5 bestas do Apocalipse", entretanto, os desenvolvedores optaram em deixar só "SunnyLand. O Objetivo principal desse projeto é aplicar o conhecimento da linguagem de programação C# voltado para games. <br>
+  SunnyLand é um projeto desenvolvido para a disciplina de Programação à Jogos do curso de Jogos Digitais, da Universidade do Estado da Bahia - Uneb. O projeto tem como finalidade aplicar o conhecimento em sala de aula, criando assim um simples jogo 2D utilizando recursos da Unity. O nome do projeto original se chamava "A invasão de SunnyLand pelas 5 bestas do Apocalipse", entretanto, os desenvolvedores optaram em deixar só "SunnyLand. O Objetivo principal desse projeto é aplicar o conhecimento da linguagem de programação C# voltado para games. O pacote de assets utilizado no projeto foi disponibilizado pelo professor do curso de Jogos Digitais da Uneb, Murilo Boratto. <br>
   
   ![Sunny](https://github.com/user-attachments/assets/4b765910-7541-4fa7-9919-635406e49884) 
 
@@ -13,7 +13,7 @@ Dele, emergem os Cinco Cavaleiros do Apocalipse, cada um representando uma calam
 # SunnyLand - Game Design
 
 SunnyLand é uma jornada épica de ação e aventura em um mundo repleto de mistérios e perigos. Com sua narrativa envolvente e habilidades evolutivas, os jogadores explorarão esta ilha desconhecida, desvendando segredos que o ajudará ao personagem expulsar os invasores. O jogo 2D compreende em um estilo de jogo que mistura elementos clássicos de aventura com uma história rica e envolvente, tornando-o
-uma experiência emocionante para os fãs do gênero. O pacote de assets utilizado no projeto foi disponibilizado pelo professor do curso de Jogos Digitais da Uneb, Murilo Boratto. <br> 
+uma experiência emocionante para os fãs do gênero. <br> 
 
 Habilidades de Fox: Velocidade: Atira projétil básico, dash, pulo duplo, atira projétil buffs e projétil rastreador. <br> 
 
