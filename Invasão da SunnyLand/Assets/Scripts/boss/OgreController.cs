@@ -21,11 +21,14 @@ public class OgreController : MonoBehaviour
     enum State { Idle, Chase, Attack }
     State currentState = State.Idle;
 
+    public ControllGame genJ; //acessar o script ContollGame
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         bossHealth = GetComponent<BossHealth>(); // Busca o BossHealth no mesmo GameObject
+        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
 
         if (player == null)
         {
@@ -45,32 +48,36 @@ public class OgreController : MonoBehaviour
 
     private void Update()
     {
-        // Verifica se o boss está morto
-        if (bossHealth != null && bossHealth.isDead)
+        if (genJ.EstadoDoJogo() == true)
         {
-            rb.velocity = Vector2.zero; // Para qualquer movimento
-            return; // Não executa mais lógica
-        }
+            // Verifica se o boss está morto
+            if (bossHealth != null && bossHealth.isDead)
+            {
+                rb.velocity = Vector2.zero; // Para qualquer movimento
+                return; // Não executa mais lógica
+            }
 
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        switch (currentState)
-        {
-            case State.Idle:
-                IdleState(distanceToPlayer);
-                break;
-            case State.Chase:
-                ChaseState(distanceToPlayer);
-                break;
-            case State.Attack:
-                AttackState(distanceToPlayer);
-                break;
-        }
+            switch (currentState)
+            {
+                case State.Idle:
+                    IdleState(distanceToPlayer);
+                    break;
+                case State.Chase:
+                    ChaseState(distanceToPlayer);
+                    break;
+                case State.Attack:
+                    AttackState(distanceToPlayer);
+                    break;
+            }
 
-        if (attackTimer > 0)
-        {
-            attackTimer -= Time.deltaTime;
+            if (attackTimer > 0)
+            {
+                attackTimer -= Time.deltaTime;
+            }
         }
+            
     }
 
     #region States

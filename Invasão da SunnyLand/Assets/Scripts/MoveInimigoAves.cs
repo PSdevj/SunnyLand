@@ -11,33 +11,39 @@ public class MoveInimigoAves : MonoBehaviour
     public Transform pontoA;
     public Transform pontoB;
 
+    public ControllGame genJ; //acessar o script ContollGam
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (this.transform.position.y > pontoA.position.y)
+        if (genJ.EstadoDoJogo() == true)
         {
-            moveInimigo = true;
+            if (this.transform.position.y > pontoA.position.y)
+            {
+                moveInimigo = true;
 
-        }
-        else if (this.transform.position.y < pontoB.position.y)
-        {
-            moveInimigo = false;
+            }
+            else if (this.transform.position.y < pontoB.position.y)
+            {
+                moveInimigo = false;
 
+            }
+            if (moveInimigo)
+            {
+                transform.position = new Vector2(transform.position.x, transform.position.y - velocidadeInimigo * Time.deltaTime);
+            }
+            else if (!moveInimigo)
+            {
+                transform.position = new Vector2(transform.position.x, transform.position.y + velocidadeInimigo * Time.deltaTime);
+            }
         }
-        if (moveInimigo)
-        {
-            transform.position = new Vector2(transform.position.x, transform.position.y - velocidadeInimigo * Time.deltaTime);
-        }
-        else if (!moveInimigo)
-        {
-            transform.position = new Vector2(transform.position.x, transform.position.y + velocidadeInimigo * Time.deltaTime);
-        }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -18,23 +18,30 @@ public class DragonController : MonoBehaviour
     private float attackTimer = 0f;
     private BossHealth bossHealth; // Referência ao script BossHealth
 
+    public ControllGame genJ; //acessar o script ContollGame
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
         bossHealth = GetComponent<BossHealth>(); // Busca o BossHealth no mesmo GameObject
+        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
     }
 
     private void Update()
     {
-        if (attackTimer > 0)
+        if (genJ.EstadoDoJogo() == true)
         {
-            attackTimer -= Time.deltaTime;
-        }
+            if (attackTimer > 0)
+            {
+                attackTimer -= Time.deltaTime;
+            }
 
-        if (!isAttacking && attackTimer <= 0)
-        {
-            StartCoroutine(Attack());
+            if (!isAttacking && attackTimer <= 0)
+            {
+                StartCoroutine(Attack());
+            }
         }
+        
     }
 
     private IEnumerator Attack()

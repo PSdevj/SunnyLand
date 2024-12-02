@@ -16,6 +16,7 @@ public class ControllGame : MonoBehaviour
     [SerializeField] private GameObject menuGameOver;
     [SerializeField] private GameObject menuPlayer;
     [SerializeField] private GameObject menuPause;
+    [SerializeField] private GameObject menuHabilidade;
 
 
 
@@ -41,6 +42,12 @@ public class ControllGame : MonoBehaviour
     public bool EstadoDoJogo()
     {
         return gameLigado;
+    }
+
+    public void LigarJogo()
+    {
+        Time.timeScale = 1;
+        gameLigado = true;
     }
 
 
@@ -100,9 +107,22 @@ public class ControllGame : MonoBehaviour
     {
         menuPause.SetActive(false);
         Time.timeScale = 1;
+        
+    }
+
+    public void AbreMenuHabilidade()
+    {
+        menuHabilidade.SetActive(true);
+        Time.timeScale = 0;
         gameLigado = false;
     }
 
+    public void FechaMenuHabilidade()
+    {
+        menuHabilidade.SetActive(false);
+        Time.timeScale = 1;
+        gameLigado = true;
+    }
 
 
     public void LoadScene(string nomeCena) //Irá chamar a cena pelo nome.

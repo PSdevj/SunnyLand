@@ -12,36 +12,42 @@ public class MoveInimigo : MonoBehaviour
     public Transform pontoA;
     public Transform pontoB;
 
+    public ControllGame genJ; //acessar o script ContollGame
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (this.transform.position.x > pontoA.position.x)
+        if (genJ.EstadoDoJogo() == true)
         {
-            moveInimigo = true;
-            transform.localScale = new Vector3(1, 1, 1);
+            if (this.transform.position.x > pontoA.position.x)
+            {
+                moveInimigo = true;
+                transform.localScale = new Vector3(1, 1, 1);
 
-        }
-        else if (this.transform.position.x < pontoB.position.x)
-        {
-            moveInimigo = false;
-            transform.localScale = new Vector3(-1, 1, 1);
+            }
+            else if (this.transform.position.x < pontoB.position.x)
+            {
+                moveInimigo = false;
+                transform.localScale = new Vector3(-1, 1, 1);
 
-        }
+            }
 
-        if (moveInimigo)
-        {
-            transform.position = new Vector2(transform.position.x - velocidadeInimigo * Time.deltaTime, transform.position.y);
+            if (moveInimigo)
+            {
+                transform.position = new Vector2(transform.position.x - velocidadeInimigo * Time.deltaTime, transform.position.y);
+            }
+            else if (!moveInimigo)
+            {
+                transform.position = new Vector2(transform.position.x + velocidadeInimigo * Time.deltaTime, transform.position.y);
+            }
         }
-        else if (!moveInimigo)
-        {
-            transform.position = new Vector2(transform.position.x + velocidadeInimigo * Time.deltaTime, transform.position.y);
-        }
+            
 
        
         }

@@ -30,22 +30,28 @@ public class ControllPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Movimentacao();
-        Pular();
+    
 
-        // Verifica a dire��o do movimento e vira o player para a esquerda ou direita
-        if (velocidadePlayer > 0)
+        if (genJ.EstadoDoJogo() == true)
         {
-            // Vira para a direita
-            transform.localScale = new Vector3(1, 1, 1);
-            esquerda = false;
+            Movimentacao();
+            Pular();
+
+            // Verifica a dire��o do movimento e vira o player para a esquerda ou direita
+            if (velocidadePlayer > 0)
+            {
+                // Vira para a direita
+                transform.localScale = new Vector3(1, 1, 1);
+                esquerda = false;
+            }
+            else if (velocidadePlayer < 0)
+            {
+                // Vira para a esquerda
+                transform.localScale = new Vector3(-1, 1, 1);
+                esquerda = true;
+            }
         }
-        else if (velocidadePlayer < 0)
-        {
-            // Vira para a esquerda
-            transform.localScale = new Vector3(-1, 1, 1);
-            esquerda = true;
-        }
+       
     }
     public void Movimentacao()
     {
@@ -118,6 +124,12 @@ public class ControllPlayer : MonoBehaviour
             genJ.AbreMenuVitória();
             
         }
-    }    
+
+        if(collision.gameObject.tag == "Estrela")
+        {
+            genJ.AbreMenuHabilidade();
+        }
+    }
+    
 
 }
