@@ -544,6 +544,7 @@ MonoBehaviour:
   menuGameOver: {fileID: 0}
   menuPlayer: {fileID: 0}
   menuPause: {fileID: 0}
+  menuHabilidade: {fileID: 0}
 --- !u!4 &313775979
 Transform:
   m_ObjectHideFlags: 0
@@ -2336,8 +2337,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.873672, y: -68.00775}
-  m_SizeDelta: {x: 1176.522, y: 202.43}
+  m_AnchoredPosition: {x: 32.873672, y: -67.8}
+  m_SizeDelta: {x: 1176.522, y: 236.3668}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294414517
 MonoBehaviour:
@@ -2372,8 +2373,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "pressione a tecla \"espa\xE7o\" para fazer com que o player pule. Se pressionar
-    duas vezes a tecla \"espa\xE7o\", o player realiza dois pulos."
+  m_Text: "pressione a tecla \"espa\xE7o\" para fazer o player pular.  Se a tecla
+    for pressionada duas vezes , o player realizar\xE1 pulo duplo."
 --- !u!222 &1294414518
 CanvasRenderer:
   m_ObjectHideFlags: 0
