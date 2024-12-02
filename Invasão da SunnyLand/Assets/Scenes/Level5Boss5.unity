@@ -1659,7 +1659,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 866937312}
         m_TargetAssemblyTypeName: ControllGame, Assembly-CSharp
-        m_MethodName: FecharMenuTutorial
+        m_MethodName: FechaMenuHabilidade
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
