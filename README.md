@@ -50,6 +50,8 @@ These mechanics create dynamic gameplay, particularly during combat and explorat
 
 ![SunnyTutorial](https://github.com/user-attachments/assets/720a8a32-beb6-43a1-b3d0-43c67bc4173e)
 
+link gamePlay: https://www.youtube.com/watch?v=9usInAmbozs  
+
 # Art Style and Resources
 
 The game uses free asset packages from Unity, such as Puzzle Stage & Settings GUI Pack and Buttons Set, to achieve a cohesive and functional visual style.
@@ -130,6 +132,8 @@ Habilidades Especiais:<br>
 Essas mecânicas proporcionam uma experiência de jogo dinâmica, especialmente em combates e momentos de exploração.<br>
 
 ![SunnyTutorial](https://github.com/user-attachments/assets/720a8a32-beb6-43a1-b3d0-43c67bc4173e)
+
+link gamePlay: https://www.youtube.com/watch?v=9usInAmbozs  
 
 # Estilo Artístico e Recursos
 O uso de pacotes de assets gratuitos da Unity, como o Puzzle Stage & Settings GUI Pack e Buttons Set, demonstra uma integração eficiente de recursos externos para criar um visual coeso e funcional.<br>
