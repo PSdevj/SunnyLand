@@ -1748,7 +1748,6 @@ GameObject:
   m_Component:
   - component: {fileID: 563068570}
   - component: {fileID: 563068573}
-  - component: {fileID: 563068572}
   - component: {fileID: 563068571}
   m_Layer: 5
   m_Name: Image Der
@@ -1806,18 +1805,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &563068572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 563068569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &563068573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2095,7 +2082,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.070357084, y: -0.28782523}
+  m_Offset: {x: -0.013186216, y: -0.39437073}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2106,7 +2093,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1542516, y: 1.4243495}
+  m_Size: {x: 0.8943839, y: 1.2112585}
   m_EdgeRadius: 0
 --- !u!212 &653148625
 SpriteRenderer:
@@ -2217,6 +2204,8 @@ MonoBehaviour:
   barraDeVidaPlayer: {fileID: 2120449921}
   spriteRenderer: {fileID: 0}
   genJ: {fileID: 871048116}
+  isImmune: 0
+  immunityTime: 1.5
 --- !u!1 &665171105
 GameObject:
   m_ObjectHideFlags: 0
@@ -5650,7 +5639,7 @@ Transform:
   m_GameObject: {fileID: 1726257882}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.06, y: -0.33000004, z: -0.041504864}
+  m_LocalPosition: {x: 1.69, y: -0.3, z: -0.041504864}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

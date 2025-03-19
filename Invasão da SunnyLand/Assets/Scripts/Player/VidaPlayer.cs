@@ -16,6 +16,11 @@ public class VidaPlayer : MonoBehaviour
 
     public ControllGame genJ; //acessar o script ContollGame
 
+    // Variáveis de imunidade
+    public bool isImmune = false; // Controla se o player está imune
+    public float immunityTime = 1.5f; // Tempo de imunidade em segundos
+    private float immunityTimer = 0f; // Temporizador para a imunidade
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,52 +42,59 @@ public class VidaPlayer : MonoBehaviour
         genJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControllGame>();
     }
 
+    void Update()
+    {
+        // Atualiza o temporizador de imunidade
+        if (isImmune)
+        {
+            immunityTimer -= Time.deltaTime;
+            if (immunityTimer <= 0)
+            {
+                isImmune = false; // Desativa a imunidade
+            }
+        }
+    }
+
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Inimigo")
+        if (collision.gameObject.CompareTag("Inimigo") || collision.gameObject.CompareTag("Boss"))
         {
-            vidaDoPlayer --;
-            barraDeVidaPlayer.value = vidaDoPlayer;
-            StartCoroutine(MudarCorTemporariamente());
-        }
-
-        if(vidaDoPlayer <= 0)
-        {
-            genJ.AbreGameOver();
-        }
-
-        if (collision.gameObject.tag == "Boss")
-        {
-            vidaDoPlayer--;
-            barraDeVidaPlayer.value = vidaDoPlayer;
-            StartCoroutine(MudarCorTemporariamente());
+            TomarDano(1); // Aplica 1 de dano (ajuste conforme necessário)
         }
     }
 
     public void TomarDano(int dano)
     {
+        // Se o player estiver imune, não toma dano
+        if (isImmune) return;
+
         vidaDoPlayer -= dano;
-        if (barraDeVidaPlayer != null)
-        {
-            barraDeVidaPlayer.value = vidaDoPlayer;
-            StartCoroutine(MudarCorTemporariamente());
-        }
+        barraDeVidaPlayer.value = vidaDoPlayer;
+
+        StartImmunity();
 
         if (vidaDoPlayer <= 0)
         {
             genJ.AbreGameOver();
         }
     }
-
-    private IEnumerator MudarCorTemporariamente()
+    private void StartImmunity()
     {
-        // Muda a cor para vermelho
-        spriteRenderer.color = Color.red;
+        isImmune = true;
+        immunityTimer = immunityTime; // Inicia o temporizador
+        StartCoroutine(FlashPlayer()); // Inicia o efeito de piscar
+    }
 
-        // Espera 0.2 segundos
-        yield return new WaitForSeconds(0.2f);
+    private IEnumerator FlashPlayer()
+    {
+        while (isImmune)
+        {
+            // Alterna a visibilidade do sprite (pisca)
+            spriteRenderer.enabled = !spriteRenderer.enabled;
+            yield return new WaitForSeconds(0.1f); // Tempo entre cada piscada
+        }
 
-        // Volta para a cor original
-        spriteRenderer.color = corOriginal;
+        // Garante que o sprite fique visível ao final
+        spriteRenderer.enabled = true;
     }
 }

@@ -53,6 +53,15 @@ public class ControllPlayer : MonoBehaviour
         }
        
     }
+    void FixedUpdate()
+    {
+        // Ajusta a posição do player para evitar que ele caia dentro do chão
+        if (isGrounded && corpoPlayer.velocity.y < 0)
+        {
+            corpoPlayer.velocity = new Vector2(corpoPlayer.velocity.x, 0);
+        }
+    }
+
     public void Movimentacao()
     {
         // Se o Dash ou agachamento estiverem ativos, ignore o controle normal
