@@ -287,11 +287,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3e3d59d6c2b74a240b0e478e81da6dfb, type: 3}
-    m_FontSize: 1
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1909,7 +1909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &469434145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2182,7 +2182,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 480141606}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e56172eada846d343a42526daeab0ade, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2928,6 +2928,10 @@ PrefabInstance:
     - target: {fileID: 4921442506150987052, guid: 3f960f8c9b7f6d34a9a9945a0f6fd335, type: 3}
       propertyPath: m_Name
       value: InimigoAve
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921442506150987052, guid: 3f960f8c9b7f6d34a9a9945a0f6fd335, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4921442506150987052, guid: 3f960f8c9b7f6d34a9a9945a0f6fd335, type: 3}
       propertyPath: m_TagString
@@ -4000,11 +4004,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3e3d59d6c2b74a240b0e478e81da6dfb, type: 3}
-    m_FontSize: 1
+    m_FontSize: 41
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -5596,11 +5600,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3e3d59d6c2b74a240b0e478e81da6dfb, type: 3}
-    m_FontSize: 1
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -6620,7 +6624,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3e3d59d6c2b74a240b0e478e81da6dfb, type: 3}
-    m_FontSize: 2
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -6701,11 +6705,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3e3d59d6c2b74a240b0e478e81da6dfb, type: 3}
-    m_FontSize: 1
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -7526,6 +7530,10 @@ PrefabInstance:
       value: InimigoFormiga (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8755006143080761476, guid: 27fe215ed99cc4a43a2eba98d51d8471, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755006143080761476, guid: 27fe215ed99cc4a43a2eba98d51d8471, type: 3}
       propertyPath: m_TagString
       value: Inimigo
       objectReference: {fileID: 0}
@@ -8103,6 +8111,7 @@ GameObject:
   - component: {fileID: 1842069460}
   - component: {fileID: 1842069459}
   - component: {fileID: 1842069458}
+  - component: {fileID: 1842069461}
   m_Layer: 0
   m_Name: Foregraund
   m_TagString: "Ch\xE3o"
@@ -14586,6 +14595,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!251 &1842069461
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842069454}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1876072969
 GameObject:
   m_ObjectHideFlags: 0
@@ -15883,6 +15911,10 @@ PrefabInstance:
       value: InimigoAve
       objectReference: {fileID: 0}
     - target: {fileID: 4921442506150987052, guid: 3f960f8c9b7f6d34a9a9945a0f6fd335, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921442506150987052, guid: 3f960f8c9b7f6d34a9a9945a0f6fd335, type: 3}
       propertyPath: m_TagString
       value: Inimigo
       objectReference: {fileID: 0}
@@ -16004,6 +16036,10 @@ PrefabInstance:
       value: InimigoFormiga
       objectReference: {fileID: 0}
     - target: {fileID: 8755006143080761476, guid: 27fe215ed99cc4a43a2eba98d51d8471, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755006143080761476, guid: 27fe215ed99cc4a43a2eba98d51d8471, type: 3}
       propertyPath: m_TagString
       value: Inimigo
       objectReference: {fileID: 0}
@@ -16071,6 +16107,10 @@ PrefabInstance:
     - target: {fileID: 7550858368650280607, guid: 6fdf3698860eb0f42a1de04a908ce605, type: 3}
       propertyPath: m_Name
       value: InimigoAveDg
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550858368650280607, guid: 6fdf3698860eb0f42a1de04a908ce605, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7550858368650280607, guid: 6fdf3698860eb0f42a1de04a908ce605, type: 3}
       propertyPath: m_TagString

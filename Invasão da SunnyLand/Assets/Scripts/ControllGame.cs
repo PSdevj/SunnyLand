@@ -107,7 +107,6 @@ public class ControllGame : MonoBehaviour
     {
         menuPause.SetActive(false);
         Time.timeScale = 1;
-        
     }
 
     public void AbreMenuHabilidade()

@@ -74,10 +74,13 @@ public class ControllPlayer : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Chão"))
-        {
-            isGrounded = true;
-            doubleJumpAvailable = true; // Reseta o pulo duplo ao tocar o ch�o
+        if (collision.contacts[0].normal.y > 0.5f)
+        { 
+            if (collision.gameObject.CompareTag("Chão"))
+            {
+                isGrounded = true;
+                doubleJumpAvailable = true; // Reseta o pulo duplo ao tocar o ch�o
+            }
         }
     }
 
@@ -97,7 +100,8 @@ public class ControllPlayer : MonoBehaviour
             if (isGrounded)
             {
                 corpoPlayer.velocity = Vector2.up * 8; // Primeiro pulo
-               
+                StartCoroutine(IgnoreCollisionTemporarily());
+
             }
             else if (playerAbilities != null && playerAbilities.CanDoubleJump() && doubleJumpAvailable)
             {
@@ -130,6 +134,14 @@ public class ControllPlayer : MonoBehaviour
             genJ.AbreMenuHabilidade();
         }
     }
-    
+    private IEnumerator IgnoreCollisionTemporarily()
+    {
+        Collider2D playerCollider = GetComponent<Collider2D>();
+        Collider2D groundCollider = GameObject.FindGameObjectWithTag("Chão").GetComponent<Collider2D>();
+
+        Physics2D.IgnoreCollision(playerCollider, groundCollider, true); // Ignora colisão
+        yield return new WaitForSeconds(0.5f); // Tempo para atravessar
+        Physics2D.IgnoreCollision(playerCollider, groundCollider, false); // Restaura colisão
+    }
 
 }
