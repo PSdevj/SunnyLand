@@ -2682,7 +2682,6 @@ GameObject:
   m_Component:
   - component: {fileID: 900907510}
   - component: {fileID: 900907513}
-  - component: {fileID: 900907512}
   - component: {fileID: 900907511}
   m_Layer: 5
   m_Name: Image Der
@@ -2740,18 +2739,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &900907512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900907509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &900907513
 CanvasRenderer:
   m_ObjectHideFlags: 0
